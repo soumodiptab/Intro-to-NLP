@@ -3,7 +3,7 @@
 @Date: 10-02-2023
 """
 import re
-PATH = "./assignment-1/corpora/Pride and Prejudice - Jane Austen.txt"
+import os
 
 
 class Tokenizer:
@@ -47,8 +47,8 @@ class Tokenizer:
 
     def replace_punctuation(self, text):
         return re.sub(r'[^\w\s]', '', text)
-    # replace urls with and without http with <URL>
 
+    # replace urls with and without http with <URL>
     def replace_urls(self, text):
         return re.sub(r'(https?:)?(www\.)?(\S+)(\.\S+)', '<URL>', text)
 
@@ -56,14 +56,18 @@ class Tokenizer:
         return re.sub(r'(\s|^)#(\w+)', '<HASHTAG>', text)
 
     def replace_hyphenated_words(self, text):
-        #replace hyphenated words with words seperated by space
+        # replace hyphenated words with words seperated by space
         return re.sub(r'(\w+)-(\w+)', r'\1 \2', text)
 
+    def replace_concurrent_punctuation(self, text):
+        # replace concurrent punctuation with single punctuation
+        return re.sub(r'(!|"|\#|\$|%|&|\'|\(|\)|\*|\+|,|-|\.|\/|:|;|<|=|>|\?|@|\[|\\|\]|\^|_|‘|\{|\||\}|~){2,}', r' ', text)
 
     # remove from text :
     # ---------------------------------------------------------------------------------------------------------------
     # remove spaces with size more than 1
-    def remove_spaces(self, text):
+
+    def remove_extra_spaces(self, text):
         return re.sub(r'\s{2,}', ' ', text)
 
     # Need to improve regex for footnote3
@@ -74,17 +78,32 @@ class Tokenizer:
         foot4 = re.sub(r'Section\s\d+\.', '', foot3)
         return foot4
 
-    def add_tag(self, text):
-        return "<BEGIN> " + text.strip() + " <END>\n"
-    # Tokenizer function to tokenize the given text
+    def add_space_special_characters(self, text):
+        # add space before and after special characters
+        return re.sub(r'([\*\-\!\"\$\&\)\'\(\+\,\-\.\/\:\#\%\;\=\?\@\}\~\[\\\]\^\_\‘\{\|])', r' \1 ', text)
 
+    def add_tag(self, text):
+        if text.strip() == "":
+            return ""
+        return "<BEGIN> " + text.strip() + " <END>\n"
+
+    # Tokenizer function to tokenize the given text
     def tokenize(self, text):
+        text = self.to_lowercase(text)
         text = self.replace_hash_tags(text)
         text = self.replace_urls(text)
+        text = self.replace_email(text)
+        text = self.replace_dates(text)
+        text = self.replace_concurrent_punctuation(text)
+        text = self.replace_phone_numbers(text)
+        text = self.replace_hyphenated_words(text)
+        text = self.remove_footnotes(text)
+        text = self.add_space_special_characters(text)
+        text = self.remove_extra_spaces(text)
+        text = self.add_tag(text)
         #text = self.replace_punctuation(text)
         #text = re.sub(r'[^a-z0-9\s]', '', text)
         return text
-
 
 
 # Util functions to save and read from file
@@ -92,7 +111,8 @@ class Tokenizer:
 
 def save_to_file(file_name, text):
     with open(file_name, "w") as f:
-        f.write(text)
+        for line in text:
+            f.write(line)
 
 
 def read_from_file(file_name):
@@ -101,11 +121,27 @@ def read_from_file(file_name):
     return text
 
 
-if __name__ == "__main__":
-    text_lines = read_from_file(
-        "./assignment-1/corpora/test1.txt")
-    tokenizer = Tokenizer()
+def build_vocab(file_name, text_lines):
+    # build vocabulory and save to file
+    vocab = set()
     for text in text_lines:
-        text = tokenizer.tokenize(text)
-        print(text)
+        vocab.update(set(text.split()))
+    vocab = sorted(vocab)
+    save_to_file(file_name, vocab)
+
+
+if __name__ == "__main__":
+    current_dir = os.getcwd()
+    text_lines = read_from_file(
+        "./assignment-1/corpora/Pride and Prejudice - Jane Austen.txt")
+    tokenizer = Tokenizer()
+    processed_text = []
+    for text in text_lines:
+        proc_txt = tokenizer.tokenize(text)
+        if proc_txt.strip() != "":
+            processed_text.append(proc_txt)
+    save_to_file(
+        "./assignment-1/clean_corpora/Pride and Prejudice - cleaned.txt", processed_text)
+    build_vocab("./assignment-1/clean_corpora/Pride and Prejudice",
+                processed_text)
     pass

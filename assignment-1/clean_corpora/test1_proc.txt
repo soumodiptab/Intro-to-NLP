@@ -1,0 +1,119 @@
+<BEGIN> the project gutenberg ebook , pride and prejudice , by jane austen , edited <END>
+<BEGIN> by r . w . ( robert william ) chapman <END>
+<BEGIN>  <END>
+<BEGIN>  <END>
+<BEGIN> this ebook is for the use of anyone anywhere at no cost and with <END>
+<BEGIN> almost no restrictions whatsoever . you may copy it , give it away or <END>
+<BEGIN> re use it under the terms of the project gutenberg license included <END>
+<BEGIN> with this ebook or online at <URL> <END>
+<BEGIN>  <END>
+<BEGIN>  <END>
+<BEGIN>  <END>
+<BEGIN>  <END>
+<BEGIN>  <END>
+<BEGIN> title : pride and prejudice <END>
+<BEGIN>  <END>
+<BEGIN>  <END>
+<BEGIN> author : jane austen <END>
+<BEGIN>  <END>
+<BEGIN> editor : r . w . ( robert william ) chapman <END>
+<BEGIN>  <END>
+<BEGIN> release date : may 9 , 2013 [ ebook<HASHTAG> ] <END>
+<BEGIN>  <END>
+<BEGIN> language : english <END>
+<BEGIN>  <END>
+<BEGIN>  <END>
+<BEGIN> * * * start of the project gutenberg ebook pride and prejudice * * * <END>
+<BEGIN>  <END>
+<BEGIN>  <END>
+<BEGIN> e text prepared by greg weeks , jon hurst , mary meehan , and the online <END>
+<BEGIN> distributed proofreading team <URL> from page images <END>
+<BEGIN> generously made available by internet archive <URL> <END>
+<BEGIN>  <END>
+<BEGIN>  <END>
+<BEGIN>  <END>
+<BEGIN> note : project gutenberg also has an html version of this <END>
+<BEGIN> file which includes the original illustrations . <END>
+<BEGIN> see <URL> or <URL> <END>
+<BEGIN> <URL> <END>
+<BEGIN> or <END>
+<BEGIN> <URL> <END>
+<BEGIN>  <END>
+<BEGIN>  <END>
+<BEGIN> images of the original pages are available through <END>
+<BEGIN> internet archive . see <END>
+<BEGIN> <URL> <END>
+<BEGIN>  <END>
+<BEGIN>  <END>
+<BEGIN> transcriber ' s note : <END>
+<BEGIN>  <END>
+<BEGIN> text enclosed by underscores is in italics ( _ italics _ ) . <END>
+<BEGIN>  <END>
+<BEGIN> a carat character is used to denote superscription . multiple <END>
+<BEGIN> superscripted characters are enclosed by curly brackets <END>
+<BEGIN> ( example : m ^ { rs } ) . <END>
+<BEGIN>  <END>
+<BEGIN>  <END>
+<BEGIN>  <END>
+<BEGIN>  <END>
+<BEGIN>  <END>
+<BEGIN> pride and prejudice : <END>
+<BEGIN>  <END>
+<BEGIN> a novel . <END>
+<BEGIN>  <END>
+<BEGIN> in three volumes . <END>
+<BEGIN>  <END>
+<BEGIN> by the author of " sense and <URL> <END>
+<BEGIN>  <END>
+<BEGIN> vol . i . <END>
+<BEGIN>  <END>
+<BEGIN>  <END>
+<BEGIN>  <END>
+<BEGIN>  <END>
+<BEGIN>  <END>
+<BEGIN>  <END>
+<BEGIN>  <END>
+<BEGIN> london : <END>
+<BEGIN> printed for t . egerton , <END>
+<BEGIN> military library , whitehall . <END>
+<BEGIN> 1813 . <END>
+<BEGIN>  <END>
+<BEGIN>  <END>
+<BEGIN>  <END>
+<BEGIN>  <END>
+<BEGIN> [ illustration : morning dress . <END>
+<BEGIN>  <END>
+<BEGIN> _ invented by m ^ { rs } bell 26 charlotte street bedford <URL> <END>
+<BEGIN>  <END>
+<BEGIN> _ engraved for no . 72 of la belle assemblee 1 ^ { st } july 1815 _ ] <END>
+<BEGIN>  <END>
+<BEGIN>  <END>
+<BEGIN>  <END>
+<BEGIN>  <END>
+<BEGIN> pride & prejudice . <END>
+<BEGIN>  <END>
+<BEGIN>  <END>
+<BEGIN>  <END>
+<BEGIN>  <END>
+<BEGIN> chapter i . <END>
+<BEGIN>  <END>
+<BEGIN>  <END>
+<BEGIN> it is a truth universally acknowledged , that a single man in possession <END>
+<BEGIN> of a good fortune , must be in want of a wife . <END>
+<BEGIN>  <END>
+<BEGIN> however little known the feelings or views of such a man may be on his <END>
+<BEGIN> first entering a neighbourhood , this truth is so well fixed in the minds <END>
+<BEGIN> of the surrounding families , that he is considered as the rightful <END>
+<BEGIN> property of some one or other of their daughters . <END>
+<BEGIN>  <END>
+<BEGIN> " my dear mr . bennet , " said his lady to him one day , " have you heard that <END>
+<BEGIN> netherfield park is let at last ? " <END>
+<BEGIN>  <END>
+<BEGIN> mr . bennet replied that he had not . <END>
+<BEGIN>  <END>
+<BEGIN> " but it is , " returned she ; " for mrs . long has just been here , and she <END>
+<BEGIN> told me all about <URL> <END>
+<BEGIN>  <END>
+<BEGIN> mr . bennet made no answer . <END>
+<BEGIN>  <END>
+<BEGIN> " do not you want to know who has taken it ? " cried his wife impatiently . <END>
