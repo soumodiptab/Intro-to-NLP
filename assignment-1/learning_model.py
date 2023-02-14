@@ -3,51 +3,181 @@ import argparse
 import os
 import pickle
 import numpy as np
-import logging
 import time
 ROLL_NO = "2021201086"
 
 
+def decorate():
+    print("=================================================================================================")
+
 def error(msg):
-    print("[Error] : " + msg)
+    decorate()
+    print("[ERROR] : " + msg)
+
 
 
 def info(msg):
-    print("[Info] : " + msg)
+    decorate()
+    print("[INFO] : " + msg)
 
 
 class Ngram:
     def __init__(self):
         pass
 
-    def get_unigram(self, text_lines):
-        unigram = []
-        for text in text_lines:
-            unigram += text.split(' ')
-        return unigram
-
-    def __get_ngram(self, text_line, n):
+    def get_ngram(self, text_line, n):
+        text_line = text_line.strip()
         ngram = []
         tokens = text_line.split(' ')
         if len(tokens) == 0:
             return None
         tokens = ["<BEGIN>" for _ in range(n-2)] + tokens
-        for i in range(len(text_line)-n+1):
+        for i in range(len(tokens)-n+1):
             ngram.append(" ".join(tokens[i:i+n]))
         return ngram
 
-    def generate_ngram(self, text_lines,n):
+    def __generate_freq_table(self, text_lines, n):
+        freq_table = {}
         for text in text_lines:
-            ngram = self.__get_ngram(text, n)
+            ngram = self.get_ngram(text, n)
             if ngram is not None:
-                yield ngram
+                for token in ngram:
+                    if token in freq_table:
+                        freq_table[token] += 1
+                    else:
+                        freq_table[token] = 1
+        return freq_table
+
+    def construct_freq_table(self, text_lines, n, threshold=10):
+        freq_table = {}
+        for k in range(1, n+1):
+            freq_table[k] = self.__generate_freq_table(text_lines, k)
+        freq_table[1]["<#>"] = 0
+        key_set = list(freq_table[1].keys())
+        for key in key_set:
+            if freq_table[1][key] < threshold:
+                freq_table[1]["<#>"] += freq_table[1][key]
+                freq_table[1].pop(key)
+        return freq_table
+
+
+class Smoothing:
+    def __init__(self):
+        pass
+
+    def get_perplexity(self, model, test_data):
+        pass
+
+
+class NgramModel:
+    def __init__(self, n):
+        self.n = n
+        self.ngram = Ngram()
+        self.freq_table = {}
+
+    def count_size(self,n):
+        return len(self.freq_table[n])
+
+    def get_ngram_freq(self,n, ngram):
+        return self.freq_table[n][ngram]
+
+    def count_ngram_freq(self, ngram):
+        # freq count( ngram)
+        tokens = ngram.split(" ")
+        if len(tokens) > 0:
+            if ngram in self.freq_table[len(tokens)]:
+                return self.freq_table[len(tokens)][ngram]
+        return 0
+    def count_ngram_history_freq(self,history):
+        # freq count( history + variable word)
+        gram = len(history.split(" "))+1
+        total =0
+        for key in self.freq_table[gram]:
+            if key.startswith(history):
+                total += self.freq_table[gram][key]
+        return total
+    def count_ngram_history(self,history):
+        # count( history + variable word)
+        gram = len(history.split(" "))+1
+        total =0
+        for key in self.freq_table[gram]:
+            if key.startswith(history):
+                total += 1
+        return total
+
+    def count_ngram_current(self,gram,current):
+        # count( variable history + current)
+        total = 0
+        for key in self.freq_table[gram]:
+            if key.endswith(current):
+                total += 1
+        return total
+
+    def train(self, train_data):
+        self.freq_table = self.ngram.construct_freq_table(train_data, self.n)
+
+    def get_perplexity(self, test_sentence, smoothing: Smoothing):
+        perplexity_scores = []
+        ngram_tokens = self.ngram.get_ngram(test_sentence, self.n)
+        for token in ngram_tokens:
+            score = smoothing.get_perplexity(self, token)
+            perplexity_scores.append(score)
+        N = len(ngram_tokens)
+        perplexity_score = pow(1/np.prod(perplexity_scores), 1/N)
+        return perplexity_score
+
+
+
+class WittenBell(Smoothing):
+    def __init__(self):
+        super().__init__()
+
+    def get_perplexity(self, model: NgramModel, ngram_token):
+        pass
+
+
+class KneserNey(Smoothing):
+    def __init__(self):
+        super().__init__()
+
+    def __P_kn(self,model: NgramModel,n, history,current,higher_order=False,d=0.75):
+        # Probability of current word given history
+        if current not in model.freq_table[1]:
+            return d/model.get_ngram_freq(1,"<#>")
+        if n == 1:
+            return d / model.get_ngram_freq(1,"<#>") + (1-d)/model.count_size(1)
+        try:
+            if higher_order:
+                ngram = " ".join([history,current])
+                FIRST_TERM =max(model.count_ngram_freq(ngram)-d,0)/model.count_ngram_history_freq(history)
+            else:
+                FIRST_TERM =max(model.count_ngram_current(n,current) - d,0)/model.count_size(n)
+        except:
+            FIRST_TERM = 0
+        try:
+            LAMBDA = (d/model.count_ngram_history_freq(history))*model.count_ngram_history(history)
+        except:
+            LAMBDA = (d/model.get_ngram_freq(1,"<#>"))
+            return LAMBDA
+        new_history = " ".join(history.split(" ")[1:])
+        SECOND_TERM = self.__P_kn(model,n-1,new_history,current)
+        return FIRST_TERM + LAMBDA * SECOND_TERM
+
+
+    def get_perplexity(self, model: NgramModel, ngram_token):
+        tokens = ngram_token.split(" ")
+        history= " ".join(tokens[:-1])
+        current = tokens[-1]
+        return self.__P_kn(model,len(tokens),history,current,True)
 
 
 def test_train_split(data, test_distribution=0.2, flag=False):
     test_size = 1000
     if flag:
         test_size = n*test_distribution
-    np.random.seed(time.time())
+    #seq =int(time.time())
+    seq = 12
+    np.random.seed(seq)
     n = len(data)
     idx_list = np.random.choice(n, int(test_size), replace=False)
     train_data = []
@@ -76,6 +206,8 @@ if __name__ == "__main__":
     CLEAN_CORPORA_PATH = os.path.join("clean_corpora", corpus_name+".txt")
     clean_text_lines = []
     if not os.path.exists(CLEAN_CORPORA_PATH):
+        error('Clean corpus file does not exist.')
+        info('Creating clean corpus file.')
         tokenizer = tk.Tokenizer()
         text_lines = tk.read_from_file(CORPUS_PATH)
         clean_text_lines = []
@@ -84,7 +216,44 @@ if __name__ == "__main__":
             if clean_text_line.strip() != "":
                 clean_text_lines.append(clean_text_line)
         tk.save_to_file(CLEAN_CORPORA_PATH, clean_text_lines)
+        info('Clean corpus file created.')
     else:
         clean_text_lines = tk.read_from_file(CLEAN_CORPORA_PATH)
+    info('loading clean corpus file.')
     train, test = test_train_split(clean_text_lines)
-    if not os.path.exists():
+    MODEL_PATH = os.path.join(".", "models", ROLL_NO+"_"+corpus_name+".pkl")
+    if not os.path.exists(MODEL_PATH):
+        info('Creating Ngram Model using training data.')
+        model = NgramModel(N)
+        model.train(train)
+        with open(MODEL_PATH, 'wb') as f:
+            pickle.dump(model, f)
+        info('Ngram model created.')
+    else:
+        info('Loading Ngram model.')
+        with open(MODEL_PATH, 'rb') as f:
+            model = pickle.load(f)
+    info('Ngram model loaded.')
+    LM = input("Enter the name for score TXT file (for which LM): ")
+    if smoothing_technique == "k":
+        info('Calculating perplexity using KneserNey smoothing.')
+        k = KneserNey()
+        perplexity_scores = []
+        PERPLEXITY_SCORE_PATH = os.path.join(".", "scores", ROLL_NO+"_LM"+LM+"_test-perplexity.txt")
+        with open(PERPLEXITY_SCORE_PATH, 'w') as f:
+            for text in test:
+                perplexity_score = model.get_perplexity(text, k)
+                # info(text.strip() + " :: " + str(perplexity_score))
+                f.write(text.strip() + ":: " + str(perplexity_score) +"\n")
+        info('Perplexity calculated. Saved to file.')
+    elif smoothing_technique == "w":
+        w = WittenBell()
+        info('Calculating perplexity using WittenBell smoothing.')
+        perplexity_scores = []
+        for text in test:
+            perplexity_score = model.get_perplexity(text, w)
+        info('Perplexity calculated. Saving to file.')
+        
+    else:
+        error("Incorrect smoothing technique.")
+        exit(1)
