@@ -124,6 +124,10 @@ def read_from_file(file_name):
         text = f.read()
     return sent_tokenize(text)
 
+def load_from_file(file_name):
+    with open(file_name, "r") as f:
+        text = f.readlines()
+    return text
 
 def build_vocab(file_name, text_lines):
     # build vocabulory and save to file

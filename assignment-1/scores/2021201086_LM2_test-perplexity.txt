@@ -1,0 +1,1001 @@
+<BEGIN> the project gutenberg ebook , pride and prejudice , by jane austen , edited by r . w . ( robert william ) chapman this ebook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever . <END>:: 3.2636763125919797
+<BEGIN> see <URL> transcriber ' s note : text enclosed by underscores is in italics italics <END>:: 25.70255342562528
+<BEGIN> a carat character is used to denote superscription . <END>:: 17.442339276410983
+<BEGIN> _ invented by m rs } bell 26 charlotte street bedford <URL> _ engraved for no . <END>:: 54.449366312379595
+<BEGIN> it is a truth universally acknowledged , that a single man in possession of a good fortune , must be in want of a wife . <END>:: 8.26376072610528
+<BEGIN> mr . bennet made no answer . <END>:: 1.3838807520740424
+<BEGIN> " what is his name <END>:: 3.9804725192687376
+<BEGIN> a single man of large fortune ; four or five thousand a year . <END>:: 4.4054670614488955
+<BEGIN> you must know that i am thinking of his marrying one of <URL> <END>:: 4.5466950788473195
+<BEGIN> " design ! <END>:: 3.2579342187310423
+<BEGIN> you and the girls may go , or you may send them by themselves , which perhaps will be still better , for as you are as handsome as any of them , mr . bingley might like you the best of the <URL> <END>:: 4.4139936793610985
+<BEGIN> " but , my dear , you must indeed go and see mr . bingley when he comes into the <URL> <END>:: 2.712706397348187
+<BEGIN> only think what an establishment it would be for one of them . <END>:: 5.075066553739937
+<BEGIN> you take delight in vexing me . <END>:: 7.1426819523896246
+<BEGIN> you have no compassion on my poor <URL> <END>:: 8.240113918738286
+<BEGIN> i have a high respect for your nerves . <END>:: 8.070336901618159
+<BEGIN> they are my old friends . <END>:: 7.313053689859566
+<BEGIN> the business of her life was to get her daughters married ; its solace was visiting and news . <END>:: 6.724919665247468
+<BEGIN> chapter ii . <END>:: 3.7309136797085927
+<BEGIN> observing his second daughter employed in trimming a hat , he suddenly addressed her with , " i hope mr . bingley will like it <URL> <END>:: 7.937899128850232
+<BEGIN> " no more have i said mr . bennet ; " and i am glad to find that you do not depend on her serving <URL> <END>:: 3.996362106593828
+<BEGIN> have a little compassion on my nerves . <END>:: 9.826616056592282
+<BEGIN> " impossible , mr . bennet , impossible , when i am not acquainted with him myself ; how can you be so teazing <END>:: 4.027608224302014
+<BEGIN> " i honour your circumspection . <END>:: 4.625442567586792
+<BEGIN> but if _ we _ do not venture , somebody else will ; and after all , mrs . long and her nieces must stand their chance ; and therefore , as she will think it an act of kindness , if you decline the office , i will take it on <URL> <END>:: 7.212392883436476
+<BEGIN> the girls stared at their father . <END>:: 7.366450901332617
+<BEGIN> " do you consider the forms of introduction , and the stress that is laid on them , as nonsense ? <END>:: 9.033311502129468
+<BEGIN> mary wished to say something very sensible , but knew not how . <END>:: 6.341833091792115
+<BEGIN> it is very unlucky ; but as i have actually paid the visit , we cannot escape the acquaintance <URL> <END>:: 9.03065075569091
+<BEGIN> the astonishment of the ladies was just what he wished ; that of mrs . bennet perhaps surpassing the rest ; though when the first tumult of joy was over , she began to declare that it was what she had expected all the while . <END>:: 5.734896297447438
+<BEGIN> said lydia stoutly , " i am not afraid ; for though i _ am _ the youngest , i ' m the <URL> <END>:: 4.281635229738485
+<BEGIN> the rest of the evening was spent in conjecturing how soon he would return mr . bennet ' s visit , and determining when they should ask him to dinner . <END>:: 5.536421072022653
+<BEGIN> to be fond of dancing was a certain step towards falling in love ; and very lively hopes of mr . bingley ' s heart were entertained . <END>:: 8.14401626977974
+<BEGIN> mr . bingley had soon made himself acquainted with all the principal people in the room ; he was lively and unreserved , danced every dance , was angry that the ball closed so early , and talked of giving one himself at netherfield . <END>:: 7.264394566795656
+<BEGIN> such amiable qualities must speak for themselves . <END>:: 14.545989259425292
+<BEGIN> " come , darcy said he , " i must have you dance . <END>:: 2.758337256986997
+<BEGIN> you know how i detest it , unless i am particularly acquainted with my partner . <END>:: 9.171982585793316
+<BEGIN> " i would not be so fastidious as you are cried bingley , " for a kingdom ! <END>:: 5.740562541643376
+<BEGIN> and turning round , he looked for a moment at elizabeth , till catching her eye , he withdrew his own and coldly said , " she is tolerable ; but not handsome enough to tempt _ me and i am in no humour at present to give consequence to young ladies who are slighted by other men . <END>:: 8.175887830880976
+<BEGIN> she told the story however with great spirit among her friends ; for she had a lively , playful disposition , which delighted in any thing ridiculous . <END>:: 12.180781380468488
+<BEGIN> elizabeth felt jane ' s pleasure . <END>:: 4.369833807794628
+<BEGIN> mary had heard herself mentioned to miss bingley as the most accomplished girl in the neighbourhood ; and catherine and lydia had been fortunate enough to be never without partners , which was all that they had yet learnt to care for at a ball . <END>:: 8.148248771163265
+<BEGIN> for god ' s sake , say no more of his partners . <END>:: 8.18827886305951
+<BEGIN> that he had sprained his ancle in the first dance <END>:: 8.911973300053223
+<BEGIN> he walked here , and he walked there , fancying himself so very great ! <END>:: 7.749654508527139
+<BEGIN> not handsome enough to dance with ! <END>:: 6.413138399349179
+<BEGIN> _ i _ did for you . <END>:: 1.831874320918644
+<BEGIN> but that is one great difference between us . <END>:: 6.2131881233522215
+<BEGIN> no thanks to his gallantry for that . <END>:: 6.795295251559096
+<BEGIN> " certainly not ; at first . <END>:: 3.035129815569985
+<BEGIN> his sisters were very anxious for his having an estate of his own ; but though he was now established only as a tenant , miss bingley was by no means unwilling to preside at his table , nor was mrs . hurst , who had married a man of more fashion than fortune , less disposed to consider his house as her home when it suited her . <END>:: 9.18290332249225
+<BEGIN> between him and darcy there was a very steady friendship , in spite of a great opposition of <URL> was endeared to darcy by the easiness , openness , ductility of his temper , though no disposition could offer a greater contrast to his own , and though with his own he never appeared dissatisfied . <END>:: 9.336601648688921
+<BEGIN> in that respect his friend had greatly the advantage . <END>:: 5.080041856079928
+<BEGIN> darcy , on the contrary , had seen a collection of people in whom there was little beauty and no fashion , for none of whom he had felt the smallest interest , and from none received either attention or pleasure . <END>:: 8.520317385710023
+<BEGIN> sir william lucas had been formerly in trade in meryton , where he had made a tolerable fortune and risen to the honour of knighthood by an address to the king , during his mayoralty . <END>:: 11.711446312535882
+<BEGIN> for though elated by his rank , it did not render him supercilious ; on the contrary , he was all attention to every body . <END>:: 7.0746476666492955
+<BEGIN> <URL> <END>:: 0.6516723504948837
+<BEGIN> " i beg you would not put it into lizzy ' s head to be vexed by his ill treatment ; for he is such a disagreeable man that it would be quite a misfortune to be liked by him . <END>:: 7.509399738909168
+<BEGIN> " i do not believe a word of it , my dear . <END>:: 2.1897092602270103
+<BEGIN> chapter vi . <END>:: 4.098442076080918
+<BEGIN> it was generally evident whenever they met , that he _ did _ admire her ; and to _ her _ it was equally evident that jane was yielding to the preference which she had begun to entertain for him from the first , and was in a way to be very much in love ; but she considered with pleasure that it was not likely to be discovered by the world in general , since jane united with great strength of feeling , a composure of temper and a uniform cheerfulness of manner , which would guard her from the suspicions of the impertinent . <END>:: 7.306769352291017
+<BEGIN> if _ i _ can perceive her regard for him , he must be a simpleton indeed not to discover it <URL> <END>:: 6.709956519685018
+<BEGIN> but though bingley and jane meet tolerably often , it is never for many hours together ; and as they always see each other in large mixed parties , it is impossible that every moment should be employed in conversing together . <END>:: 10.614412122843797
+<BEGIN> jane should therefore make the most of every half hour in which she can command his attention . <END>:: 7.3685120610645
+<BEGIN> had she merely _ dined _ with him , she might only have discovered whether he had a good appetite ; but you must remember that four evenings have been also spent together and four evenings may do a great <URL> <END>:: 11.013256454220652
+<BEGIN> " well said charlotte , " i wish jane success with all my heart ; and if she were married to him to morrow , i should think she had as good a chance of happiness , as if she were to be studying his character for a twelvemonth . <END>:: 4.647287015597063
+<BEGIN> " you make me laugh , charlotte ; but it is not sound . <END>:: 4.434561295090893
+<BEGIN> you know it is not sound , and that you would never act in this way <URL> <END>:: 5.379664047685412
+<BEGIN> occupied in observing mr . bingley ' s attentions to her sister , elizabeth was far from suspecting that she was herself becoming an object of some interest in the eyes of his friend . <END>:: 7.253580794503491
+<BEGIN> mr . darcy had at first scarcely allowed her to be pretty ; he had looked at her without admiration at the ball ; and when they next met , he looked at her only to criticise . <END>:: 5.617533557007776
+<BEGIN> of this she was perfectly unaware to her he was only the man who made himself agreeable no where , and who had not thought her handsome enough to dance with . <END>:: 5.664317672970643
+<BEGIN> " what does mr . darcy mean said she to charlotte , " by listening to my conversation with colonel forster <END>:: 4.828127295333739
+<BEGIN> " you are severe on <URL> <END>:: 4.892254554200115
+<BEGIN> " i am going to open the instrument , eliza , and you know what <URL> <END>:: 4.987851588444006
+<BEGIN> and gravely glancing at mr . darcy , " there is a fine old saying , which every body here is of course familiar with keep your breath to cool your porridge and i shall keep mine to swell my <URL> <END>:: 13.322437160399238
+<BEGIN> elizabeth , easy and unaffected , had been listened to with much more pleasure , though not playing half so well ; and mary , at the end of a long concerto , was glad to purchase praise and gratitude by scotch and irish airs , at the request of her younger sisters , who with some of the lucases and two or three officers joined eagerly in dancing at one end of the room . <END>:: 7.866477617951158
+<BEGIN> " what a charming amusement for young people this is , mr . <END>:: 4.600398561372506
+<BEGIN> darcy there is nothing like dancing after <URL> consider it as one of the first refinements of polished <URL> <END>:: 8.494203199184186
+<BEGIN> " you saw me dance at meryton , i believe , <URL> <END>:: 3.8053884884850224
+<BEGIN> " it is a compliment which i never pay to any place if i can avoid <URL> <END>:: 6.2737413142043374
+<BEGIN> elizabeth was determined ; nor did sir william at all shake her purpose by his attempt at persuasion . <END>:: 10.258179438362042
+<BEGIN> miss bingley immediately fixed her eyes on his face , and desired he would tell her what lady had the credit of inspiring such reflections . <END>:: 9.129411215773313
+<BEGIN> repeated miss bingley . <END>:: 4.141692747495424
+<BEGIN> " that is exactly the question which i expected you to ask . <END>:: 4.130238457108362
+<BEGIN> " nay , if you are so serious about it , i shall consider the matter as absolutely settled . <END>:: 7.379637977992913
+<BEGIN> chapter vii . <END>:: 5.109814856365448
+<BEGIN> the two youngest of the family , catherine and lydia , were particularly frequent in these attentions ; their minds were more vacant than their sisters and when nothing better offered , a walk to meryton was necessary to amuse their morning hours and furnish conversation for the evening ; and however bare of news the country in general might be , they always contrived to learn some from their aunt . <END>:: 11.624072331834622
+<BEGIN> if i wished to think slightingly of any body ' s children , it should not be of my own <URL> <END>:: 5.4369463416494614
+<BEGIN> " if my children are silly i must hope to be always sensible of <URL> <END>:: 6.32170434075063
+<BEGIN> " this is the only point , i flatter myself , on which we do not agree . <END>:: 4.607902811482742
+<BEGIN> jane was therefore obliged to go on horseback , and her mother attended her to the door with many cheerful prognostics of a bad day . <END>:: 6.812136323396621
+<BEGIN> her hopes were answered ; jane had not been gone long before it rained hard . <END>:: 9.398724501029946
+<BEGIN> " oh ! <END>:: 1.793921275063175
+<BEGIN> " i shall be very fit to see jane which is all i <URL> <END>:: 4.518061362966825
+<BEGIN> in meryton they parted ; the two youngest repaired to the lodgings of one of the officers ' wives , and elizabeth continued her walk alone , crossing field after field at a quick pace , jumping over stiles and springing over puddles with impatient activity , and finding herself at last within view of the house , with weary ancles , dirty stockings , and a face glowing with the warmth of exercise . <END>:: 19.410671077795875
+<BEGIN> the former was divided between admiration of the brilliancy which exercise had given to her complexion , and doubt as to the occasion ' s justifying her coming so far alone . <END>:: 8.816606212234658
+<BEGIN> she was not equal , however , to much conversation , and when miss bingley left them together , could attempt little beside expressions of gratitude for the extraordinary kindness she was treated with . <END>:: 7.174888920426557
+<BEGIN> the sisters , on hearing this , repeated three or four times how much they were grieved , how shocking it was to have a bad cold , and how excessively they disliked being ill themselves ; and then thought no more of the matter : and their indifference towards jane when not immediately before them , restored elizabeth to the enjoyment of all her original dislike . <END>:: 10.054141953247857
+<BEGIN> miss bingley was engrossed by mr . darcy , her sister scarcely less so ; and as for mr . hurst , by whom elizabeth sat , he was an indolent man , who lived only to eat , drink , and play at cards , who when he found her prefer a plain dish to a ragout , had nothing to say to her . <END>:: 6.899848659564696
+<BEGIN> very nonsensical to come at all ! <END>:: 7.264361373377651
+<BEGIN> her dirty petticoat quite escaped my <URL> <END>:: 27.501904061966197
+<BEGIN> you _ observed it , mr . darcy , i am sure said miss bingley ; " and i am inclined to think that you would not wish to see _ your sister _ make such an <URL> <END>:: 3.5466010615826677
+<BEGIN> " to walk three miles , or four miles , or five miles , or whatever it is , above her ancles in dirt , and alone , quite alone ! <END>:: 8.413866345995032
+<BEGIN> it seems to me to shew an abominable sort of conceited independence , a most country town indifference to <URL> <END>:: 15.125765982234629
+<BEGIN> but with such a father and mother , and such low connections , i am afraid there is no chance of <URL> <END>:: 5.374361791694349
+<BEGIN> darcy <END>:: 1.5747007735105634
+<BEGIN> " and then you have added so much to it yourself , you are always buying <URL> <END>:: 5.809913382622292
+<BEGIN> " i cannot comprehend the neglect of a family library in such days as <URL> <END>:: 6.348657067403476
+<BEGIN> said miss bingley ; " will she be as tall as i am <END>:: 4.225989492625637
+<BEGIN> she is now about miss elizabeth bennet ' s height , or rather <URL> <END>:: 6.1809062174576415
+<BEGIN> and so extremely accomplished for her age ! <END>:: 14.122859249493654
+<BEGIN> " yes , all of them , i think . <END>:: 1.9848029379336465
+<BEGIN> " your list of the common extent of accomplishments said darcy , " has too much truth . <END>:: 10.040670071188078
+<BEGIN> bingley urged mr . jones ' s being sent for immediately ; while his sisters , convinced that no country advice could be of any service , recommended an express to town for one of the most eminent physicians . <END>:: 12.113332010502072
+<BEGIN> in spite of this amendment , however , she requested to have a note sent to longbourn , desiring her mother to visit jane , and form her own judgment of her situation . <END>:: 6.835851942519268
+<BEGIN> she would not listen therefore to her daughter ' s proposal of being carried home ; neither did the apothecary , who arrived about the same time , think it at all advisable . <END>:: 9.091000702853561
+<BEGIN> " she is a great deal too ill to be moved . <END>:: 4.493392553202645
+<BEGIN> we must trespass a little longer on your <URL> <END>:: 9.156272139647166
+<BEGIN> cried bingley . <END>:: 2.1099800441165835
+<BEGIN> " lizzy cried her mother , " remember where you are , and do not run on in the wild manner that you are suffered to do at <URL> <END>:: 6.306501504204242
+<BEGIN> it must be an amusing <URL> <END>:: 6.468136405030816
+<BEGIN> " but people themselves alter so much , that there is something new to be observed in them for <URL> <END>:: 6.253174821692637
+<BEGIN> bingley <END>:: 1.9716445363514061
+<BEGIN> they have each their advantages , and i can be equally happy in <URL> <END>:: 6.549626947960052
+<BEGIN> " indeed , mama , you are mistaken said elizabeth , blushing for her mother . <END>:: 5.146851919144539
+<BEGIN> " certainly , my dear , nobody said there were ; but as to not meeting with many people in this neighbourhood , i believe there are few neighbourhoods larger . <END>:: 7.1108477870219
+<BEGIN> dear , yes but you must own she is very plain . <END>:: 5.722906693356557
+<BEGIN> when she was only fifteen , there was a gentleman at my brother gardiner ' s in town , so much in love with her , that my sister in - law was sure he would make her an offer before we came away . <END>:: 5.388590248016872
+<BEGIN> but however he did not . <END>:: 2.3080248813671096
+<BEGIN> mr . bingley was unaffectedly civil in his answer , and forced his younger sister to be civil also , and say what the occasion required . <END>:: 7.282031417352386
+<BEGIN> and when you have given _ your _ ball she added , " i shall insist on their giving one also . <END>:: 6.425268127029179
+<BEGIN> i shall tell colonel forster it will be quite a shame if he does <URL> <END>:: 8.087010070892987
+<BEGIN> chapter x . <END>:: 4.742146635815114
+<BEGIN> " how delighted miss darcy will be to receive such a letter <END>:: 5.833294779147319
+<BEGIN> " you are mistaken . <END>:: 2.0790280912122117
+<BEGIN> i write rather <URL> <END>:: 5.616032769610597
+<BEGIN> i mend pens remarkably <URL> <END>:: 37.6245297701697
+<BEGIN> " it is a rule with me , that a person who can write a long letter , with ease , cannot write <URL> " that will not do for a compliment to darcy , caroline cried her brother because he does _ not _ write with ease . <END>:: 7.180122643930493
+<BEGIN> " my style of writing is very different from <URL> <END>:: 7.452832406634246
+<BEGIN> he leaves out half his words , and blots the <URL> <END>:: 7.542034097936714
+<BEGIN> " your humility , mr . bingley said elizabeth , " must disarm <URL> <END>:: 3.7758884848100194
+<BEGIN> when you told mrs . bennet this morning that if you ever resolved on quitting netherfield you should be gone in five minutes , you meant it to be a sort of panegyric , of compliment to yourself and yet what is there so very laudable in a precipitance which must leave very necessary business undone , and can be of no real advantage to yourself or any one else <END>:: 8.528802239898239
+<BEGIN> and yet , upon my honour , i believed what i said of myself to be true , and i believe it at this moment . <END>:: 4.133440245665719
+<BEGIN> " would mr . darcy then consider the rashness of your original intention as atoned for by your obstinacy in adhering to it <END>:: 9.746431674941688
+<BEGIN> miss bingley saw , or suspected enough to be jealous ; and her great anxiety for the recovery of her dear friend jane , received some assistance from her desire of getting rid of elizabeth . <END>:: 9.159684386087855
+<BEGIN> " i hope said she , as they were walking together in the shrubbery the next day , " you will give your mother in - law a few hints , when this desirable event takes place , as to the advantage of holding her tongue ; and if you can compass it , do cure the younger girls of running after the <URL> if i may mention so delicate a subject , endeavour to check that little something , bordering on conceit and impertinence , which your lady <URL> <END>:: 7.763689718866417
+<BEGIN> put them next to your great uncle the judge . <END>:: 8.292444422575858
+<BEGIN> he addressed himself directly to miss bennet , with a polite congratulation ; mr . hurst also made her a slight bow , and said he was " very glad but diffuseness and warmth remained for bingley ' s salutation . <END>:: 9.378198500083515
+<BEGIN> he was full of joy and attention . <END>:: 4.994579491149936
+<BEGIN> elizabeth , at work in the opposite corner , saw it all with great delight . <END>:: 5.76565163923112
+<BEGIN> when tea was over , mr . hurst reminded his sister in - law of the card table but in vain . <END>:: 5.987011935039345
+<BEGIN> she had obtained private intelligence that mr . darcy did not wish for cards ; and mr . hurst soon found even his open petition rejected . <END>:: 11.779556316918894
+<BEGIN> how much sooner one tires of any thing than of a book when i have a house of my own , i shall be miserable if i have not an excellent <URL> <END>:: 8.71342103158223
+<BEGIN> miss bingley made no answer ; and soon afterwards got up and walked about the room . <END>:: 3.9481405962107727
+<BEGIN> her figure was elegant , and she walked well but darcy , at whom it was all aimed , was still inflexibly studious . <END>:: 7.811942917103463
+<BEGIN> teaze calmness of temper and presence of mind ! <END>:: 19.126404918688028
+<BEGIN> cried elizabeth . <END>:: 1.4955107941895114
+<BEGIN> i dearly love a <URL> <END>:: 5.82818550583973
+<BEGIN> the wisest and the best of men , nay , the wisest and best of their actions , may be rendered ridiculous by a person whose first object in life is a <URL> <END>:: 11.401383934773555
+<BEGIN> " yes , vanity is a weakness indeed . <END>:: 5.367591984577458
+<BEGIN> " no said darcy , " i have made no such pretension . <END>:: 3.6855869998111626
+<BEGIN> you are safe from <URL> <END>:: 7.0566080128543005
+<BEGIN> mrs . bennet wondered at their coming , and thought them very wrong to give so much trouble , and was sure jane would have caught cold <URL> their father , though very laconic in his expressions of pleasure , was really glad to see them ; he had felt their importance in the family circle . <END>:: 7.674253557731714
+<BEGIN> " the person of whom i speak , is a gentleman and a <URL> <END>:: 3.4827462527647137
+<BEGIN> this roused a general astonishment ; and he had the pleasure of being eagerly questioned by his wife and five daughters at once . <END>:: 8.73961872012357
+<BEGIN> " about a month ago i received this letter , and about a fortnight ago i answered it , for i thought it a case of some delicacy , and requiring early attention . <END>:: 6.8556496569583905
+<BEGIN> " oh ! <END>:: 1.793921275063175
+<BEGIN> i cannot be otherwise than concerned at being the means of injuring your amiable daughters , and beg leave to apologise for it , as well as to assure you of my readiness to make them every possible amends but of this hereafter . <END>:: 9.7340247758168
+<BEGIN> " at four o ' clock , therefore , we may expect this peace making gentleman said mr . bennet , as he folded up the letter . <END>:: 7.028878207916406
+<BEGIN> i am impatient to see <URL> <END>:: 4.842825932709311
+<BEGIN> but i can assure the young ladies that i come prepared to admire them . <END>:: 5.583528454686042
+<BEGIN> " that is all very proper and civil , i am sure said mrs . bennet , " and i dare say she is a very agreeable woman . <END>:: 3.697509741411738
+<BEGIN> " she has one only daughter , the heiress of rosings , and of very extensive <URL> <END>:: 5.007153575279361
+<BEGIN> cried mrs . bennet , shaking her head , " then she is better off than many girls . <END>:: 5.546948119388519
+<BEGIN> " she is a most charming young lady indeed . <END>:: 4.548528604227931
+<BEGIN> " they arise chiefly from what is passing at the time , and though i sometimes amuse myself with suggesting and arranging such little elegant compliments as may be adapted to ordinary occasions , i always wish to give them as unstudied an air as <URL> <END>:: 15.715486614350345
+<BEGIN> mr . collins readily assented , and a book was produced ; but on beholding it , ( for every thing announced it to be from a circulating library he started back , and begging pardon , protested that he never read <URL> stared at him , and lydia <URL> books were produced , and after some deliberation he chose fordyce ' s sermons . <END>:: 13.861348050199044
+<BEGIN> lydia was bid by her two eldest sisters to hold her tongue ; but mr . collins , much offended , laid aside his book , and said , " i have often observed how little young ladies are interested by books of a serious stamp , though written solely for their benefit . <END>:: 12.513907974517629
+<BEGIN> chapter xv . <END>:: 3.9035246694928354
+<BEGIN> this was his plan of amends of atonement for inheriting their father ' s estate ; and he thought it an excellent one , full of eligibility and suitableness , and excessively generous and disinterested on his own part . <END>:: 12.565913041464961
+<BEGIN> his plan did not vary on seeing <URL> bennet ' s lovely face confirmed his views , and established all his strictest notions of what was due to seniority ; and for the first evening _ she _ was his settled choice . <END>:: 12.915408978567905
+<BEGIN> mr . denny addressed them directly , and entreated permission to introduce his friend , mr . wickham , who had returned with him the day before from town , and he was happy to say had accepted a commission in their corps . <END>:: 8.105559601425394
+<BEGIN> she received him with her very best politeness , which he returned with as much more , apologising for his intrusion , without any previous acquaintance with her , which he could not help flattering himself however might be justified by his relationship to the young ladies who introduced him to her notice . <END>:: 9.800425302639304
+<BEGIN> in describing to her all the grandeur of lady catherine and her mansion , with occasional digressions in praise of his own humble abode , and the improvements it was receiving , he was happily employed until the gentlemen joined them ; and he found in mrs . philips a very attentive listener , whose opinion of his consequence increased with what she heard , and who was resolving to retail it all among her neighbours as soon as she could . <END>:: 9.646444464551301
+<BEGIN> to the girls , who could not listen to their cousin , and who had nothing to do but to wish for an instrument , and examine their own indifferent imitations of china on the mantle piece , the interval of waiting appeared very long . <END>:: 10.34195934978863
+<BEGIN> the gentlemen did approach ; and when mr . wickham walked into the room , elizabeth felt that she had neither been seeing him before , nor thinking of him since , with the smallest degree of unreasonable admiration . <END>:: 7.357992158856899
+<BEGIN> with such rivals for the notice of the fair , as mr . wickham and the officers , mr . collins seemed likely to sink into insignificance ; to the young ladies he certainly was nothing ; but he had still at intervals a kind listener in mrs . philips , and was , by her watchfulness , most abundantly supplied with coffee and muffin . <END>:: 8.383332085817429
+<BEGIN> allowing for the common demands of the game , mr . wickham was therefore at leisure to talk to elizabeth , and she was very willing to hear him , though what she chiefly wished to hear she could not hope to be told , the history of his acquaintance with mr . darcy . <END>:: 6.218032926243837
+<BEGIN> darcy <END>:: 1.5747007735105634
+<BEGIN> " oh ! <END>:: 1.793921275063175
+<BEGIN> no it is not for _ me _ to be driven away by mr . darcy . <END>:: 3.407609411711178
+<BEGIN> we are not on friendly terms , and it always gives me pain to meet him , but i have no reason for avoiding _ him _ but what i might proclaim to all the world ; a sense of very great ill usage , and most painful regrets at his being what he is . <END>:: 8.111044123424074
+<BEGIN> elizabeth found the interest of the subject increase , and listened with all her heart ; but the delicacy of it prevented farther inquiry . <END>:: 9.011003614257532
+<BEGIN> " it was the prospect of constant society , and good society he added , " which was my chief inducement to enter the shire . <END>:: 7.315724531465195
+<BEGIN> " good heavens <END>:: 9.056430133288455
+<BEGIN> " there was just such an informality in the terms of the bequest as to give me no hope from law . <END>:: 5.942074127201147
+<BEGIN> a man of honour could not have doubted the intention , but mr . darcy chose to doubt it or to treat it as a merely conditional recommendation , and to assert that i had forfeited all claim to it by extravagance , imprudence , in short any thing or nothing . <END>:: 8.714298357891263
+<BEGIN> certain it is , that the living became vacant two years ago , exactly as i was of an age to hold it , and that it was given to another man ; and no less certain is it , that i cannot accuse myself of having really done any thing to deserve to lose it . <END>:: 8.435893213852703
+<BEGIN> " i will not trust myself on the subject replied wickham , i _ can hardly be just to <URL> <END>:: 5.089248690068178
+<BEGIN> " can such abominable pride as his , have ever done him good <END>:: 5.910640481857914
+<BEGIN> it gives me pain to speak ill of a darcy . <END>:: 5.524312151721871
+<BEGIN> among those who are at all his equals in consequence , he is a very different man from what he is to the less prosperous . <END>:: 8.539433881887108
+<BEGIN> " lady catherine de bourgh she replied , " has very lately given him a living . <END>:: 4.8101943977145565
+<BEGIN> i never heard of her existence till the day before <URL> <END>:: 4.755635587557918
+<BEGIN> " mr . collins said she , " speaks highly both of lady catherine and her daughter ; but from some particulars that he has related of her ladyship , i suspect his gratitude misleads him , and that in spite of her being his patroness , she is an arrogant , conceited <URL> <END>:: 6.40616272102567
+<BEGIN> there could be no conversation in the noise of mrs . philips ' s supper party , but his manners recommended him to every body . <END>:: 6.501107398508694
+<BEGIN> whatever he said , was said well ; and whatever he did , done gracefully . <END>:: 4.9896987996972815
+<BEGIN> she could think of nothing but of mr . wickham , and of what he had told her , all the way home ; but there was not time for her even to mention his name as they went , for neither lydia nor mr . collins were once silent . <END>:: 4.055296507147177
+<BEGIN> lydia talked incessantly of lottery tickets , of the fish she had lost and the fish she had won , and mr . collins , in describing the civility of mr . and mrs . philips , protesting that he did not in the least regard his losses at whist , enumerating all the dishes at supper , and repeatedly fearing that he crouded his cousins , had more to say than he could well manage before the carriage stopped at longbourn house . <END>:: 8.79636284067542
+<BEGIN> chapter xvii . <END>:: 3.8653534533742167
+<BEGIN> besides , there was truth in his <URL> <END>:: 5.523983232603896
+<BEGIN> and even mary could assure her family that she had no disinclination for it . <END>:: 5.269063866449361
+<BEGIN> elizabeth felt herself completely taken in . <END>:: 7.933897264636854
+<BEGIN> she was not the better pleased with his gallantry , from the idea it suggested of something <URL> now first struck her , that _ she _ was selected from among her sisters as worthy of being the mistress of hunsford parsonage , and of assisting to form a quadrille table at rosings , in the absence of more eligible visitors . <END>:: 9.615087579194261
+<BEGIN> mr . collins might never make the offer , and till he did , it was useless to quarrel about him . <END>:: 4.964872940592187
+<BEGIN> the certainty of meeting him had not been checked by any of those recollections that might not unreasonably have alarmed her . <END>:: 12.666007723837408
+<BEGIN> she had dressed with more than usual care , and prepared in the highest spirits for the conquest of all that remained unsubdued of his heart , trusting that it was not more than might be won in the course of the evening . <END>:: 8.087001479712988
+<BEGIN> " how near it may be to _ mine i cannot pretend to <URL> think it a faithful portrait <URL> <END>:: 9.078660959600038
+<BEGIN> a deeper shade of hauteur overspread his features , but he said not a word , and elizabeth , though blaming herself for her own weakness , could not go on . <END>:: 9.612560129738473
+<BEGIN> " i have been most highly gratified indeed , my dear sir . <END>:: 4.2034255447329
+<BEGIN> " i do not think we were speaking at all . <END>:: 2.980131504731791
+<BEGIN> " what think you of books <END>:: 5.158932021768483
+<BEGIN> " books oh ! <END>:: 7.917617933845661
+<BEGIN> " no i cannot talk of books in a ball room ; my head is always full of something <URL> <END>:: 7.791212172781608
+<BEGIN> " the _ present _ always occupies you in such scenes does it <END>:: 8.128963501562895
+<BEGIN> said he , with a look of doubt . <END>:: 2.9128698228068477
+<BEGIN> you are very cautious , i suppose , as to its _ being <URL> <END>:: 4.817189317073473
+<BEGIN> i do not know the particulars , but i know very well that mr . darcy is not in the least to blame , that he cannot bear to hear george wickham mentioned , and that though my brother thought he could not well avoid including him in his invitation to the officers , he was excessively glad to find that he had taken himself out of the way . <END>:: 5.503385961292146
+<BEGIN> i see nothing in it but your own wilful ignorance and the malice of mr . <END>:: 6.955758240128057
+<BEGIN> jane met her with a smile of such sweet complacency , a glow of such happy expression , as sufficiently marked how well she was satisfied with the occurrences of the <URL> instantly read her feelings , and at that moment solicitude for wickham , resentment against his enemies , and every thing else gave way before the hope of jane ' s being in the fairest way for happiness . <END>:: 8.793248504639513
+<BEGIN> " no replied jane , " i have not forgotten him ; but i have nothing satisfactory to tell you . <END>:: 4.765897438495405
+<BEGIN> mr . bingley does not know the whole of his history , and is quite ignorant of the circumstances which have principally offended mr . darcy ; but he will vouch for the good conduct , the probity and honour of his friend , and is perfectly convinced that mr . wickham has deserved much less attention from mr . darcy than he has received ; and i am sorry to say that by his account as well as his sister ' s , mr . wickham is by no means a respectable young man . <END>:: 5.875528807204981
+<BEGIN> i am perfectly satisfied . <END>:: 2.7938768969311587
+<BEGIN> " he does not exactly recollect the circumstances , though he has heard them from mr . darcy more than once , but he believes that it was left to him _ conditionally _ <URL> <END>:: 6.669797628962002
+<BEGIN> she then changed the discourse to one more gratifying to each , and on which there could be no difference of sentiment . <END>:: 10.568086873119944
+<BEGIN> upon the whole , i am much pleased with <URL> <END>:: 3.4175831169397837
+<BEGIN> darcy you will never recommend yourself to his friend by so <URL> <END>:: 6.857250426597852
+<BEGIN> she looked at his two sisters , and saw them making signs of derision at each other , and at darcy , who continued however impenetrably grave . <END>:: 7.300490609575994
+<BEGIN> i cannot acquit him of that duty ; nor could i think well of the man who should omit an occasion of testifying his respect towards any body connected with the <URL> <END>:: 11.186499512626353
+<BEGIN> he assured her that as to dancing , he was perfectly indifferent to it ; that his chief object was by delicate attentions to recommend himself to her , and that he should therefore make a point of remaining close to her the whole evening . <END>:: 7.526195915308807
+<BEGIN> they repulsed every attempt of mrs . bennet at conversation , and by so doing , threw a languor over the whole party , which was very little relieved by the long speeches of mr . collins , who was complimenting mr . bingley and his sisters on the elegance of their entertainment , and the hospitality and politeness which had marked their behaviour to their guests . <END>:: 7.700846892491496
+<BEGIN> before elizabeth had time for any thing but a blush of surprise , mrs . bennet instantly answered , " oh <URL> am sure lizzy will be very happy i am sure she can have no <URL> kitty , i want you up <URL> <END>:: 5.822471192758046
+<BEGIN> allow me , by the way , to observe , my fair cousin , that i do not reckon the notice and kindness of lady catherine de bourgh as among the least of the advantages in my power to offer . <END>:: 5.299209311992008
+<BEGIN> you will find her manners beyond any thing i can describe ; and your wit and vivacity i think must be acceptable to her , especially when tempered with the silence and respect which her rank will inevitably excite . <END>:: 10.766433620548453
+<BEGIN> thus much for my general intention in favour of matrimony ; it remains to be told why my views were directed to longbourn instead of my own neighbourhood , where i assure you there are many amiable young women . <END>:: 13.869254808397688
+<BEGIN> let me do it without farther loss of time . <END>:: 6.192028980421071
+<BEGIN> accept my thanks for the compliment you are paying me . <END>:: 10.80759534162308
+<BEGIN> " upon my word , sir cried elizabeth , " your hope is rather an extraordinary one after my declaration . <END>:: 6.277372690552062
+<BEGIN> " were it certain that lady catherine would think so said mr . collins very gravely but i cannot imagine that her ladyship would at all disapprove of you . <END>:: 5.753646954976426
+<BEGIN> you must give me leave to judge for myself , and pay me the compliment of believing what i say . <END>:: 6.93538902884786
+<BEGIN> mr . collins received and returned these felicitations with equal pleasure , and then proceeded to relate the particulars of their interview , with the result of which he trusted he had every reason to be satisfied , since the refusal which his cousin had steadfastly given him would naturally flow from her bashful modesty and the genuine delicacy of her character . <END>:: 13.205825343155377
+<BEGIN> " but depend upon it , mr . collins she added , " that lizzy shall be brought to reason . <END>:: 2.8424551360424606
+<BEGIN> she shall hear my <URL> <END>:: 3.4963493910121466
+<BEGIN> " yes , or i will never see her <URL> <END>:: 2.5926739934592886
+<BEGIN> " what do you mean , mr . bennet , by talking in this way ? <END>:: 2.9452042886556127
+<BEGIN> you promised me to _ insist _ upon her marrying <URL> <END>:: 4.858715010910914
+<BEGIN> she talked to elizabeth again and again ; coaxed and threatened her by turns . <END>:: 7.005644375508254
+<BEGIN> mr . collins , meanwhile , was meditating in solitude on what had passed . <END>:: 5.074216820283813
+<BEGIN> those who do not complain are never <URL> <END>:: 10.226953888017174
+<BEGIN> her daughters listened in silence to this effusion , sensible that any attempt to reason with or sooth her would only increase the irritation . <END>:: 10.070688517759857
+<BEGIN> soon after their return , a letter was delivered to miss bennet ; it came from netherfield , and was opened immediately . <END>:: 4.666588626341006
+<BEGIN> " it is unlucky said she , after a short pause , " that you should not be able to see your friends before they leave the country . <END>:: 3.5742510105462992
+<BEGIN> " why will you think so ? <END>:: 5.102879966696319
+<BEGIN> it must be his own <URL> is his own master . <END>:: 3.820662618441711
+<BEGIN> i _ will _ read you the passage which particularly hurts me . <END>:: 7.362784430802466
+<BEGIN> " is it not clear enough does it not expressly declare that caroline neither expects nor wishes me to be her sister ; that she is perfectly convinced of her brother ' s indifference , and that if she suspects the nature of my feelings for him , she means ( most kindly <END>:: 10.206778678113247
+<BEGIN> " you shall have it in few words . <END>:: 3.4712788686663534
+<BEGIN> miss bingley i am sure cannot . <END>:: 2.580577621318673
+<BEGIN> we are not rich enough , or grand enough for them ; and she is the more anxious to get miss darcy for her brother , from the notion that when there has been _ one _ intermarriage , she may have less trouble in achieving a second ; in which there is certainly some ingenuity , and i dare say it would succeed , if miss de bourgh were out of the way . <END>:: 7.660313248340431
+<BEGIN> " you must decide for yourself said elizabeth , " and if upon mature deliberation , you find that the misery of disobliging his two sisters is more than equivalent to the happiness of being his wife , i advise you by all means to refuse <URL> <END>:: 8.613840410202508
+<BEGIN> a thousand things may arise in six months <END>:: 30.51656744815475
+<BEGIN> the idea of his returning no more elizabeth treated with the utmost contempt . <END>:: 8.165317510506396
+<BEGIN> she represented to her sister as forcibly as possible what she felt on the subject , and had soon the pleasure of seeing its happy effect . <END>:: 5.5754678586141395
+<BEGIN> he was anxious to avoid the notice of his cousins , from a conviction that if they saw him depart , they could not fail to conjecture his design , and he was not willing to have the attempt known till its success could be known likewise ; for though feeling almost secure , and with reason , for charlotte had been tolerably encouraging , he was comparatively diffident since the adventure of wednesday . <END>:: 11.373557926558341
+<BEGIN> but little had she dared to hope that so much love and eloquence awaited her there . <END>:: 6.887231960472443
+<BEGIN> her reflections were in general satisfactory . <END>:: 11.587123767657545
+<BEGIN> but still he would be her <URL> thinking highly either of men or of matrimony , marriage had always been her object ; it was the only honourable provision for well educated young women of small fortune , and however uncertain of giving happiness , must be their pleasantest preservative from want . <END>:: 11.833525212766673
+<BEGIN> elizabeth would wonder , and probably would blame her ; and though her resolution was not to be shaken , her feelings must be hurt by such disapprobation . <END>:: 5.996704976886554
+<BEGIN> " my dear madam he replied , " this invitation is particularly gratifying , because it is what i have been hoping to receive ; and you may be very certain that i shall avail myself of it as soon as <URL> <END>:: 7.197947605156932
+<BEGIN> they were all astonished ; and mr . bennet , who could by no means wish for so speedy a return , immediately said , " but is there not danger of lady catherine ' s disapprobation here , my good sir you had better neglect your relations , than run the risk of offending your <URL> <END>:: 7.179383875958264
+<BEGIN> " my dear sir replied mr . collins , " i am particularly obliged to you for this friendly caution , and you may depend upon my not taking so material a step without her ladyship ' s <URL> <END>:: 6.892449195027709
+<BEGIN> the possibility of mr . collins ' s fancying himself in love with her friend had once occurred to elizabeth within the last day or two ; but that charlotte could encourage him , seemed almost as far from possibility as that she could encourage him herself , and her astonishment was consequently so great as to overcome at first the bounds of decorum , and she could not help crying out , " engaged to mr . collins ! <END>:: 7.671800720536329
+<BEGIN> i am not romantic you know . <END>:: 3.819691648226808
+<BEGIN> elizabeth was sitting with her mother and sisters , reflecting on what she had heard , and doubting whether she were authorised to mention it , when sir william lucas himself appeared , sent by his daughter to announce her engagement to the family . <END>:: 6.570002439206755
+<BEGIN> mr . bennet ' s emotions were much more tranquil on the occasion , and such as he did experience he pronounced to be of a most agreeable sort ; for it gratified him , he said , to discover that charlotte lucas , whom he had been used to think tolerably sensible , was as foolish as his wife , and more foolish than his daughter ! <END>:: 7.214230113333017
+<BEGIN> such were the gentle murmurs of mrs . bennet , and they gave way only to the greater distress of mr . bingley ' s continued absence . <END>:: 5.52350253290967
+<BEGIN> day after day passed away without bringing any other tidings of him than the report which shortly prevailed in meryton of his coming no more to netherfield the whole winter ; a report which highly incensed mrs . bennet , and which she never failed to contradict as a most scandalous falsehood . <END>:: 11.414965304403712
+<BEGIN> even elizabeth began to fear not that bingley was indifferent but that his sisters would be successful in keeping him away . <END>:: 9.389539362866605
+<BEGIN> he was too happy , however , to need much attention ; and luckily for the others , the business of love making relieved them from a great deal of his company . <END>:: 6.678828561369
+<BEGIN> she complained bitterly of all this to her husband . <END>:: 6.381931396590877
+<BEGIN> " my dear , do not give way to such gloomy thoughts . <END>:: 3.838487819153355
+<BEGIN> how any one could have the conscience to entail away an estate from one ' s own daughters i cannot understand ; and all for the sake of mr . collins too why should _ he _ have it more than anybody else <END>:: 8.793682127635511
+<BEGIN> [ illustration : a vicarage <URL> <END>:: 9.836194005226355
+<BEGIN> ii . <END>:: 7.915497966417263
+<BEGIN> hope was over , entirely over ; and when jane could attend to the rest of the letter , she found little , except the professed affection of the writer , that could give her any comfort . <END>:: 5.035317383914662
+<BEGIN> to caroline ' s assertion of her brother ' s being partial to miss darcy she paid no credit . <END>:: 6.798494829450516
+<BEGIN> a little time <URL> shall certainly try to get the <URL> <END>:: 7.951126064651715
+<BEGIN> with a stronger voice she soon added , " i have this comfort immediately , that it has not been more than an error of fancy on my side , and that it has done no harm to any one but <URL> <END>:: 6.961747228845568
+<BEGIN> do not be afraid of my running into any excess , of my encroaching on your privilege of universal good will . <END>:: 12.186033946291495
+<BEGIN> there are few people whom i really love , and still fewer of whom i think well . <END>:: 6.240246682452602
+<BEGIN> " i must think your language too strong in speaking of both replied jane , " and i hope you will be convinced of it , by seeing them happy together . <END>:: 6.233695669689858
+<BEGIN> you mentioned _ two _ instances . <END>:: 7.318236807981427
+<BEGIN> we must not be so ready to fancy ourselves intentionally injured . <END>:: 20.85193051131895
+<BEGIN> " and men take care that they <URL> <END>:: 3.993572820638558
+<BEGIN> " yes ; to the last . <END>:: 1.9275545657475717
+<BEGIN> they have known her much longer than they have known me ; no wonder if they love her better . <END>:: 6.296590018325291
+<BEGIN> if they believed him attached to me , they would not try to part us ; if he were so , they could not succeed . <END>:: 6.4701986881287405
+<BEGIN> i am not ashamed of having been mistaken or , at least , it is slight , it is nothing in comparison of what i should feel in thinking ill of him or his sisters . <END>:: 5.2437509113202445
+<BEGIN> " so , lizzy said he one day , " your sister is crossed in love i find . <END>:: 4.747017631058018
+<BEGIN> " thank you , sir , but a less agreeable man would satisfy me . <END>:: 6.2302787200399035
+<BEGIN> we must not all expect jane ' s good <URL> <END>:: 5.79794509698158
+<BEGIN> he took leave of his relations at longbourn with as much solemnity as before ; wished his fair cousins health and happiness again , and promised their father another letter of thanks . <END>:: 7.567293900855347
+<BEGIN> on the following monday , mrs . bennet had the pleasure of receiving her brother and his wife , who came as usual to spend the christmas at longbourn . <END>:: 6.202333055645134
+<BEGIN> i am sorry to say it of them , but so it is . <END>:: 2.6032428651408845
+<BEGIN> it makes me very nervous and poorly , to be thwarted so in my own family , and to have neighbours who think of themselves before anybody else . <END>:: 11.446904728719577
+<BEGIN> could there be finer symptoms ? <END>:: 20.607567384624332
+<BEGIN> it had better have happened to _ you lizzy ; you would have laughed yourself out of it sooner . <END>:: 6.954679805694973
+<BEGIN> " i hope added mrs . gardiner , " that no consideration with regard to this young man will influence her . <END>:: 4.114078389732443
+<BEGIN> " and _ that _ is quite impossible ; for he is now in the custody of his friend , and mr . darcy would no more suffer him to call on jane in such a part of london ! <END>:: 4.897684507608989
+<BEGIN> my dear aunt , how could you think of it ? <END>:: 3.83335585767212
+<BEGIN> but does not jane correspond with the sister ? <END>:: 6.897959093386266
+<BEGIN> _ she _ will not be able to help <URL> <END>:: 3.1701984633119427
+<BEGIN> to mrs . gardiner , wickham had one means of affording pleasure , unconnected with his general powers . <END>:: 7.402236694447651
+<BEGIN> they had , therefore , many acquaintance in common ; and , though wickham had been little there since the death of darcy ' s father , five years before , it was yet in his power to give her fresher intelligence of her former friends , than she had been in the way of procuring . <END>:: 6.300382102837853
+<BEGIN> mrs . gardiner ' s caution to elizabeth was punctually and kindly given on the first favourable opportunity of speaking to her alone ; after honestly telling her what she thought , she thus went on : " you are too sensible a girl , lizzy , to fall in love merely because you are warned against it ; and , therefore , i am not afraid of speaking openly . <END>:: 8.9730019146099
+<BEGIN> i have nothing to say against _ him he is a most interesting young man ; and if he had the fortune he ought to have , i should think you could not do better . <END>:: 4.675207623232903
+<BEGIN> your father would depend on _ your _ resolution and good conduct , i am sure . <END>:: 5.025037486380222
+<BEGIN> " elizabeth , you are not serious <URL> <END>:: 2.171694245852611
+<BEGIN> i see the imprudence of <URL> <END>:: 4.26965485434416
+<BEGIN> my father , however , is partial to mr . wickham . <END>:: 2.9366969468912574
+<BEGIN> all that i can promise you , therefore , is not to be in a hurry . <END>:: 2.6188427008039925
+<BEGIN> " perhaps it will be as well , if you discourage his coming here so very often . <END>:: 6.009454238170735
+<BEGIN> at least , you should not _ remind _ your mother of inviting <URL> <END>:: 6.7691157088150025
+<BEGIN> but do not imagine that he is always here so often . <END>:: 5.60587698694162
+<BEGIN> " and i have another favour to ask . <END>:: 3.9028697414721836
+<BEGIN> " my father and maria are to come to me in march added charlotte , " and i hope you will consent to be of the party . <END>:: 4.882232018155521
+<BEGIN> charlotte ' s first letters were received with a good deal of eagerness ; there could not but be curiosity to know how she would speak of her new home , how she would like lady catherine , and how happy she would dare pronounce herself to be ; though , when the letters were read , elizabeth felt that charlotte expressed herself on every point exactly as she might have foreseen . <END>:: 8.28275822468444
+<BEGIN> she wrote cheerfully , seemed surrounded with comforts , and mentioned nothing which she could not praise . <END>:: 10.028450152030228
+<BEGIN> i enquired after their brother , of course . <END>:: 5.131127119130904
+<BEGIN> when she did come , it was very evident that she had no pleasure in it ; she made a slight , formal , apology , for not calling before , said not a word of wishing to see me again , and was in every respect so altered a creature , that when she went away , i was perfectly resolved to continue the acquaintance no longer . <END>:: 6.322529925063698
+<BEGIN> i cannot but wonder , however , at her having any such fears now , because , if he had at all cared about me , we must have met long , long ago . <END>:: 6.7339758039705675
+<BEGIN> if i were not afraid of judging harshly , i should be almost tempted to say , that there is a strong appearance of duplicity in all this . <END>:: 8.465526842746982
+<BEGIN> we had better not mention it . <END>:: 3.6608668216369726
+<BEGIN> i am extremely glad that you have such pleasant accounts from our friends at hunsford . <END>:: 11.069229037202456
+<BEGIN> all expectation from the brother was now absolutely over . <END>:: 6.46258565223278
+<BEGIN> mrs . gardiner about this time reminded elizabeth of her promise concerning that gentleman , and required information ; and elizabeth had such to send as might rather give contentment to her aunt than to herself . <END>:: 7.826892602112053
+<BEGIN> but my feelings are not only cordial towards _ him they are even impartial towards miss king . <END>:: 13.509526619393894
+<BEGIN> the farewell between herself and mr . wickham was perfectly friendly ; on his side even more . <END>:: 7.3725709531783625
+<BEGIN> sir william lucas , and his daughter maria , a good humoured girl , but as empty headed as himself , had nothing to say that could be worth hearing , and were listened to with about as much delight as the rattle of the chaise . <END>:: 7.098483787847722
+<BEGIN> elizabeth loved absurdities , but she had known sir william ' s too long . <END>:: 8.770871682528131
+<BEGIN> mrs . gardiner then rallied her niece on wickham ' s desertion , and complimented her on bearing it so well . <END>:: 7.965034893753745
+<BEGIN> if that is all , i have a very poor opinion of young men who live in derbyshire ; and their intimate friends who live in hertfordshire are not much better . <END>:: 8.36607755579418
+<BEGIN> " we have not quite determined how far it shall carry us said mrs . gardiner , " but perhaps to the <URL> <END>:: 6.011600463848347
+<BEGIN> what felicity ! <END>:: 6.131406037094382
+<BEGIN> oh ! <END>:: 2.26428582816329
+<BEGIN> we _ will _ know where we have gone we _ will _ recollect what we have seen . <END>:: 7.112688793252619
+<BEGIN> chapter v . every object in the next day ' s journey was new and interesting to elizabeth ; and her spirits were in a state for enjoyment ; for she had seen her sister looking so well as to banish all fear for her health , and the prospect of her northern tour was a constant source of delight . <END>:: 6.510021195537288
+<BEGIN> elizabeth smiled at the recollection of all that she had heard of its inhabitants . <END>:: 6.540495520710828
+<BEGIN> the garden sloping to the road , the house standing in it , the green pales and the laurel hedge , every thing declared they were arriving . <END>:: 10.869725515204122
+<BEGIN> elizabeth was prepared to see him in his glory ; and she could not help fancying that in displaying the good proportion of the room , its aspect and its furniture , he addressed himself particularly to her , as if wishing to make her feel what she had lost in refusing him . <END>:: 8.745805529608047
+<BEGIN> here , leading the way through every walk and cross walk , and scarcely allowing them an interval to utter the praises he asked for , every view was pointed out with a minuteness which left beauty entirely behind . <END>:: 18.387321111028978
+<BEGIN> we dine at rosings twice every week , and are never allowed to walk home . <END>:: 8.888920719389963
+<BEGIN> her ladyship ' s carriage is regularly ordered for us . <END>:: 10.35937961212338
+<BEGIN> she had also to anticipate how her visit would pass , the quiet tenor of their usual employments , the vexatious interruptions of mr . collins , and the gaieties of their intercourse with rosings . <END>:: 8.497844545443101
+<BEGIN> a lively imagination soon settled it all . <END>:: 10.092301854566678
+<BEGIN> about the middle of the next day , as she was in her room getting ready for a walk , a sudden noise below seemed to speak the whole house in confusion ; and after listening a moment , she heard somebody running up stairs in a violent hurry , and calling loudly after her . <END>:: 12.682469762588664
+<BEGIN> my dear said maria quite shocked at the mistake , " it is not lady catherine . <END>:: 6.472543327292544
+<BEGIN> the old lady is mrs . jenkinson , who lives with them . <END>:: 7.5232094840113195
+<BEGIN> " she looks sickly and <URL> she will do for him very well . <END>:: 4.54259402294044
+<BEGIN> mr . collins no sooner saw the two girls than he began to congratulate them on their good fortune , which charlotte explained by letting them know that the whole party was asked to dine at rosings the next day . <END>:: 8.4697722262271
+<BEGIN> the power of displaying the grandeur of his patroness to his wondering visitors , and of letting them see her civility towards himself and his wife , was exactly what he had wished for ; and that an opportunity of doing it should be given so soon , was such an instance of lady catherine ' s condescension as he knew not how to admire enough . <END>:: 8.367130546743358
+<BEGIN> " i am the less surprised at what has happened replied sir william , " from that knowledge of what the manners of the great really are , which my situation in life has allowed me to acquire . <END>:: 6.0208170819168565
+<BEGIN> scarcely any thing was talked of the whole day or next morning , but their visit to rosings . <END>:: 6.0905313500913945
+<BEGIN> lady catherine is far from requiring that elegance of dress in us , which becomes herself and daughter . <END>:: 9.19375533484422
+<BEGIN> from the entrance hall , of which mr . collins pointed out , with a rapturous air , the fine proportion and finished ornaments , they followed the servants through an anti chamber , to the room where lady catherine , her daughter , and mrs . jenkinson were <URL> ladyship , with great condescension , arose to receive them ; and as mrs . collins had settled it with her husband that the office of introduction should be her ' s , it was performed in a proper manner , without any of those apologies and thanks which he would have thought necessary . <END>:: 8.386755330859671
+<BEGIN> elizabeth found herself quite equal to the scene , and could observe the three ladies before her <URL> catherine was a tall , large woman , with strongly marked features , which might once have been handsome . <END>:: 9.965678547507036
+<BEGIN> " a <URL> <END>:: 0.9864522150755807
+<BEGIN> " no governess ! <END>:: 7.524339673533727
+<BEGIN> without a governess you must have been <URL> <END>:: 5.927148061115566
+<BEGIN> it is wonderful how many families i have been the means of supplying in that way . <END>:: 8.189641762788456
+<BEGIN> " upon my word said her ladyship , " you give your opinion very decidedly for so young a <URL> what is your age <END>:: 6.872027646120303
+<BEGIN> as soon as they had driven from the door , elizabeth was called on by her cousin , to give her opinion of all that she had seen at rosings , which , for charlotte ' s sake , she made more favourable than it really was . <END>:: 5.384252588661428
+<BEGIN> the room in which the ladies sat was backwards . <END>:: 5.067998188285872
+<BEGIN> elizabeth soon perceived that though this great lady was not in the commission of the peace for the county , she was a most active magistrate in her own parish , the minutest concerns of which were carried to her by mr . collins ; and whenever any of the cottagers were disposed to be quarrelsome , discontented or too poor , she sallied forth into the village to settle their differences , silence their complaints , and scold them into harmony and plenty . <END>:: 11.727187561264392
+<BEGIN> his arrival was soon known at the parsonage , for mr . collins was walking the whole morning within view of the lodges opening into hunsford lane , in order to have the earliest assurance of it ; and after making his bow as the carriage turned into the park , hurried home with the great intelligence . <END>:: 10.28452015792398
+<BEGIN> colonel fitzwilliam entered into conversation directly with the readiness and ease of a well bred man , and talked very pleasantly ; but his cousin , after having addressed a slight observation on the house and garden to mrs . collins , sat for some time without speaking to any body . <END>:: 8.134666412680648
+<BEGIN> colonel fitzwilliam had called at the parsonage more than once during the time , but mr . darcy they had only seen at church . <END>:: 6.150397581665162
+<BEGIN> colonel fitzwilliam seemed really glad to see them ; any thing was a welcome relief to him at rosings ; and mrs . collins ' s pretty friend had moreover caught his fancy very much . <END>:: 8.696501919545419
+<BEGIN> how does georgiana get on , darcy <END>:: 7.2887703256938
+<BEGIN> " i assure you , madam he replied , " that she does not need such advice . <END>:: 3.761487697346477
+<BEGIN> elizabeth laughed heartily at this picture of herself , and said to colonel fitzwilliam , " your cousin will give you a very pretty notion of me , and teach you not to believe a word i say . <END>:: 7.359652531917373
+<BEGIN> indeed , mr . darcy , it is very ungenerous in you to mention all that you knew to my disadvantage in hertfordshire and , give me leave to say , very impolitic too for it is provoking me to retaliate , and such things may come out , as will shock your relations to <URL> <END>:: 6.516474800611888
+<BEGIN> " i should like to know how he behaves among <URL> <END>:: 5.315241956429603
+<BEGIN> he danced only four dances ! <END>:: 15.612601164662841
+<BEGIN> he danced only four dances , though gentlemen were scarce ; and , to my certain knowledge , more than one young lady was sitting down in want of a partner . <END>:: 8.5521448191651
+<BEGIN> " i had not at that time the honour of knowing any lady in the assembly beyond my own <URL> <END>:: 5.574150555539478
+<BEGIN> " shall we ask your cousin the reason of this <END>:: 3.878348066575271
+<BEGIN> it is not that i do not believe _ my _ fingers as capable as any other woman ' s of superior <URL> <END>:: 5.944100059283953
+<BEGIN> elizabeth looked at darcy to see how cordially he assented to his cousin ' s praise ; but neither at that moment nor at any other could she discern any symptom of love ; and from the whole of his behaviour to miss de bourgh she derived this comfort for miss bingley , that he might have been just as likely to marry _ her had she been his relation . <END>:: 8.243323234530372
+<BEGIN> elizabeth received them with all the forbearance of civility ; and at the request of the gentlemen remained at the instrument till her ladyship ' s carriage was ready to take them all home . <END>:: 8.207715995040996
+<BEGIN> he and his sisters were well , i hope , when you left <URL> <END>:: 3.6386500135384074
+<BEGIN> he has many friends , and he is at a time of life when friends and engagements are continually <URL> <END>:: 6.6562679899250305
+<BEGIN> elizabeth made no answer . <END>:: 1.757628735539969
+<BEGIN> she was afraid of talking longer of his friend ; and , having nothing else to say , was now determined to leave the trouble of finding a subject to him . <END>:: 5.6603066715472385
+<BEGIN> " an easy distance do you call it ? <END>:: 7.752884699752101
+<BEGIN> " and what is fifty miles of good road ? <END>:: 11.636113697588225
+<BEGIN> " i should never have said mrs . collins was settled _ near _ her <URL> <END>:: 3.753745659539907
+<BEGIN> mr . and mrs . collins have a comfortable income , but not such a one as will allow of frequent journeys and i am persuaded my friend would not call herself _ near _ her family under less than _ half _ the present <URL> <END>:: 6.513074608613382
+<BEGIN> the tête à - tête surprised them . <END>:: 4.290454692601568
+<BEGIN> but why mr . darcy came so often to the parsonage , it was more difficult to understand . <END>:: 4.971515930351151
+<BEGIN> colonel fitzwilliam ' s occasionally laughing at his stupidity , proved that he was generally different , which her own knowledge of him could not have told her ; and as she would have liked to believe this change the effect of love , and the object of that love , her friend eliza , she sat herself seriously to work to find it <URL> watched him whenever they were at rosings , and whenever he came to hunsford ; but without much success . <END>:: 7.20683155709351
+<BEGIN> " do you certainly leave kent on saturday <END>:: 10.286251268063962
+<BEGIN> " he likes to have his own way very well replied colonel fitzwilliam . <END>:: 7.00981129288571
+<BEGIN> it is only that he has better means of having it than many others , because he is rich , and many others are poor . <END>:: 6.468562305386875
+<BEGIN> when have you been prevented by want of money from going wherever you chose , or procuring any thing you had a fancy for <END>:: 10.244988520223039
+<BEGIN> to interrupt a silence which might make him fancy her affected with what had passed , she soon afterwards said , " i imagine your cousin brought you down with him chiefly for the sake of having somebody at his disposal . <END>:: 8.503350252829565
+<BEGIN> young ladies of her age , are sometimes a little difficult to manage , and if she has the true darcy spirit , she may like to have her own <URL> <END>:: 7.953545809709187
+<BEGIN> as she spoke , she observed him looking at her earnestly , and the manner in which he immediately asked her why she supposed miss darcy likely to give them any uneasiness , convinced her that she had somehow or other got pretty near the truth . <END>:: 8.292997576036809
+<BEGIN> " and remember that i have not much reason for supposing it to be bingley . <END>:: 3.6846389002041073
+<BEGIN> why was he to be the judge <END>:: 4.958490138856685
+<BEGIN> " you are rather disposed to call his interference officious <END>:: 13.346605597267441
+<BEGIN> " i do not see what right mr . darcy had to decide on the propriety of his friend ' s inclination , or why , upon his own judgment alone , he was to determine and direct in what manner that friend was to be <URL> <END>:: 5.8199652270762385
+<BEGIN> " but she continued , recollecting herself , " as we know none of the particulars , it is not fair to condemn him . <END>:: 5.319011007993541
+<BEGIN> neither could any thing be urged against my father , who , though with some peculiarities , has abilities which mr . darcy himself need not disdain , and respectability which he will probably never <URL> <END>:: 10.807375480029904
+<BEGIN> she could not think of darcy ' s leaving kent , without remembering that his cousin was to go with him ; but colonel fitzwilliam had made it clear that he had no intentions at all , and agreeable as he was , she did not mean to be unhappy about him . <END>:: 5.953557022355224
+<BEGIN> but this idea was soon banished , and her spirits were very differently affected , when , to her utter amazement , she saw mr . darcy walk into the room . <END>:: 5.871602628212517
+<BEGIN> in an hurried manner he immediately began an enquiry after her health , imputing his visit to a wish of hearing that she were better . <END>:: 11.42799985069555
+<BEGIN> he was struggling for the appearance of composure , and would not open his lips , till he believed himself to have attained it . <END>:: 6.664402311350114
+<BEGIN> i might , perhaps , wish to be informed why , with so little _ endeavour _ at civility , i am thus rejected . <END>:: 6.578235063227038
+<BEGIN> but i have other provocations . <END>:: 4.449022560423529
+<BEGIN> " i have every reason in the world to think ill of you . <END>:: 2.733162299172751
+<BEGIN> you dare not , you cannot deny that you have been the principal , if not the only means of dividing them from each other , of exposing one to the censure of the world for caprice and instability , the other to its derision for disappointed hopes , and involving them both in misery of the acutest <URL> <END>:: 7.968852752155956
+<BEGIN> elizabeth disdained the appearance of noticing this civil reflection , but its meaning did not escape , nor was it likely to conciliate her . <END>:: 12.25786189471946
+<BEGIN> " but it is not merely this affair she continued , " on which my dislike is founded . <END>:: 5.162683106901424
+<BEGIN> long before it had taken place , my opinion of you was decided . <END>:: 5.317240767963965
+<BEGIN> on this subject , what can you have to say ? <END>:: 3.3852602746998537
+<BEGIN> " and of your infliction cried elizabeth with energy . <END>:: 6.618902836528193
+<BEGIN> but disguise of every sort is my abhorrence . <END>:: 8.515086177320855
+<BEGIN> nor am i ashamed of the feelings i related . <END>:: 5.008354719231954
+<BEGIN> that she should receive an offer of marriage from mr . darcy ! <END>:: 3.4656435326092567
+<BEGIN> that he should have been in love with her for so many months ! <END>:: 5.26769449619023
+<BEGIN> he had by that time reached it also , and holding out a letter , which she instinctively took , said with a look of haughty composure , " i have been walking in the grove some time in the hope of meeting you . <END>:: 6.65284112507511
+<BEGIN> you must , therefore , pardon the freedom with which i demand your attention ; your feelings , i know , will bestow it unwillingly , but i demand it of your justice . <END>:: 7.338361367247267
+<BEGIN> your superior knowledge of your sister must make the latter <URL> it be so , if i have been misled by such error , to inflict pain on her , your resentment has not been unreasonable . <END>:: 9.101949960180432
+<BEGIN> but i shall not scruple to assert , that the serenity of your sister ' s countenance and air was such , as might have given the most acute observer , a conviction that , however amiable her temper , her heart was not likely to be easily <URL> i was desirous of believing her indifferent is certain but i will venture to say that my investigations and decisions are not usually influenced by my hopes or <URL> did not believe her to be indifferent because i wished it i believed it on impartial conviction , as truly as i wished it in <URL> objections to the marriage were not merely those , which i last night acknowledged to have required the utmost force of passion to put aside , in my own case ; the want of connection could not be so great an evil to my friend as to <URL> there were other causes of repugnance causes which , though still existing , and existing to an equal degree in both instances , i had myself endeavoured to forget , because they were not immediately before <URL> causes must be stated , though <URL> situation of your mother ' s family , though objectionable , was nothing in comparison of that total want of propriety so frequently , so almost uniformly betrayed by herself , by your three younger sisters , and occasionally even by your <URL> <URL> pains me to offend you . <END>:: 10.9776870698892
+<BEGIN> but amidst your concern for the defects of your nearest relations , and your displeasure at this representation of them , let it give you consolation to consider that , to have conducted yourselves so as to avoid any share of the like censure , is praise no less generally bestowed on you and your eldest sister , than it is honourable to the sense and disposition of <URL> will only say farther , that from what passed that evening , my opinion of all parties was confirmed , and every inducement heightened , which could have led me before , to preserve my friend from what i esteemed a most unhappy <URL> left netherfield for london , on the day following , as you , i am certain , remember , with the design of soon <URL> part which i acted , is now to be <URL> sisters ' uneasiness had been equally excited with my own ; our coincidence of feeling was soon discovered ; and , alike sensible that no time was to be lost in detaching their brother , we shortly resolved on joining him directly in <URL> accordingly went and there i readily engaged in the office of pointing out to my friend , the certain evils of such a <URL> described , and enforced them <URL> however this remonstrance might have staggered or delayed his determination , i do not suppose that it would ultimately have prevented the marriage , had it not been seconded by the assurance which i hesitated not in giving , of your sister ' s indifference . <END>:: 10.333902641189585
+<BEGIN> the vicious propensities the want of principle which he was careful to guard from the knowledge of his best friend , could not escape the observation of a young man of nearly the same age with himself , and who had opportunities of seeing him in unguarded moments , which mr . darcy could not have . <END>:: 10.334849052112812
+<BEGIN> here again i shall give you pain to what degree you only can tell . <END>:: 7.32496408356193
+<BEGIN> i rather wished , than believed him to be sincere ; but at any rate , was perfectly ready to accede to his proposal . <END>:: 7.901488325981967
+<BEGIN> i must now mention a circumstance which i would wish to forget myself , and which no obligation less than the present should induce me to unfold to any human being . <END>:: 11.719860162612088
+<BEGIN> you may imagine what i felt and how i acted . <END>:: 7.220079734416248
+<BEGIN> mr . wickham ' s chief object was unquestionably my sister ' s fortune , which is thirty thousand pounds ; but i cannot help supposing that the hope of revenging himself on me , was a strong inducement . <END>:: 9.330589154552875
+<BEGIN> if your abhorrence of _ me _ should make _ my _ assertions valueless , you cannot be prevented by the same cause from confiding in my cousin ; and that there may be the possibility of consulting him , i shall endeavour to find some opportunity of putting this letter in your hands in the course of the morning . <END>:: 9.613410735669099
+<BEGIN> " fitzwilliam <URL> <END>:: 2.069350486173409
+<BEGIN> with amazement did she first understand that he believed any apology to be in his power ; and steadfastly was she persuaded that he could have no explanation to give , which a just sense of shame would not conceal . <END>:: 9.433520533843417
+<BEGIN> with a strong prejudice against every thing he might say , she began his account of what had happened at netherfield . <END>:: 7.16960338199918
+<BEGIN> astonishment , apprehension , and even horror , oppressed her . <END>:: 6.286213481806881
+<BEGIN> she put down the letter , weighed every circumstance with what she meant to be impartiality deliberated on the probability of each statement but with little success . <END>:: 11.88289442521265
+<BEGIN> again she read on . <END>:: 3.8676249869598913
+<BEGIN> his countenance , voice , and manner , had established him at once in the possession of every virtue . <END>:: 6.471488391105115
+<BEGIN> she tried to recollect some instance of goodness , some distinguished trait of integrity or benevolence , that might rescue him from the attacks of mr . darcy ; or at least , by the predominance of virtue , atone for those casual errors , under which she would endeavour to class , what mr . darcy had described as the idleness and vice of many years continuance . <END>:: 14.255990666998805
+<BEGIN> at one time she had almost resolved on applying to him , but the idea was checked by the awkwardness of the application , and at length wholly banished by the conviction that mr . darcy would never have hazarded such a proposal , if he had not been well assured of his cousin ' s corroboration . <END>:: 7.874183020915732
+<BEGIN> from herself to jane from jane to bingley , her thoughts were in a line which soon brought to her recollection that mr . darcy ' s explanation _ there had appeared very insufficient ; and she read it again . <END>:: 5.4109055416986624
+<BEGIN> when she came to that part of the letter in which her family were mentioned , in terms of such mortifying , yet merited reproach , her sense of shame was severe . <END>:: 9.35699186223605
+<BEGIN> " what would she have said how would she have behaved <END>:: 5.066640779246342
+<BEGIN> his attachment to rosings , certainly <URL> <END>:: 4.72099301046825
+<BEGIN> " you are all kindness , madam ; but i believe we must abide by our original <URL> <END>:: 9.154512216989671
+<BEGIN> " oh your uncle he keeps a man servant , does he i am very glad you have somebody who thinks of those things . <END>:: 9.594927568642468
+<BEGIN> reflection must be reserved for solitary hours ; whenever she was alone , she gave way to it as the greatest relief ; and not a day went by without a solitary walk , in which she might indulge in all the delight of unpleasant recollections . <END>:: 11.668930834393857
+<BEGIN> his attachment excited gratitude , his general character respect ; but she could not approve him ; nor could she for a moment repent her refusal , or feel the slightest inclination ever to see him again . <END>:: 10.846467328013764
+<BEGIN> while there was an officer in meryton , they would flirt with him ; and while meryton was within a walk of longbourn , they would be going there for ever . <END>:: 7.3960027138933295
+<BEGIN> how grievous then was the thought that , of a situation so desirable in every respect , so replete with advantage , so promising for happiness , jane had been deprived , by the folly and indecorum of her own family ! <END>:: 8.748584396104746
+<BEGIN> she had spent six weeks with great enjoyment ; and the pleasure of being with charlotte , and the kind attentions she had received , must make _ her _ feel the obliged . <END>:: 6.6277619125803335
+<BEGIN> we have certainly done our best ; and most fortunately having it in our power to introduce you to very superior society , and from our connection with rosings , the frequent means of varying the humble home scene , i think we may flatter ourselves that your hunsford visit cannot have been entirely irksome . <END>:: 15.150526983749492
+<BEGIN> in truth i must acknowledge that , with all the disadvantages of this humble parsonage , i should not think any one abiding in it an object of compassion , while they are sharers of our intimacy at <URL> <END>:: 9.60081916998178
+<BEGIN> " you may , in fact , carry a very favourable report of us into hertfordshire , my dear cousin . <END>:: 6.847020588424084
+<BEGIN> only let me assure you , my dear miss elizabeth , that i can from my heart most cordially wish you equal felicity in marriage . <END>:: 7.348829302682467
+<BEGIN> my dear charlotte and i have but one mind and one way of thinking . <END>:: 3.8617002073486635
+<BEGIN> elizabeth made no objection the door was then allowed to be shut , and the carriage drove off . <END>:: 7.043753842550674
+<BEGIN> " a great many indeed said her companion with a sigh . <END>:: 7.0085517820581575
+<BEGIN> their journey was performed without much conversation , or any alarm ; and within four hours of their leaving hunsford , they reached mr . gardiner ' s house , where they were to remain a few days . <END>:: 9.789382690073985
+<BEGIN> but jane was to go home with her , and at longbourn there would be leisure enough for observation . <END>:: 5.2461171150061165
+<BEGIN> i shall pull it to pieces as soon as i get home , and see if i can make it up any <URL> <END>:: 6.006019457469893
+<BEGIN> you thought the waiter must not hear , as if he cared ! <END>:: 8.768278429905706
+<BEGIN> i am glad he is gone . <END>:: 3.354676586104864
+<BEGIN> well , but now for my news : it is about dear wickham ; too good for the waiter , is not it ? <END>:: 6.094496536884483
+<BEGIN> there is no danger of wickham ' s marrying mary king . <END>:: 7.698698851229052
+<BEGIN> there ' s for you ! <END>:: 2.720506845477574
+<BEGIN> she is gone down to her uncle at liverpool ; gone to stay . <END>:: 6.45431913045854
+<BEGIN> " she is a great fool for going away , if she liked <URL> <END>:: 5.789312593563582
+<BEGIN> " i am glad i bought my bonnet , if it is only for the fun of having another bandbox ! <END>:: 10.8159767691562
+<BEGIN> and in the first place , let us hear what has happened to you all , since you went away . <END>:: 3.7613035555512178
+<BEGIN> have you seen any pleasant men ? <END>:: 8.704794298664812
+<BEGIN> we dressed up chamberlayne in woman ' s clothes , on purpose to pass for a lady only think what fun ! <END>:: 13.31887836531603
+<BEGIN> how i laughed ! <END>:: 10.67833690442417
+<BEGIN> their reception at home was most kind . <END>:: 6.088337083235481
+<BEGIN> mrs . bennet rejoiced to see jane in undiminished beauty ; and more than once during dinner did mr . bennet say voluntarily to elizabeth , " i am glad you are come back , <URL> <END>:: 6.004076895719046
+<BEGIN> i was ready to die of laughter . <END>:: 8.380184133944582
+<BEGIN> and then we were so merry all the way home ! <END>:: 7.2273893443006845
+<BEGIN> but i confess they would have no charms for _ me <END>:: 7.093702529762708
+<BEGIN> in a fortnight they were to go , and once gone , she hoped there could be nothing more to plague her on his account . <END>:: 5.548068889539738
+<BEGIN> she was sorry that mr . darcy should have delivered his sentiments in a manner so little suited to recommend them ; but still more was she grieved for the unhappiness which her sister ' s refusal must have given him . <END>:: 8.712883250030648
+<BEGIN> take your choice , but you must be satisfied with only one . <END>:: 5.578793755847506
+<BEGIN> " i do not know when i have been more shocked said she . <END>:: 4.066050848711808
+<BEGIN> and with the knowledge of your ill opinion too ! <END>:: 4.858616528803122
+<BEGIN> no , my regret and compassion are all done away by seeing you so full of both . <END>:: 8.524738517364938
+<BEGIN> i know you will do him such ample justice , that i am growing every moment more unconcerned and indifferent . <END>:: 11.767188628137085
+<BEGIN> it is such a spur to one ' s genius , such an opening for wit to have a dislike of that kind . <END>:: 6.748749558963803
+<BEGIN> and with no one to speak to , of what i felt , no jane to comfort me and say that i had not been so very weak and vain and nonsensical as i knew i had ! <END>:: 5.219711105745043
+<BEGIN> but the misfortune of speaking with bitterness , is a most natural consequence of the prejudices i had been encouraging . <END>:: 9.252438053492947
+<BEGIN> miss bennet paused a little and then replied , " surely there can be no occasion for exposing him so dreadfully . <END>:: 9.23603687257604
+<BEGIN> we must not make him <URL> <END>:: 4.648860727367752
+<BEGIN> " and then said she , " if that very improbable event should ever take place , i shall merely be able to tell what bingley may tell in a much more agreeable manner himself . <END>:: 6.511001885718804
+<BEGIN> for my part , i am determined never to speak of it again to anybody . <END>:: 3.763555229863878
+<BEGIN> it is just as he chooses . <END>:: 4.732526099285623
+<BEGIN> though i shall always say that he used my daughter extremely ill ; and if i was her , i would not have put up with it . <END>:: 5.07047204155115
+<BEGIN> there is nothing extravagant in _ their _ housekeeping , i dare <URL> <END>:: 7.19787614070231
+<BEGIN> yes , yes . <END>:: 3.0202974101662776
+<BEGIN> " it was a subject which they could not mention before <URL> <END>:: 4.195314465376465
+<BEGIN> " no . <END>:: 1.0136761814480095
+<BEGIN> it would have been strange if they had . <END>:: 4.1408737752114915
+<BEGIN> but i make no doubt , they often talk of it between themselves . <END>:: 3.8778341728291013
+<BEGIN> chapter xviii . <END>:: 3.672629153148494
+<BEGIN> the second began . <END>:: 3.3435006040315605
+<BEGIN> the dejection was almost universal . <END>:: 10.92269240556114
+<BEGIN> their affectionate mother shared all their grief ; she remembered what she had herself endured on a similar occasion , five and twenty years ago . <END>:: 15.320728213826268
+<BEGIN> " if one could but go to brighton <END>:: 1.8467547573774694
+<BEGIN> such were the kind of lamentations resounding perpetually through longbourn house . <END>:: 18.844714976675412
+<BEGIN> this invaluable friend was a very young woman , and very lately married . <END>:: 7.605337329089919
+<BEGIN> he heard her attentively , and then said , " lydia will never be easy till she has exposed herself in some public place or other , and we can never expect her to do it with so little expense or inconvenience to her family as under the present <URL> <END>:: 8.399820187581053
+<BEGIN> repeated mr . bennet . <END>:: 2.3441050860297366
+<BEGIN> wherever you and jane are known , you must be respected and valued ; and you will not appear to less advantage for having a couple of or i may say , three very silly sisters . <END>:: 8.859283327779996
+<BEGIN> colonel forster is a sensible man , and will keep her out of any real mischief ; and she is luckily too poor to be an object of prey to any body . <END>:: 7.970850504982822
+<BEGIN> she saw with the creative eye of fancy , the streets of that gay bathing place covered with officers . <END>:: 13.20612865653703
+<BEGIN> she saw all the glories of the camp ; its tents stretched forth in beauteous uniformity of lines , crowded with the young and the gay , and dazzling with scarlet ; and to complete the view , she saw herself seated beneath a tent , tenderly flirting with at least six officers at once . <END>:: 19.797709858878665
+<BEGIN> they could have been understood only by her mother , who might have felt nearly the same . <END>:: 8.951754414907779
+<BEGIN> but checking himself , he added in a gayer tone , " is it in address that he improves ? <END>:: 8.81160034354436
+<BEGIN> has he deigned to add ought of civility to his ordinary style ? <END>:: 19.26716792216322
+<BEGIN> for i dare not hope he continued in a lower and more serious tone , " that he is improved in <URL> <END>:: 6.942668589679202
+<BEGIN> " in essentials , i believe , he is very much what he ever <URL> <END>:: 3.1880506670975923
+<BEGIN> elizabeth could not repress a smile at this , but she answered only by a slight inclination of the head . <END>:: 6.450631233348194
+<BEGIN> the rest of the evening passed with the _ appearance on his side , of usual cheerfulness , but with no farther attempt to distinguish elizabeth ; and they parted at last with mutual civility , and possibly a mutual desire of never meeting again . <END>:: 7.889396056189552
+<BEGIN> when the party broke up , lydia returned with mrs . forster to meryton , from whence they were to set out early the next morning . <END>:: 8.034376045727395
+<BEGIN> chapter xix . <END>:: 5.10385011811286
+<BEGIN> he was fond of the country and of books ; and from these tastes had arisen his principal enjoyments . <END>:: 10.741290188884891
+<BEGIN> this is not the sort of happiness which a man would in general wish to owe to his wife ; but where other powers of entertainment are wanting , the true philosopher will derive benefit from such as are given . <END>:: 11.322308091492738
+<BEGIN> their parties abroad were less varied than before ; and at home she had a mother and sister whose constant repinings at the dulness of every thing around them , threw a real gloom over their domestic circle ; and , though kitty might in time regain her natural degree of sense , since the disturbers of her brain were removed , her other sister , from whose disposition greater evil might be apprehended , was likely to be hardened in all her folly and assurance , by a situation of such double danger as a watering place and a camp . <END>:: 14.79854923426891
+<BEGIN> it was consequently necessary to name some other period for the commencement of actual felicity ; to have some other point on which her wishes and hopes might be fixed , and by again enjoying the pleasure of anticipation , console herself for the present , and prepare for another disappointment . <END>:: 11.820468827104769
+<BEGIN> when lydia went away , she promised to write very often and very minutely to her mother and kitty ; but her letters were always long expected , and always very short . <END>:: 6.569600368432366
+<BEGIN> after the first fortnight or three weeks of her absence , health , good humour and cheerfulness began to re appear at longbourn . <END>:: 12.114103329033638
+<BEGIN> elizabeth was excessively disappointed ; she had set her heart on seeing the lakes ; and still thought there might have been time enough . <END>:: 7.659927926964595
+<BEGIN> the children , two girls of six and eight years old , and two younger boys , were to be left under the particular care of their cousin jane , who was the general favourite , and whose steady sense and sweetness of temper exactly adapted her for attending to them in every way teaching them , playing with them , and loving them . <END>:: 11.021133246149535
+<BEGIN> " a place too , with which so many of your acquaintance are connected . <END>:: 5.053950037012798
+<BEGIN> she felt that she had no business at pemberley , and was obliged to assume a disinclination for seeing it . <END>:: 6.416883025127913
+<BEGIN> it would be dreadful ! <END>:: 6.544177208742309
+<BEGIN> but against this , there were objections ; and she finally resolved that it could be the last resource , if her private enquiries as to the absence of the family , were unfavourably answered . <END>:: 7.507910185789495
+<BEGIN> to pemberley , therefore , they were to go . <END>:: 2.4493041450648816
+<BEGIN> they entered it in one of its lowest points , and drove for some time through a beautiful wood , stretching over a wide extent . <END>:: 17.99773110178693
+<BEGIN> elizabeth ' s mind was too full for conversation , but she saw and admired every remarkable spot and point of view . <END>:: 9.677467774986622
+<BEGIN> its banks were neither formal , nor falsely adorned . <END>:: 31.677458266540377
+<BEGIN> she had never seen a place for which nature had done more , or where natural beauty had been so little counteracted by an awkward taste . <END>:: 10.742592411026953
+<BEGIN> they were all of them warm in their admiration ; and at that moment she felt , that to be mistress of pemberley might be something ! <END>:: 5.953571931822758
+<BEGIN> they followed her into the dining parlour . <END>:: 4.454754164091574
+<BEGIN> the rooms were lofty and handsome , and their furniture suitable to the fortune of their proprietor ; but elizabeth saw , with admiration of his taste , that it was neither gaudy nor uselessly fine ; with less of splendor , and more real elegance , than the furniture of rosings . <END>:: 11.43095419360076
+<BEGIN> at length , however , the question was asked by her uncle ; and she turned away with alarm , while mrs . reynolds replied , that he was , adding , " but we expect him to morrow , with a large party of <URL> <END>:: 4.597246739429564
+<BEGIN> the housekeeper came forward , and told them it was the picture of a young gentleman , the son of her late master ' s steward , who had been brought up by him at his own <URL> is now gone into the army she added , " but i am afraid he has turned out very <URL> <END>:: 5.324101970811864
+<BEGIN> " and that said mrs . reynolds , pointing to another of the miniatures , " is my master and very like him . <END>:: 5.03826594937822
+<BEGIN> this accounted to elizabeth for mr . wickham ' s being among them . <END>:: 4.780929912097668
+<BEGIN> " oh ! <END>:: 1.793921275063175
+<BEGIN> mr . gardiner , whose manners were easy and pleasant , encouraged her communicativeness by his questions and remarks ; mrs . reynolds , either from pride or attachment , had evidently great pleasure in talking of her master and his sister . <END>:: 8.4402056778042
+<BEGIN> " is your master much at pemberley in the course of the year <END>:: 4.6826716089209
+<BEGIN> " except thought elizabeth , " when she goes to <URL> <END>:: 3.707558468866864
+<BEGIN> elizabeth could not help saying , " it is very much to his credit , i am sure , that you should think <URL> <END>:: 3.079219977167249
+<BEGIN> this was praise , of all others most extraordinary , most opposite to her ideas . <END>:: 5.979122497034661
+<BEGIN> her keenest attention was awakened ; she longed to hear more , and was grateful to her uncle for saying , " there are very few people of whom so much can be said . <END>:: 7.20974532168346
+<BEGIN> thought she . <END>:: 1.61670473072438
+<BEGIN> mrs . reynolds could interest her on no other point . <END>:: 5.172708653155392
+<BEGIN> not like the wild young men now a - days , who think of nothing but themselves . <END>:: 8.514101913983634
+<BEGIN> there is not one of his tenants or servants but what will give him a good name . <END>:: 7.328172182656795
+<BEGIN> there is nothing he would not do for <URL> <END>:: 3.595680994435175
+<BEGIN> there was certainly at this moment , in elizabeth ' s mind , a more gentle sensation towards the original , than she had ever felt in the height of their acquaintance . <END>:: 6.727442128447847
+<BEGIN> as a brother , a landlord , a master , she considered how many people ' s happiness were in his guardianship how much of pleasure or pain it was in his power to bestow how much of good or evil must be done by him ! <END>:: 8.526326449853052
+<BEGIN> every idea that had been brought forward by the housekeeper was favourable to his character , and as she stood before the canvas , on which he was represented , and fixed his eyes upon herself , she thought of his regard with a deeper sentiment of gratitude than it had ever raised before ; she remembered its warmth , and softened its impropriety of expression . <END>:: 11.039314539057983
+<BEGIN> as they walked across the lawn towards the river , elizabeth turned back to look again ; her uncle and aunt stopped also , and while the former was conjecturing as to the date of the building , the owner of it himself suddenly came forward from the road , which led behind it to the stables . <END>:: 9.655317467177557
+<BEGIN> he absolutely started , and for a moment seemed immoveable from surprise ; but shortly recovering himself , advanced towards the party , and spoke to elizabeth , if not in terms of perfect composure , at least of perfect civility . <END>:: 10.333497441544852
+<BEGIN> they stood a little aloof while he was talking to their niece , who , astonished and confused , scarcely dared lift her eyes to his face , and knew not what answer she returned to his civil enquiries after her family . <END>:: 9.207353207868382
+<BEGIN> how strange must it appear to him ! <END>:: 7.649598601528465
+<BEGIN> or , why did he thus come a day before he was expected ? <END>:: 7.75992961103272
+<BEGIN> had they been only ten minutes sooner , they should have been beyond the reach of his discrimination , for it was plain that he was that moment arrived , that moment alighted from his horse or his carriage . <END>:: 8.567829985357823
+<BEGIN> perhaps he had been civil , only because he felt himself at ease ; yet there had been _ that _ in his voice , which was not like ease . <END>:: 8.415805189672087
+<BEGIN> the walk being here less sheltered than on the other side , allowed them to see him before they met . <END>:: 7.707811191332139
+<BEGIN> this idea lasted while a turning in the walk concealed him from their view ; the turning past , he was immediately before them . <END>:: 12.809300351157471
+<BEGIN> with a glance she saw , that he had lost none of his recent civility ; and , to imitate his politeness , she began , as they met , to admire the beauty of the place ; but she had not got beyond the words " delightful and " charming when some unlucky recollections obtruded , and she fancied that praise of pemberley from her , might be mischievously construed . <END>:: 9.031418468388004
+<BEGIN> her colour changed , and she said no more . <END>:: 4.024732117259126
+<BEGIN> it cannot be for _ me it cannot be for _ my _ sake that his manners are thus softened . <END>:: 6.158723226448329
+<BEGIN> after a short silence , the lady first spoke . <END>:: 3.872760149702191
+<BEGIN> elizabeth answered only by a slight bow . <END>:: 5.635022602886821
+<BEGIN> she immediately felt that whatever desire miss darcy might have of being acquainted with her , must be the work of her brother , and without looking farther , it was satisfactory ; it was gratifying to know that his resentment had not made him think really ill of her . <END>:: 6.086368912896833
+<BEGIN> at such a time , much might have been said , and silence was very awkward . <END>:: 3.9720077739573947
+<BEGIN> " i was never more surprised than by his behaviour to us . <END>:: 3.8174977285206784
+<BEGIN> on the contrary , there is something pleasing about his mouth when he speaks . <END>:: 8.44879237369541
+<BEGIN> and there is something of dignity in his countenance , that would not give one an unfavourable idea of his heart . <END>:: 7.957996931884827
+<BEGIN> but he is a liberal master , i suppose , and _ that _ in the eye of a servant comprehends every <URL> <END>:: 5.880713746341732
+<BEGIN> fatigued as she had been by the morning ' s walk , they had no sooner dined than she set off again in quest of her former acquaintance , and the evening was spent in the satisfactions of an intercourse renewed after many years discontinuance . <END>:: 10.85756699733627
+<BEGIN> her uncle and aunt were all amazement ; and the embarrassment of her manner as she spoke , joined to the circumstance itself , and many of the circumstances of the preceding day , opened to them a new idea on the business . <END>:: 6.703917018776999
+<BEGIN> she retreated from the window , fearful of being seen ; and as she walked up and down the room , endeavouring to compose herself , saw such looks of enquiring surprise in her uncle and aunt , as made every thing worse . <END>:: 7.645641171082843
+<BEGIN> she was less handsome than her brother , but there was sense and good humour in her face , and her manners were perfectly unassuming and gentle . <END>:: 6.538137216287723
+<BEGIN> elizabeth , who had expected to find in her as acute and unembarrassed an observer as ever mr . darcy had been , was much relieved by discerning such different feelings . <END>:: 7.882674162287397
+<BEGIN> he enquired in a friendly , though general way , after her family , and looked and spoke with the same good humoured ease that he had ever done . <END>:: 8.190799373590513
+<BEGIN> the suspicions which had just arisen of mr . darcy and their niece , directed their observation towards each with an earnest , though guarded , enquiry ; and they soon drew from those enquiries the full conviction that one of them at least knew what it was to love . <END>:: 10.090601111248905
+<BEGIN> she wanted to ascertain the feelings of each of her visitors , she wanted to compose her own , and to make herself agreeable to all ; and in the latter object , where she feared most to fail , she was most sure of success , for those to whom she endeavoured to give pleasure were prepossessed in her favour . <END>:: 7.839235335192568
+<BEGIN> bingley was ready , georgiana was eager , and darcy determined , to be pleased . <END>:: 4.463491616206587
+<BEGIN> never , even in the company of his dear friends at netherfield , or his dignified relations at rosings , had she seen him so desirous to please , so free from self consequence , or unbending reserve as now , when no importance could result from the success of his endeavours , and when even the acquaintance of those to whom his attentions were addressed , would draw down the ridicule and censure of the ladies both of netherfield and rosings . <END>:: 10.79261629272049
+<BEGIN> presuming , however , that this studied avoidance spoke rather a momentary embarrassment , than any dislike of the proposal , and seeing in her husband , who was fond of society , a perfect willingness to accept it , she ventured to engage for her attendance , and the day after the next was fixed on . <END>:: 10.366897271737995
+<BEGIN> elizabeth , construing all this into a wish of hearing her speak of her sister , was pleased ; and on this account , as well as some others , found herself , when their visitors left them , capable of considering the last half hour with some satisfaction , though while it was passing , the enjoyment of it had been little . <END>:: 6.710367739446669
+<BEGIN> there was now an interest , however , in believing the housekeeper ; and they soon became sensible , that the authority of a servant who had known him since he was four years old , and whose own manners indicated respectability , was not to be hastily rejected . <END>:: 9.084609247364284
+<BEGIN> mr . gardiner left them soon after breakfast . <END>:: 4.730239692233787
+<BEGIN> its windows opening to the ground , admitted a most refreshing view of the high woody hills behind the house , and of the beautiful oaks and spanish chesnuts which were scattered over the intermediate lawn . <END>:: 21.482388224666806
+<BEGIN> by mrs . hurst and miss bingley , they were noticed only by a curtsey ; and on their being seated , a pause , awkward as such pauses must always be , succeeded for a few moments . <END>:: 7.228320975301847
+<BEGIN> it was first broken by mrs . annesley , a genteel , agreeable looking woman , whose endeavour to introduce some kind of discourse , proved her to be more truly well bred than either of the others ; and between her and mrs . gardiner , with occasional help from elizabeth , the conversation was carried on . <END>:: 9.857791632924357
+<BEGIN> elizabeth soon saw that she was herself closely watched by miss bingley , and that she could not speak a word , especially to miss darcy , without calling her attention . <END>:: 5.833212523374362
+<BEGIN> after sitting in this manner a quarter of an hour , without hearing miss bingley ' s voice , elizabeth was roused by receiving from her a cold enquiry after the health of her family . <END>:: 7.550741996051043
+<BEGIN> there was now employment for the whole party ; for though they could not all talk , they could all eat ; and the beautiful pyramids of grapes , nectarines , and peaches , soon collected them round the table . <END>:: 8.990217699228193
+<BEGIN> he had been some time with mr . gardiner , who , with two or three other gentlemen from the house , was engaged by the river , and had left him only on learning that the ladies of the family intended a visit to georgiana that morning . <END>:: 6.0855252543170755
+<BEGIN> no sooner did he appear , than elizabeth wisely resolved to be perfectly easy and unembarrassed a resolution the more necessary to be made , but perhaps not the more easily kept , because she saw that the suspicions of the whole party were awakened against them , and that there was scarcely an eye which did not watch his behaviour when he first came into the room . <END>:: 8.109227886360095
+<BEGIN> miss bingley saw all this likewise ; and , in the imprudence of anger , took the first opportunity of saying , with sneering civility , " pray , miss eliza , are not the shire militia removed from meryton ? <END>:: 8.10500325878127
+<BEGIN> when darcy returned to the saloon , miss bingley could not help repeating to him some part of what she had been saying to his sister . <END>:: 5.9692894491824315
+<BEGIN> louisa and i were agreeing that we should not have known her <URL> <END>:: 7.6727595241376445
+<BEGIN> he then went away , and miss bingley was left to all the satisfaction of having forced him to say what gave no one any pain but herself . <END>:: 5.956250493582179
+<BEGIN> it was to this effect : " since writing the above , dearest lizzy , something has occurred of a most unexpected and serious nature ; but i am afraid of alarming you be assured that we are all well . <END>:: 8.02719389529487
+<BEGIN> an express came at twelve last night , just as we were all gone to bed , from colonel forster , to inform us that she was gone off to scotland with one of his officers ; to own the truth , with wickham imagine our surprise . <END>:: 7.992337190195639
+<BEGIN> so imprudent a match on both sides but i am willing to hope the best , and that his character has been misunderstood . <END>:: 6.071058493716532
+<BEGIN> colonel forster came yesterday , having left brighton the day before , not many hours after the express . <END>:: 9.478773558814549
+<BEGIN> adieu . <END>:: 7.913916130784965
+<BEGIN> on his quitting the room , she sat down , unable to support herself , and looking so miserably ill , that it was impossible for darcy to leave her , or to refrain from saying , in a tone of gentleness and commiseration , " let me call your maid . <END>:: 6.531570579161869
+<BEGIN> is there nothing you could take , to give you present relief a glass of wine shall i get you one you are very <URL> " no , i thank you she replied , endeavouring to recover herself . <END>:: 7.856605217962586
+<BEGIN> my youngest sister has left all her friends has eloped has thrown herself into the power of of mr . wickham . <END>:: 8.025890937220613
+<BEGIN> they are gone off together from brighton . <END>:: 7.04376383543249
+<BEGIN> had i but explained some part of it only some part of what i learnt , to my own family ! <END>:: 6.630652130181326
+<BEGIN> but it is all , all too late <URL> <END>:: 3.620676238638801
+<BEGIN> how is such a man to be worked on ? <END>:: 7.441840582009414
+<BEGIN> but i knew not i was afraid of doing too much . <END>:: 4.5557469674381545
+<BEGIN> her power was sinking ; every thing _ must _ sink under such a proof of family weakness , such an assurance of the deepest disgrace . <END>:: 14.58422568808164
+<BEGIN> lydia the humiliation , the misery , she was bringing on them all , soon swallowed up every private care ; and covering her face with her handkerchief , elizabeth was soon lost to every thing else ; and , after a pause of several minutes , was only recalled to a sense of her situation by the voice of her companion , who , in a manner , which though it spoke compassion , spoke likewise restraint , said , " i am afraid you have been long desiring my absence , nor have i any thing to plead in excuse of my stay , but real , though unavailing , concern . <END>:: 7.869979089153739
+<BEGIN> would to heaven that any thing could be either said or done on my part , that might offer consolation to such <URL> i will not torment you with vain wishes , which may seem purposely to ask for your thanks . <END>:: 9.495123848068028
+<BEGIN> an hour , however , saw the whole completed ; and mr . gardiner meanwhile having settled his account at the inn , nothing remained to be done but to go ; and elizabeth , after all the misery of the morning , found herself , in a shorter space of time than she could have supposed , seated in the carriage , and on the road to longbourn . <END>:: 6.147400285668637
+<BEGIN> " do you really think so <END>:: 4.384223615935257
+<BEGIN> it is really too great a violation of decency , honour , and interest , for him to be guilty of it . <END>:: 5.601139471819298
+<BEGIN> why should they not go on to scotland , if that had been the case <END>:: 5.579002476901808
+<BEGIN> " in the first place replied mr . gardiner , " there is no absolute proof that they are not gone to <URL> <END>:: 4.641318959167613
+<BEGIN> oh ! <END>:: 2.26428582816329
+<BEGIN> his most particular friend , you see by jane ' s account , was persuaded of his never intending to marry her . <END>:: 6.178310112668224
+<BEGIN> wickham will never marry a woman without some money . <END>:: 8.898695855224483
+<BEGIN> but , really , i know not what to say . <END>:: 2.0523843427658672
+<BEGIN> she has been allowed to dispose of her time in the most idle and frivolous manner , and to adopt any opinions that came in her way . <END>:: 7.763620990960927
+<BEGIN> " but you see that jane said her aunt , " does not think so ill of wickham , as to believe him capable of the <URL> <END>:: 2.8518149496710197
+<BEGIN> " oh , yes that , that is the worst of all . <END>:: 2.5759372420148843
+<BEGIN> that such a consequence as _ this _ should ensue , you may easily believe was far enough from my <URL> <END>:: 6.257610237860362
+<BEGIN> from elizabeth ' s thoughts it was never absent . <END>:: 6.124268739524564
+<BEGIN> the little gardiners , attracted by the sight of a chaise , were standing on the steps of the house , as they entered the paddock ; and when the carriage drove up to the door , the joyful surprise that lighted up their faces , and displayed itself over their whole bodies , in a variety of capers and frisks , was the first pleasing earnest of their welcome . <END>:: 10.285487262718453
+<BEGIN> elizabeth jumped out ; and , after giving each of them an hasty kiss , hurried into the vestibule , where jane , who came running down stairs from her mother ' s apartment , immediately met her . <END>:: 11.08358612872728
+<BEGIN> mary and kitty , thank heaven ! <END>:: 5.5657121880735465
+<BEGIN> are quite <URL> <END>:: 4.225836043763133
+<BEGIN> they all exclaimed against such terrific ideas ; and mr . gardiner , after general assurances of his affection for her and all her family , told her that he meant to be in london the very next day , and would assist mr . bennet in every endeavour for recovering lydia . <END>:: 7.131392517012031
+<BEGIN> in a few days more , we may gain some news of them , and till we know that they are not married , and have no design of marrying , do not let us give the matter over as lost . <END>:: 6.039115929152783
+<BEGIN> tell him what a dreadful state i am in that i am frightened out of my wits ; and have such tremblings , such flutterings , all over me , such spasms in my side , and pains in my head , and such beatings at heart , that i can get no rest by night nor by day . <END>:: 8.63904590023963
+<BEGIN> oh , brother , how kind you are ! <END>:: 4.10474429699625
+<BEGIN> though her brother and sister were persuaded that there was no real occasion for such a seclusion from the family , they did not attempt to oppose it , for they knew that she had not prudence enough to hold her tongue before the servants , while they waited at table , and judged it better that _ one _ only of the household , and the one whom they could most trust , should comprehend all her fears and solicitude on the subject . <END>:: 8.537110019048805
+<BEGIN> they must have seen them together for <URL> <END>:: 6.434500245559939
+<BEGIN> " and was denny convinced that wickham would not marry ? <END>:: 7.240444931722106
+<BEGIN> " yes ; but when questioned by _ him _ denny denied knowing any thing of their plan , and would not give his real opinion about it . <END>:: 9.026610530578939
+<BEGIN> you need not send them word at longbourn of my going , if you do not like it , for it will make the surprise the greater , when i write to them , and sign my name lydia wickham . <END>:: 5.358171529477078
+<BEGIN> " oh ! <END>:: 1.793921275063175
+<BEGIN> thoughtless , thoughtless lydia <END>:: 23.814037831022166
+<BEGIN> whatever he might afterwards persuade her to , it was not on her side a _ scheme _ of infamy . <END>:: 5.300394971612461
+<BEGIN> my mother was taken ill immediately , and the whole house in such confusion <END>:: 8.41200537897048
+<BEGIN> " your attendance upon her , has been too much for you . <END>:: 5.609460728350929
+<BEGIN> " he meant , i believe replied jane , " to go to epsom , the place where they last changed horses , see the postilions , and try if any thing could be made out from them . <END>:: 7.167956849339017
+<BEGIN> it had come with a fare from london ; and as he thought the circumstance of a gentleman and lady ' s removing from one carriage into another , might be remarked , he meant to make enquiries at clapham . <END>:: 8.425231849297527
+<BEGIN> i do not know of any other designs that he had formed : but he was in such a hurry to be gone , and his spirits so greatly discomposed , that i had difficulty in finding out even so much as <URL> <END>:: 8.515956107959468
+<BEGIN> he added , that mr . bennet seemed wholly disinclined at present , to leave london , and promised to write again very soon . <END>:: 5.7030837712043265
+<BEGIN> she had never heard of his having had any relations , except a father and mother , both of whom had been dead many years . <END>:: 6.546616966685104
+<BEGIN> it was as follows : " my dear sir , " i feel myself called upon , by our relationship , and my situation in life , to condole with you on the grievous affliction you are now suffering under , of which we were yesterday informed by a letter from hertfordshire . <END>:: 8.341587101217145
+<BEGIN> and it is the more to be lamented , because there is reason to suppose , as my dear charlotte informs me , that this licentiousness of behaviour in your daughter , has proceeded from a faulty degree of indulgence , though , at the same time , for the consolation of yourself and mrs . bennet , i am inclined to think that her own disposition must be naturally bad , or she could not be guilty of such an enormity , at so early an age . <END>:: 7.626258502001082
+<BEGIN> the coach , therefore , took them the first stage of their journey , and brought its master back to longbourn . <END>:: 8.466391460429431
+<BEGIN> his name had never been voluntarily mentioned before them by her niece ; and the kind of half expectation which mrs . gardiner had formed , of their being followed by a letter from him , had ended in nothing . <END>:: 7.258242747031778
+<BEGIN> when mr . bennet arrived , he had all the appearance of his usual philosophic composure . <END>:: 6.013492665808519
+<BEGIN> human nature is so prone to fall into it ! <END>:: 17.490866300631048
+<BEGIN> " and lydia used to want to go to london added kitty . <END>:: 5.325859217460777
+<BEGIN> another day i will do the same ; i will sit in my library , in my night cap and powdering gown , and give as much trouble as i can or , perhaps , i may defer it , till kitty runs <URL> <END>:: 9.186800426994
+<BEGIN> no officer is ever to enter my house again , nor even to pass through the village . <END>:: 11.718967805151344
+<BEGIN> chapter vii . <END>:: 5.109814856365448
+<BEGIN> soon after you left me on saturday , i was fortunate enough to find out in what part of london they were . <END>:: 5.96570261847405
+<BEGIN> it is enough to know they are discovered , i have seen them both " then it is , as i always hoped cried jane ; " they are married <END>:: 5.028918876674445
+<BEGIN> these are conditions , which , considering every thing , i had no hesitation in complying with , as far as i thought myself privileged , for you . <END>:: 6.837360589310223
+<BEGIN> i shall write again as soon as any thing more is determined on . <END>:: 5.752216060796466
+<BEGIN> " i dislike it very much he replied ; " but it must be <URL> <END>:: 3.0580060206609243
+<BEGIN> " and they _ must _ marry ! <END>:: 4.009051548082976
+<BEGIN> " i mean , that no man in his senses , would marry lydia on so slight a temptation as one hundred a year during my life , and fifty after i am <URL> <END>:: 9.067607752715555
+<BEGIN> oh ! <END>:: 2.26428582816329
+<BEGIN> generous , good man , i am afraid he has distressed himself . <END>:: 7.192718732477122
+<BEGIN> " how strange this is ! <END>:: 4.2603375934001795
+<BEGIN> he has children of his own , and may have more . <END>:: 3.765652019881952
+<BEGIN> how could he spare half ten thousand pounds <END>:: 14.37529006939182
+<BEGIN> " if we are ever able to learn what wickham ' s debts have been said elizabeth , " and how much is settled on his side on our sister , we shall exactly know what mr . gardiner has done for them , because wickham has not sixpence of his own . <END>:: 7.131560076221193
+<BEGIN> their mutual affection will steady them ; and i flatter myself they will settle so quietly , and live in so rational a manner , as may in time make their past imprudence <URL> <END>:: 15.296518107714153
+<BEGIN> elizabeth took the letter from his writing table , and they went up stairs together . <END>:: 6.189573022125364
+<BEGIN> how i long to see her ! <END>:: 2.9901607257230234
+<BEGIN> lizzy , my dear , run down to your father , and ask him how much he will give her . <END>:: 4.674846732829479
+<BEGIN> ring the bell , kitty , for hill . <END>:: 5.470003131698553
+<BEGIN> i will put on my things in a moment . <END>:: 4.351357663511201
+<BEGIN> her eldest daughter endeavoured to give some relief to the violence of these transports , by leading her thoughts to the obligations which mr . gardiner ' s behaviour laid them all under . <END>:: 12.604205332068638
+<BEGIN> if he had not had a family of his own , i and my children must have had all his money you know , and it is the first time we have ever had any thing from him , except a few presents . <END>:: 4.634324232318437
+<BEGIN> we will settle with your father about the money afterwards ; but the things should be ordered <URL> <END>:: 10.296146034216575
+<BEGIN> " i will go to meryton said she , " as soon as i am dressed , and tell the good , good news to my sister philips . <END>:: 3.8980034958333296
+<BEGIN> mr . bennet had very often wished , before this period of his life , that , instead of spending his whole income , he had laid by an annual sum , for the better provision of his children , and of his wife , if she survived him . <END>:: 7.278624568882538
+<BEGIN> had he done his duty in that respect , lydia need not have been indebted to her uncle , for whatever of honour or credit could now be purchased for her . <END>:: 7.259309474587615
+<BEGIN> this son was to join in cutting off the entail , as soon as he should be of age , and the widow and younger children would by that means be provided for . <END>:: 7.856213217462737
+<BEGIN> five daughters successively entered the world , but yet the son was to come ; and mrs . bennet , for many years after lydia ' s birth , had been certain that he would . <END>:: 5.597176726427036
+<BEGIN> he had never before supposed that , could wickham be prevailed on to marry his daughter , it would be done with so little inconvenience to himself , as by the present arrangement . <END>:: 6.494744919748532
+<BEGIN> when the first transports of rage which had produced his activity in seeking her were over , he naturally returned to all his former indolence . <END>:: 15.975131093364476
+<BEGIN> but there was much to be talked of , in marrying her ; and the good natured wishes for her well doing , which had proceeded before , from all the spiteful old ladies in meryton , lost but little of their spirit in this change of circumstances , because with such an husband , her misery was considered certain . <END>:: 7.33834285460908
+<BEGIN> it was a fortnight since mrs . bennet had been down stairs , but on this happy day , she again took her seat at the head of her table , and in spirits oppressively high . <END>:: 6.730542094610579
+<BEGIN> she was busily searching through the neighbourhood for a proper situation for her daughter , and , without knowing or considering what their income might be , rejected many as deficient in size and importance . <END>:: 11.481093856504062
+<BEGIN> mrs . bennet could hardly comprehend it . <END>:: 2.6550889194284117
+<BEGIN> she was more alive to the disgrace , which the want of new clothes must reflect on her daughter ' s nuptials , than to any sense of shame at her eloping and living with wickham , a fortnight before they took place . <END>:: 9.947983768339276
+<BEGIN> she had no fear of its spreading farther , through his means . <END>:: 8.219733879736895
+<BEGIN> had lydia ' s marriage been concluded on the most honourable terms , it was not to be supposed that mr . darcy would connect himself with a family , where to every other objection would now be added , an alliance and relationship of the nearest kind with the man whom he so justly scorned . <END>:: 8.8462101333498
+<BEGIN> she wanted to hear of him , when there seemed the least chance of gaining intelligence . <END>:: 8.116347490048117
+<BEGIN> his understanding and temper , though unlike her own , would have answered all her wishes . <END>:: 5.803528073722496
+<BEGIN> but no such happy marriage could now teach the admiring multitude what connubial felicity really was . <END>:: 18.076444331007938
+<BEGIN> he has the promise of an ensigncy in general s regiment , now quartered in the north . <END>:: 10.461386291919016
+<BEGIN> haggerston has our directions , and all will be completed in a week . <END>:: 9.39711412731923
+<BEGIN> elizabeth was surprised , however , that wickham should consent to such a scheme , and , had she consulted only her own inclination , any meeting with him would have been the last object of her wishes . <END>:: 5.085052713182291
+<BEGIN> they came . <END>:: 1.7565553687383357
+<BEGIN> lydia ' s voice was heard in the vestibule ; the door was thrown open , and she ran into the room . <END>:: 4.343571357532001
+<BEGIN> her mother stepped forwards , embraced her , and welcomed her with rapture ; gave her hand with an affectionate smile to wickham , who followed his lady , and wished them both joy , with an alacrity which shewed no doubt of their happiness . <END>:: 11.36420764391271
+<BEGIN> lydia was lydia still ; untamed , unabashed , wild , noisy , and fearless . <END>:: 8.592850829433226
+<BEGIN> the bride and her mother could neither of them talk fast enough ; and wickham , who happened to sit near elizabeth , began enquiring after his acquaintance in that neighbourhood , with a good humoured ease , which she felt very unable to equal in her replies . <END>:: 9.567553821868982
+<BEGIN> nothing of the past was recollected with pain ; and lydia led voluntarily to subjects , which her sisters would not have alluded to for the world . <END>:: 8.608585545235103
+<BEGIN> " only think of its being three months she cried , " since i went away ; it seems but a fortnight i declare ; and yet there have been things enough happened in the time . <END>:: 7.1127291687316365
+<BEGIN> jane was distressed . <END>:: 6.3499653631426085
+<BEGIN> mamma , do the people here abouts know i am married to day ? <END>:: 11.94943329385809
+<BEGIN> it was not to be supposed that time would give lydia that embarrassment , from which she had been so wholly free at first . <END>:: 6.1284882325869825
+<BEGIN> she longed to see mrs . philips , the lucases , and all their other neighbours , and to hear herself called " mrs . wickham by each of them ; and in the mean time , she went after dinner to shew her ring and boast of being married , to mrs . hill and the two housemaids . <END>:: 6.412922995813914
+<BEGIN> " well , mamma said she , when they were all returned to the breakfast room , " and what do you think of my husband ? <END>:: 4.045934426154436
+<BEGIN> is not he a charming man ? <END>:: 5.309335157861864
+<BEGIN> " very true ; and if i had my will , we should . <END>:: 2.277514245026984
+<BEGIN> must it be so <END>:: 1.952432720394981
+<BEGIN> " oh , lord ! <END>:: 4.85373475591474
+<BEGIN> wickham ' s affection for lydia , was just what elizabeth had expected to find it ; not equal to lydia ' s for him . <END>:: 4.870461121676106
+<BEGIN> he did every thing best in the world ; and she was sure he would kill more birds on the first of september , than any body else in the country . <END>:: 7.022282885861195
+<BEGIN> " la ! <END>:: 7.039791361513564
+<BEGIN> however , i did not hear above one word in ten , for i was thinking , you may suppose , of my dear wickham . <END>:: 4.842108447499704
+<BEGIN> to be sure london was rather thin , but however the little theatre was open . <END>:: 7.618649257276668
+<BEGIN> well , and so just as the carriage came to the door , my uncle was called away upon business to that horrid man mr . stone . <END>:: 6.397920859613606
+<BEGIN> pray write instantly , and let me understand it unless it is , for very cogent reasons , to remain in the secrecy which lydia seems to think necessary ; and then i must endeavour to be satisfied with <URL> <END>:: 9.594744587072451
+<BEGIN> " not that i _ shall _ though she added to herself , as she finished the letter ; " and my dear aunt , if you do not tell me in an honourable manner , i shall certainly be reduced to tricks and stratagems to find it <URL> <END>:: 5.70930949869122
+<BEGIN> on the very day of my coming home from longbourn , your uncle had a most unexpected visitor . <END>:: 7.835163623180546
+<BEGIN> she then took a large house in edward street , and has since maintained herself by letting lodgings . <END>:: 16.917728320470466
+<BEGIN> his first object with her , he acknowledged , had been to persuade her to quit her present disgraceful situation , and return to her friends as soon as they could be prevailed on to receive her , offering his assistance , as far as it would go . <END>:: 6.76134428739258
+<BEGIN> he must go somewhere , but he did not know where , and he knew he should have nothing to live on . <END>:: 5.925122537519065
+<BEGIN> mr . darcy asked him why he had not married your sister at once . <END>:: 4.815348999483479
+<BEGIN> they met again on sunday , and then _ i _ saw him too . <END>:: 5.760635933910835
+<BEGIN> he has been accused of many faults at different times ; but _ this _ is the true one . <END>:: 7.80644960818743
+<BEGIN> nothing was to be done that he did not do himself ; though i am sure ( and i do not speak it to be thanked , therefore say nothing about it your uncle would most readily have settled the whole . <END>:: 6.191478281111572
+<BEGIN> when all this was resolved on , he returned again to his friends , who were still staying at pemberley ; but it was agreed that he should be in london once more when the wedding took place , and all money matters were then to receive the last finish . <END>:: 8.336973651460418
+<BEGIN> _ he _ was exactly what he had been , when i knew him in hertfordshire ; but i would not tell you how little i was satisfied with _ her _ behaviour while she staid with us , if i had not perceived , by jane ' s letter last wednesday , that her conduct on coming home was exactly of a piece with it , and therefore what i now tell you , can give you no fresh pain . <END>:: 6.779738014882216
+<BEGIN> pray forgive me , if i have been very presuming , or at least do not punish me so far , as to exclude me from p . i shall never be quite happy till i have been all round the park . <END>:: 9.27780344217582
+<BEGIN> a low phaeton , with a nice little pair of ponies , would be the very thing . <END>:: 9.07880950395178
+<BEGIN> <URL> <END>:: 0.6516723504948837
+<BEGIN> the vague and unsettled suspicions which uncertainty had produced of what mr . darcy might have been doing to forward her sister ' s match , which she had feared to encourage , as an exertion of goodness too great to be probable , and at the same time dreaded to be just , from the pain of obligation , were proved beyond their greatest extent to be true ! <END>:: 10.777753082119998
+<BEGIN> brother in - law of wickham ! <END>:: 3.3066992094665495
+<BEGIN> every kind of pride must revolt from the connection . <END>:: 8.246399959775472
+<BEGIN> it was reasonable that he should feel he had been wrong ; he had liberality , and he had the means of exercising it ; and though she would not place herself as his principal inducement , she could , perhaps , believe , that remaining partiality for her , might assist his endeavours in a cause where her peace of mind must be materially concerned . <END>:: 8.300913075878299
+<BEGIN> " i should be sorry indeed , if it were . <END>:: 2.2854658393989027
+<BEGIN> " true . <END>:: 2.4525334398551566
+<BEGIN> are the others coming out <END>:: 8.029826599979165
+<BEGIN> and you saw the old housekeeper , i suppose ? <END>:: 7.331351541592308
+<BEGIN> we passed each other several times . <END>:: 8.56194950556135
+<BEGIN> i thought i understood from the gardiners that you <URL> <END>:: 7.094614703560108
+<BEGIN> " and do you like her <END>:: 2.379403973517124
+<BEGIN> " i have heard , indeed , that she is uncommonly improved within this year or two . <END>:: 6.652211893072432
+<BEGIN> " i mention it , because it is the living which i ought to have had . <END>:: 3.5812329834939356
+<BEGIN> one ought not to repine but , to be sure , it would have been such a thing for me ! <END>:: 4.091186159293131
+<BEGIN> but it was not to be . <END>:: 1.2529549444169374
+<BEGIN> did you ever hear darcy mention the circumstance , when you were in kent <END>:: 8.411961863463292
+<BEGIN> " i _ have _ heard from authority , which i thought _ as good that it was left you conditionally only , and at the will of the present <URL> <END>:: 4.353435772615616
+<BEGIN> and it was not wholly without foundation . <END>:: 3.1343586547373135
+<BEGIN> chapter xi . <END>:: 3.939373440107653
+<BEGIN> " oh ! <END>:: 1.793921275063175
+<BEGIN> my dear lydia she cried , " when shall we meet again <END>:: 5.820032403900591
+<BEGIN> " oh , lord ! <END>:: 4.85373475591474
+<BEGIN> lydia does not leave me because she is married ; but only because her husband ' s regiment happens to be so far off . <END>:: 9.465558632211476
+<BEGIN> she looked at jane , and smiled , and shook her head by turns . <END>:: 4.881481461430718
+<BEGIN> and who knows what _ may _ happen ? <END>:: 11.734148757386595
+<BEGIN> " yet it is hard she sometimes thought , " that this poor man cannot come to a house , which he has legally hired , without raising all this speculation ! <END>:: 9.304190555018907
+<BEGIN> you forced me into visiting him last year , and promised if i went to see him , he should marry one of my daughters . <END>:: 6.750251916849842
+<BEGIN> " if he wants our society , let him seek it . <END>:: 7.294784911465998
+<BEGIN> my mother means well ; but she does not know , no one can know how much i suffer from what she says . <END>:: 6.700646738876003
+<BEGIN> mr . bingley arrived . <END>:: 1.9403909170517837
+<BEGIN> she counted the days that must intervene before their invitation could be sent ; hopeless of seeing him before . <END>:: 11.033433823272844
+<BEGIN> but on the third morning after his arrival in hertfordshire , she saw him from her dressing room window , enter the paddock , and ride towards the house . <END>:: 7.285964468594751
+<BEGIN> her daughters were eagerly called to partake of her joy . <END>:: 9.487581584647414
+<BEGIN> jane resolutely kept her place at the table ; but elizabeth , to satisfy her mother , went to the window she looked she saw mr . darcy with him , and sat down again by her sister . <END>:: 5.356167702368851
+<BEGIN> " some acquaintance or other , my dear , i suppose ; i am sure i do not <URL> <END>:: 3.5697617824568257
+<BEGIN> " la <END>:: 9.59494300734662
+<BEGIN> replied kitty , " it looks just like that man that used to be with him before . <END>:: 5.2666551391231735
+<BEGIN> that tall , proud <URL> <END>:: 5.686726111378227
+<BEGIN> to jane , he could be only a man whose proposals she had refused , and whose merit she had undervalued ; but to her own more extensive information , he was the person , to whom the whole family were indebted for the first of benefits , and whom she regarded herself with an interest , if not quite so tender , at least as reasonable and just , as what jane felt for bingley . <END>:: 8.008447417062538
+<BEGIN> her astonishment at his coming at his coming to netherfield , to longbourn , and voluntarily seeking her again , was almost equal to what she had known on first witnessing his altered behaviour in derbyshire . <END>:: 8.056152835476908
+<BEGIN> she sat intently at work , striving to be composed , and without daring to lift up her eyes , till anxious curiosity carried them to the face of her sister , as the servant was approaching the door . <END>:: 9.391298305578562
+<BEGIN> he looked serious as usual ; and she thought , more as he had been used to look in hertfordshire , than as she had seen him at pemberley . <END>:: 4.284687559141643
+<BEGIN> bingley , she had likewise seen for an instant , and in that short period saw him looking both pleased and embarrassed . <END>:: 8.650118132595773
+<BEGIN> he was received by mrs . bennet with a degree of civility , which made her two daughters ashamed , especially when contrasted with the cold and ceremonious politeness of her curtsey and address to his friend . <END>:: 8.126072642968383
+<BEGIN> elizabeth particularly , who knew that her mother owed to the latter the preservation of her favourite daughter from irremediable infamy , was hurt and distressed to a most painful degree by a distinction so ill applied . <END>:: 13.745688514179614
+<BEGIN> " could i expect it to be otherwise <END>:: 4.7981975597906805
+<BEGIN> " yet why did he come <END>:: 5.374894064021929
+<BEGIN> " i began to be afraid you would never come back again . <END>:: 5.09254512127878
+<BEGIN> and one of my own daughters . <END>:: 3.310007474273772
+<BEGIN> it was in the times and the courier , i know ; though it was not put in as it ought to be . <END>:: 3.265883725948869
+<BEGIN> to miss lydia bennet without there being a syllable said of her father , or the place where she lived , or any thing . <END>:: 5.7993075741442945
+<BEGIN> did you see it <END>:: 2.4293697489355996
+<BEGIN> were the same fair prospect to arise at present , as had flattered them a year ago , every thing , she was persuaded , would be hastening to the same vexatious conclusion . <END>:: 9.804030678542555
+<BEGIN> their society can afford no pleasure , that will atone for such wretchedness as this ! <END>:: 12.329631531344289
+<BEGIN> i have not forgot , you see ; and i assure you , i was very much disappointed that you did not come back and keep your <URL> <END>:: 4.6232595263093454
+<BEGIN> they then went away . <END>:: 4.637571116277617
+<BEGIN> " he could be still amiable , still pleasing , to my uncle and aunt , when he was in town ; and why not to me ? <END>:: 4.057911924780958
+<BEGIN> if he fears me , why come hither ? <END>:: 15.496281659379541
+<BEGIN> her resolution was for a short time involuntarily kept by the approach of her sister , who joined her with a cheerful look , which shewed her better satisfied with their visitors , than elizabeth . <END>:: 9.045279701471646
+<BEGIN> i am glad he dines here on tuesday . <END>:: 8.717186598183343
+<BEGIN> on entering the room , he seemed to hesitate ; but jane happened to look round , and happened to smile : it was decided . <END>:: 7.873259405187633
+<BEGIN> " if he does not come to me , _ then said she , " i shall give him up for <URL> <END>:: 3.6432087955485333
+<BEGIN> the ladies had crowded round the table , where miss bennet was making tea , and elizabeth pouring out the coffee , in so close a confederacy , that there was not a single vacancy near her , which would admit of a chair . <END>:: 11.117617808263702
+<BEGIN> is there one among the sex , who would not protest against such a weakness as a second proposal to the same woman ? <END>:: 13.14841755115975
+<BEGIN> she was a little revived , however , by his bringing back his coffee cup himself ; and she seized the opportunity of saying , " is your sister at pemberley still <END>:: 10.709024467033856
+<BEGIN> and what do you think she said besides ? <END>:: 5.962321284298365
+<BEGIN> mrs . bennet , in short , was in very great spirits ; she had seen enough of bingley ' s behaviour to jane , to be convinced that she would get him at last ; and her expectations of advantage to her family , when in a happy humour , were so far beyond reason , that she was quite disappointed at not seeing him there again the next day , to make his proposals . <END>:: 5.560707866072738
+<BEGIN> " the party seemed so well selected , so suitable one with the other . <END>:: 6.750400370086822
+<BEGIN> " lizzy , you must not do so . <END>:: 2.48082502456497
+<BEGIN> it mortifies me . <END>:: 3.481250746540808
+<BEGIN> " you are very cruel said her sister , " you will not let me smile , and are provoking me to it every <URL> <END>:: 5.501580388097917
+<BEGIN> chapter xiii . <END>:: 3.672629153148494
+<BEGIN> a few days after this visit , mr . bingley called again , and alone . <END>:: 4.189483211012348
+<BEGIN> hang kitty ! <END>:: 15.813993996177858
+<BEGIN> but when her mother was gone , jane would not be prevailed on to go down without one of her sisters . <END>:: 4.169130143035431
+<BEGIN> after tea , mr . bennet retired to the library , as was his custom , and mary went up stairs to her instrument . <END>:: 6.291267400609888
+<BEGIN> what am i to do <END>:: 2.1011834235127056
+<BEGIN> tis too much <END>:: 21.636126067357388
+<BEGIN> she will be down in a moment i dare <URL> <END>:: 4.775489491250047
+<BEGIN> they shook hands with great cordiality ; and then till her sister came down , she had to listen to all he had to say , of his own happiness , and of jane ' s perfections ; and in spite of his being a lover , elizabeth really believed all his expectations of felicity , to be rationally founded , because they had for basis the excellent understanding , and super excellent disposition of jane , and a general similarity of feeling and taste between her and himself . <END>:: 8.588367340030938
+<BEGIN> i always said it must be so , at last . <END>:: 2.9631840659118813
+<BEGIN> " he has made me so happy said she , one evening , " by telling me , that he was totally ignorant of my being in town last spring ! <END>:: 6.819505995483841
+<BEGIN> " it must have been his sister ' s doing . <END>:: 3.5767941625892874
+<BEGIN> " would you believe it , lizzy , that when he went to town last november , he really loved me , and nothing but a persuasion of _ my _ being indifferent , would have prevented his coming down again <END>:: 7.512692883778677
+<BEGIN> elizabeth was pleased to find , that he had not betrayed the interference of his friend , for , though jane had the most generous and forgiving heart in the world , she knew it was a circumstance which must prejudice her against him . <END>:: 5.015505123042866
+<BEGIN> cried jane . <END>:: 2.3903168921679026
+<BEGIN> no , no , let me shift for myself ; and , perhaps , if i have very good luck , i may meet with another mr . collins in <URL> <END>:: 4.916587808858777
+<BEGIN> the bennets were speedily pronounced to be the luckiest family in the world , though only a few weeks before , when lydia had first run away , they had been generally proved to be marked out for misfortune . <END>:: 9.309627389284346
+<BEGIN> the horses were post ; and neither the carriage , nor the livery of the servant who preceded it , were familiar to them . <END>:: 9.254804797888733
+<BEGIN> as it was certain , however , that somebody was coming , bingley instantly prevailed on miss bennet to avoid the confinement of such an intrusion , and walk away with him into the shrubbery . <END>:: 8.187850131615106
+<BEGIN> she entered the room with an air more than usually ungracious , made no other reply to elizabeth ' s salutation , than a slight inclination of the head , and sat down without saying a word . <END>:: 7.169049648997012
+<BEGIN> mrs . bennet all amazement , though flattered by having a guest of such high importance , received her with the utmost politeness . <END>:: 7.877725851924481
+<BEGIN> " yes , madam said mrs . bennet , delighted to speak to a lady catherine . <END>:: 3.2400137783416745
+<BEGIN> mrs . bennet , with great civility , begged her ladyship to take some refreshment ; but lady catherine very resolutely , and not very politely , declined eating any thing ; and then rising up , said to elizabeth , " miss bennet , there seemed to be a prettyish kind of a little wilderness on one side of your lawn . <END>:: 7.652181035402889
+<BEGIN> i think she will be pleased with the <URL> <END>:: 3.3458204053911724
+<BEGIN> " how could i ever think her like her nephew <END>:: 5.400738242374688
+<BEGIN> as soon as they entered the copse , lady catherine began in the following manner " you can be at no loss , miss bennet , to understand the reason of my journey hither . <END>:: 5.098775477002451
+<BEGIN> elizabeth looked with unaffected astonishment . <END>:: 10.178416508916767
+<BEGIN> " indeed , you are mistaken , madam . <END>:: 3.9452129834712197
+<BEGIN> you may have drawn him <URL> <END>:: 6.751052639918777
+<BEGIN> " let me be rightly understood . <END>:: 11.282346655613429
+<BEGIN> now what have you to say <END>:: 3.138830579023787
+<BEGIN> while in their cradles , we planned the union : and now , at the moment when the wishes of both sisters would be accomplished , in their marriage , to be prevented by a young woman of inferior birth , of no importance in the world , and wholly unallied to the family ! <END>:: 8.897847901702356
+<BEGIN> to his tacit engagement with miss de bourgh ? <END>:: 8.467538227046838
+<BEGIN> is this your gratitude for my attentions to you last spring ? <END>:: 9.847788348098284
+<BEGIN> you are to understand , miss bennet , that i came here with the determined resolution of carrying my purpose ; nor will i be dissuaded from it . <END>:: 6.02548528904195
+<BEGIN> hear me in silence . <END>:: 4.050218790022342
+<BEGIN> they are descended on the maternal side , from the same noble line ; and , on the father ' s , from respectable , honourable , and ancient , though untitled families . <END>:: 9.912249830772959
+<BEGIN> the upstart pretensions of a young woman without family , connections , or fortune . <END>:: 8.170857656115208
+<BEGIN> though elizabeth would not , for the mere purpose of obliging lady catherine , have answered this question ; she could not but say , after a moment ' s deliberation , " i am <URL> <END>:: 6.38981653223364
+<BEGIN> " and will you promise me , never to enter into such an engagement <END>:: 7.958832684869023
+<BEGIN> " miss bennet i am shocked and astonished . <END>:: 4.894898790288119
+<BEGIN> i know it all ; that the young man ' s marrying her , was a patched up business , at the expence of your father and uncles . <END>:: 5.586671082559859
+<BEGIN> is _ her _ husband , is the son of his late father ' s steward , to be his brother ? <END>:: 5.081777354118292
+<BEGIN> " you have no regard , then , for the honour and credit of my nephew ! <END>:: 4.310637932660164
+<BEGIN> " lady catherine , i have nothing farther to say . <END>:: 2.4138015647779003
+<BEGIN> " she did not choose it said her daughter , " she would <URL> <END>:: 3.440839766401726
+<BEGIN> and her neighbours at lucas lodge , therefore , ( for through their communication with the collinses , the report she concluded had reached lady catherine ) had only set _ that _ down , as almost certain and immediate , which _ she _ had looked forward to as possible , at some future time . <END>:: 7.1656631631787135
+<BEGIN> if he is satisfied with only regretting me , when he might have obtained my affections and hand , i shall soon cease to regret him at <URL> <END>:: 10.46349287464187
+<BEGIN> i did not know before , that i had _ two _ daughters on the brink of matrimony . <END>:: 5.221565869692098
+<BEGIN> young ladies have great penetration in such matters as these ; but i think i may defy even _ your _ sagacity , to discover the name of your admirer . <END>:: 9.386252013182867
+<BEGIN> " this young gentleman is blessed in a peculiar way , with every thing the heart of mortal can most desire splendid property , noble kindred , and extensive patronage . <END>:: 18.9796643359115
+<BEGIN> we have reason to imagine that his aunt , lady catherine de bourgh , does not look on the match with a friendly <URL> <END>:: 7.010890595228951
+<BEGIN> darcy you see , is the man ! <END>:: 2.952291961256487
+<BEGIN> " oh ! <END>:: 1.793921275063175
+<BEGIN> yes . <END>:: 1.7962017820268583
+<BEGIN> you ought certainly to forgive them as a christian , but never to admit them in your sight , or allow their names to be mentioned in your <URL> <END>:: 9.786234208686263
+<BEGIN> but it is so strange <END>:: 7.602291367903252
+<BEGIN> to this question his daughter replied only with a laugh ; and as it had been asked without the least suspicion , she was not distressed by his repeating it . <END>:: 6.7121017753875325
+<BEGIN> her father had most cruelly mortified her , by what he said of mr . darcy ' s indifference , and she could do nothing but wonder at such a want of penetration , or fear that perhaps , instead of his seeing too _ little she might have fancied too _ much <END>:: 6.486578956774524
+<BEGIN> bingley and jane , however , soon allowed the others to outstrip them . <END>:: 4.2652501771331215
+<BEGIN> now was the moment for her resolution to be executed , and , while her courage was high , she immediately said , " mr . darcy , i am a very selfish creature ; and , for the sake of giving relief to my own feelings , care not how much i may be wounding your ' s . <END>:: 5.4607213587825045
+<BEGIN> i can no longer help thanking you for your unexampled kindness to my poor sister . <END>:: 10.967517322448634
+<BEGIN> " i am sorry , exceedingly sorry replied darcy , in a tone of surprise and emotion , " that you have ever been informed of what may , in a mistaken light , have given you uneasiness . <END>:: 6.407217815101436
+<BEGIN> lydia ' s thoughtlessness first betrayed to me that you had been concerned in the matter ; and , of course , i could not rest till i knew the particulars . <END>:: 5.882754521409277
+<BEGIN> there was too much to be thought ; and felt , and said , for attention to any other objects . <END>:: 3.8577961277971693
+<BEGIN> " it taught me to hope said he , " as i had scarcely ever allowed myself to hope before . <END>:: 4.8052260505739985
+<BEGIN> " i was certainly very far from expecting them to make so strong an impression . <END>:: 10.38352162456995
+<BEGIN> i had not the smallest idea of their being ever felt in such a <URL> <END>:: 3.8022205478548385
+<BEGIN> but think no more of the letter . <END>:: 2.897517866696639
+<BEGIN> the feelings of the person who wrote , and the person who received it , are now so widely different from what they were then , that every unpleasant circumstance attending it , ought to be forgotten . <END>:: 8.153014599551925
+<BEGIN> such i was , from eight to eight and twenty ; and such i might still have been but for you , dearest , loveliest elizabeth ! <END>:: 5.616030808746198
+<BEGIN> you shewed me how insufficient were all my pretensions to please a woman worthy of being <URL> <END>:: 16.501545815148233
+<BEGIN> " hate you ! <END>:: 5.174610733950496
+<BEGIN> after walking several miles in a leisurely manner , and too busy to know any thing about it , they found at last , on examining their watches , that it was time to be at home . <END>:: 7.186405354189233
+<BEGIN> said elizabeth . <END>:: 1.1282360708429438
+<BEGIN> " not at all . <END>:: 1.1056499417134649
+<BEGIN> " that is to say , you had given your permission . <END>:: 3.6079449766008573
+<BEGIN> bingley is most unaffectedly modest . <END>:: 15.247201787203824
+<BEGIN> i was obliged to confess one thing , which for a time , and not unjustly , offended him . <END>:: 5.123634663531517
+<BEGIN> he was angry . <END>:: 2.7676699882077367
+<BEGIN> " my dear lizzy , where can you have been walking to <END>:: 3.8711123156959144
+<BEGIN> she had only to say in reply , that they had wandered about , till she was beyond her own knowledge . <END>:: 5.018260868616642
+<BEGIN> the evening passed quietly , unmarked by any thing extraordinary . <END>:: 9.17058828058516
+<BEGIN> " you are joking , lizzy . <END>:: 3.2111451982028685
+<BEGIN> no , no , you shall not deceive me . <END>:: 3.4763101164572827
+<BEGIN> miss bennet still looked all amazement . <END>:: 9.312779820332333
+<BEGIN> yet now i must believe you cried jane . <END>:: 4.996114795723443
+<BEGIN> nothing could give either bingley or myself more delight . <END>:: 8.519255292318011
+<BEGIN> and do you really love him quite well enough ? <END>:: 6.331435849291247
+<BEGIN> oh , lizzy ! <END>:: 2.2852431016377737
+<BEGIN> are you quite sure that you feel what you ought to do <END>:: 5.017416671589665
+<BEGIN> i am afraid you will be <URL> <END>:: 3.0260619693515634
+<BEGIN> " it has been coming on so gradually , that i hardly know when it began . <END>:: 4.496320021005457
+<BEGIN> cried mrs . bennet , as she stood at a window the next morning , " if that disagreeable mr . darcy is not coming here again with our dear bingley ! <END>:: 5.67038306823344
+<BEGIN> what shall we do with him ? <END>:: 5.076208543252512
+<BEGIN> elizabeth could hardly help laughing at so convenient a proposal ; yet was really vexed that her mother should be always giving him such an epithet . <END>:: 10.967340378193311
+<BEGIN> during their walk , it was resolved that mr . bennet ' s consent should be asked in the course of the evening . <END>:: 4.453087306950889
+<BEGIN> elizabeth reserved to herself the application for her mother ' s . <END>:: 4.639894939643914
+<BEGIN> she was gone directly . <END>:: 3.4392518523945084
+<BEGIN> are you out of your senses , to be accepting this man ? <END>:: 8.125426971611025
+<BEGIN> but will they make you happy <END>:: 3.365661014535222
+<BEGIN> you do not know what he really is ; then pray do not pain me by speaking of him in such <URL> <END>:: 5.453666952565211
+<BEGIN> i could not have parted with you , my lizzy , to any one less <URL> <END>:: 3.2727081040879753
+<BEGIN> he heard her with astonishment . <END>:: 2.6041471728359236
+<BEGIN> every thing was too recent for gaiety , but the evening passed tranquilly away ; there was no longer any thing material to be dreaded , and the comfort of ease and familiarity would come in time . <END>:: 11.615811844484067
+<BEGIN> its effect was most extraordinary ; for on first hearing it , mrs . bennet sat quite still , and unable to utter a syllable . <END>:: 9.058575842921954
+<BEGIN> lord bless me ! <END>:: 34.042006440672395
+<BEGIN> ten thousand a year ! <END>:: 3.0769925209773534
+<BEGIN> oh , lord ! <END>:: 7.270116285714136
+<BEGIN> this was enough to prove that her approbation need not be doubted : and elizabeth , rejoicing that such an effusion was heard only by herself , soon went away . <END>:: 11.096265028252219
+<BEGIN> ' tis as good as a lord ! <END>:: 11.145842419868385
+<BEGIN> you must and shall be married by a special licence . <END>:: 5.170914231357989
+<BEGIN> " how could you begin <END>:: 5.648181578404414
+<BEGIN> " i can comprehend your going on charmingly , when you had once made a beginning ; but what could set you off in the first place <END>:: 7.244556635399212
+<BEGIN> it is too long ago . <END>:: 4.851130277775104
+<BEGIN> i was in the middle before i knew that i _ had _ <URL> <END>:: 4.5666835091120435
+<BEGIN> " you may as well call it impertinence at once . <END>:: 6.837803588372547
+<BEGIN> there i have saved you the trouble of accounting for it ; and really , all things considered , i begin to think it perfectly reasonable . <END>:: 7.5157066165862805
+<BEGIN> " dearest jane ! <END>:: 4.1914553533880055
+<BEGIN> what made you so shy of me , when you first called , and afterwards dined here ? <END>:: 8.978599456352626
+<BEGIN> " a man who had felt less , <URL> <END>:: 3.3407599811932345
+<BEGIN> but i wonder how long you _ would _ have gone on , if you had been left to yourself . <END>:: 4.836766279967397
+<BEGIN> the moral will be perfectly fair . <END>:: 9.125739741885234
+<BEGIN> but it ought to be done , and if you will give me a sheet of paper , it shall be done <URL> <END>:: 4.999107787262998
+<BEGIN> i thank you , again and again , for not going to the lakes . <END>:: 3.5127882963035604
+<BEGIN> your ' s , <URL> mr . darcy ' s letter to lady catherine , was in a different style ; and still different from either , was what mr . bennet sent to mr . collins , in reply to his last . <END>:: 4.017291830893937
+<BEGIN> " dear sir , " i must trouble you once more for congratulations . <END>:: 5.478437417615242
+<BEGIN> but , if i were you , i would stand by the nephew . <END>:: 3.2899029976122587
+<BEGIN> " your ' s sincerely , <URL> miss bingley ' s congratulations to her brother , on his approaching marriage , were all that was affectionate and insincere . <END>:: 6.005251844263124
+<BEGIN> if he did shrug his shoulders , it was not till sir william was out of sight . <END>:: 6.09632469687835
+<BEGIN> nor was her respect for him , though it made her more quiet , at all likely to make her more elegant . <END>:: 6.014215560353715
+<BEGIN> elizabeth did all she could , to shield him from the frequent notice of either , and was ever anxious to keep him to herself , and to those of her family with whom he might converse without mortification ; and though the uncomfortable feelings arising from all this took from the season of courtship much of its pleasure , it added to the hope of the future ; and she looked forward with delight to the time when they should be removed from society so little pleasing to either , to all the comfort and elegance of their family party at pemberley . <END>:: 7.67288292998752
+<BEGIN> chapter xix . <END>:: 5.10385011811286
+<BEGIN> kitty , to her very material advantage , spent the chief of her time with her two elder sisters . <END>:: 5.1975075587884145
+<BEGIN> the congratulatory letter which elizabeth received from lydia on her marriage , explained to her that , by his wife at least , if not by himself , such a hope was cherished . <END>:: 6.022850510666428
+<BEGIN> the letter was to this effect : " my dear lizzy , " i wish you joy . <END>:: 3.8451825063971383
+<BEGIN> it is a great comfort to have you so rich , and when you have nothing else to do , i hope you will think of us . <END>:: 4.652145991182133
+<BEGIN> such relief , however , as it was in her power to afford , by the practice of what might be called economy in her own private expences , she frequently sent them . <END>:: 8.806847992788084
+<BEGIN> their manner of living , even when the restoration of peace dismissed them to a home , was unsettled in the extreme . <END>:: 10.487634502541487
+<BEGIN> his affection for her soon sunk into indifference ; her ' s lasted a little longer ; and in spite of her youth and her manners , she retained all the claims to reputation which her marriage had given her . <END>:: 8.155800262896093
+<BEGIN> lady catherine was extremely indignant on the marriage of her nephew ; and as she gave way to all the genuine frankness of her character , in her reply to the letter which announced its arrangement , she sent him language so very abusive , especially of elizabeth , that for some time all intercourse was at an end . <END>:: 9.156930178546654
+<BEGIN> darcy , as well as elizabeth , really loved them ; and they were both ever sensible of the warmest gratitude towards the persons who , by bringing her into derbyshire , had been the means of uniting them . <END>:: 7.7713359412025085
+<BEGIN> if an individual project gutenberg tm electronic work is derived from the public domain ( does not contain a notice indicating that it is posted with permission of the copyright holder the work can be copied and distributed to anyone in the united states without paying any fees or charges . <END>:: 12.853795290984028
+<BEGIN> <URL> <END>:: 0.6516723504948837
+<BEGIN> you may charge a reasonable fee for copies of or providing access to or distributing project gutenberg tm electronic works provided that - you pay a royalty fee of 20 % of the gross profits you derive from the use of project gutenberg tm works calculated using the method you already use to calculate your applicable taxes . <END>:: 28.430235145833915
+<BEGIN> if you wish to charge a fee or distribute a project gutenberg tm electronic work or group of works on different terms than are set forth in this agreement , you must obtain permission in writing from both the project gutenberg literary archive foundation and michael hart , the owner of the project gutenberg tm trademark . <END>:: 9.229929979086341
+<BEGIN> despite these efforts , project gutenberg tm electronic works , and the medium on which they may be stored , may contain " defects such as , but not limited to , incomplete , inaccurate or corrupt data , transcription errors , a copyright or other intellectual property infringement , a defective or damaged disk or other medium , a computer virus , or computer codes that damage or cannot be read by your equipment . <END>:: 18.68937313834361
+<BEGIN> you agree that the foundation , the trademark owner , and any distributor under this agreement will not be liable to you for actual , direct , indirect , consequential , punitive or incidental damages even if you give notice of the possibility of such damage . <END>:: 10.823188737071128
+<BEGIN> <URL> <END>:: 0.6516723504948837
+<BEGIN> the invalidity or unenforceability of any provision of this agreement shall not void the remaining provisions . <END>:: 16.764822965182855
+<BEGIN> information about the mission of project gutenberg tm project gutenberg tm is synonymous with the free distribution of electronic works in formats readable by the widest variety of computers including obsolete , old , middle aged and new computers . <END>:: 20.264977932955016
+<BEGIN> it exists because of the efforts of hundreds of volunteers and donations from people in all walks of life . <END>:: 12.066759035759517
+<BEGIN> the foundation ' s ein or federal tax identification number is 64 - <PHONE> . <END>:: 45.16333619954263
+<BEGIN> many small donations 1 to $ 5 , 000 ) are particularly important to maintaining tax exempt status with the irs . <END>:: 30.76581903901195
+<BEGIN> compliance requirements are not uniform and it takes a considerable effort , much paperwork and many fees to meet and keep up with these requirements . <END>:: 20.61344093992534
+<BEGIN> <URL> laws alone swamp our small staff . <END>:: 34.77630163047264
+<BEGIN> please check the project gutenberg web pages for current donation methods and addresses . <END>:: 49.11651343807492
+<BEGIN> donations are accepted in a number of other ways including checks , online payments and credit card donations . <END>:: 37.93446536869119
+Average Perplexity for test data: 7.435049250821409
