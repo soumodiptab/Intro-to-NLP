@@ -151,8 +151,13 @@ class WittenBell(Smoothing):
         super().__init__()
 
     def __P_wb(self,model: NgramModel,n, history,current):
-        pass
-
+        # Probability of current word given history
+        if n == 1:
+            pass
+        try:
+            LAMBDA = 0
+        except:
+            return 1/model.count_size(1)
     def get_perplexity(self, model: NgramModel, ngram_token):
         pass
 
@@ -163,7 +168,7 @@ class KneserNey(Smoothing):
 
     def __P_kn(self,model: NgramModel,n, history,current,higher_order=False,d=0.75):
         # Probability of current word given history
-        if not model.is_ngram_present(1,"<#>"):
+        if not model.is_ngram_present(1,current):
             return d/model.get_ngram_freq(1,"<#>")
         if n == 1:
             return d / model.get_ngram_freq(1,"<#>") + (1-d)/model.count_size(1)
