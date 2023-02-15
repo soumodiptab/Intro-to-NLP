@@ -153,6 +153,8 @@ class WittenBell(Smoothing):
     def __P_wb(self,model: NgramModel,n, history,current):
         # Probability of current word given history
         if n == 1:
+            if model.is_ngram_present(n,current):
+                return model.get_ngram_freq(n,current)/model.count_size(n)
             return 1/len(model.freq_table[1])
         try:
             LAMBDA = model.count_ngram_history(history)/(
@@ -316,12 +318,14 @@ if __name__ == "__main__":
         info('Calculating perplexity using Witten Bell smoothing for training data.')
         PERPLEXITY_SCORE_TEST_PATH = os.path.join(".", "scores", ROLL_NO+"_LM"+LM+"_test-perplexity.txt")
         perplexity_scores_test =[]
+        i=1
         with open(PERPLEXITY_SCORE_TEST_PATH, 'w') as f:
             for text in test:
                 perplexity_score = model.get_perplexity(text, w)
                 perplexity_scores_test.append(perplexity_score)
-                # info(text.strip() + " :: " + str(perplexity_score))
+                # print(str(i) + " :: " + str(perplexity_score))
                 f.write(text.strip() + ":: " + str(perplexity_score) +"\n")
+                i+=1
             f.write("Average Perplexity for test data: " + str(np.mean(perplexity_scores_test)))
         info('Perplexity calculated. Saved to file.')
         info ('Average Perplexity for test data: ' + str(np.mean(perplexity_scores_test)))
