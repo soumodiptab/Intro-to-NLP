@@ -75,6 +75,11 @@ class NgramModel:
         self.ngram = Ngram()
         self.freq_table = {}
 
+    def is_ngram_present(self,n,ngram):
+        if ngram in self.freq_table[n]:
+            return True
+        return False
+
     def count_size(self,n):
         return len(self.freq_table[n])
 
@@ -132,6 +137,9 @@ class WittenBell(Smoothing):
     def __init__(self):
         super().__init__()
 
+    def __P_wb(self,model: NgramModel,n, history,current):
+        pass
+
     def get_perplexity(self, model: NgramModel, ngram_token):
         pass
 
@@ -142,7 +150,7 @@ class KneserNey(Smoothing):
 
     def __P_kn(self,model: NgramModel,n, history,current,higher_order=False,d=0.75):
         # Probability of current word given history
-        if current not in model.freq_table[1]:
+        if not model.is_ngram_present(1,"<#>"):
             return d/model.get_ngram_freq(1,"<#>")
         if n == 1:
             return d / model.get_ngram_freq(1,"<#>") + (1-d)/model.count_size(1)
@@ -236,11 +244,19 @@ if __name__ == "__main__":
     info('Ngram model loaded.')
     LM = input("Enter the name for score TXT file (for which LM): ")
     if smoothing_technique == "k":
-        info('Calculating perplexity using KneserNey smoothing.')
         k = KneserNey()
+        info('Calculating perplexity using KneserNey smoothing for training data.')
         perplexity_scores = []
-        PERPLEXITY_SCORE_PATH = os.path.join(".", "scores", ROLL_NO+"_LM"+LM+"_test-perplexity.txt")
-        with open(PERPLEXITY_SCORE_PATH, 'w') as f:
+        PERPLEXITY_SCORE_TRAIN_PATH = os.path.join(".", "scores", ROLL_NO+"_LM"+LM+"_train-perplexity.txt")
+        with open(PERPLEXITY_SCORE_TRAIN_PATH, 'w') as f:
+            for text in train:
+                perplexity_score = model.get_perplexity(text, k)
+                # info(text.strip() + " :: " + str(perplexity_score))
+                f.write(text.strip() + " :: " + str(perplexity_score) +"\n")
+        info('Perplexity calculated for training data. Saving to file.')
+        info('Calculating perplexity using KneserNey smoothing for training data.')
+        PERPLEXITY_SCORE_TEST_PATH = os.path.join(".", "scores", ROLL_NO+"_LM"+LM+"_test-perplexity.txt")
+        with open(PERPLEXITY_SCORE_TEST_PATH, 'w') as f:
             for text in test:
                 perplexity_score = model.get_perplexity(text, k)
                 # info(text.strip() + " :: " + str(perplexity_score))

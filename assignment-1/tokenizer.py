@@ -140,8 +140,4 @@ if __name__ == "__main__":
         proc_txt = tokenizer.tokenize(text)
         if proc_txt.strip() != "":
             processed_text.append(proc_txt)
-    save_to_file(
-        "./assignment-1/clean_corpora/Pride and Prejudice - cleaned.txt", processed_text)
-    build_vocab("./assignment-1/clean_corpora/Pride and Prejudice",
-                processed_text)
-    pass
+    save_to_file("./assignment-1/clean_corpora/Pride and Prejudice - cleaned.txt", processed_text)
