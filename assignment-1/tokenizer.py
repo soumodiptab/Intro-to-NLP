@@ -4,7 +4,7 @@
 """
 import re
 import os
-
+from nltk.tokenize import sent_tokenize
 
 class Tokenizer:
     """ Tokenizer class to tokenize the given text
@@ -12,6 +12,9 @@ class Tokenizer:
 
     def __init__(self):
         pass
+
+    def replace_new_lines(self, text):
+        return re.sub(r'\n', ' ', text)
 
     def to_uppercase(self, text):
         return text.upper()
@@ -22,16 +25,16 @@ class Tokenizer:
     # ---------------------------------------------------------------------------------------------------------------
 
     def replace_email(self, text):
-        return re.sub(r'\S+@\S+', '<EMAIL>', text)
+        return re.sub(r'\S+@\S+', ' <EMAIL> ', text)
 
     # create a function to replace all dates with <DATE>
 
     def replace_dates(self, text):
-        date_format_a = re.sub(r'\d{1,2}/\d{1,2}/\d{2,4}', '<DATE>', text)
+        date_format_a = re.sub(r'\d{1,2}/\d{1,2}/\d{2,4}', ' <DATE> ', text)
         date_format_b = re.sub(
-            r'(January|February|March|April|May|June|July|August|September|October|November|December)\s\d{1,2},?\s\d{4}', '<DATE>', date_format_a)
+            r'[A-Za-z]{2,8}\s\d{1,2},?\s\d{4}', ' <DATE> ', date_format_a)
         date_format_c = re.sub(
-            r'\d{2} [A-Z][a-z]{2,8} \d{4}', '<DATE>', date_format_b)
+            r'\d{2} [A-Z][a-z]{2,8} \d{4}', ' <DATE> ', date_format_b)
         return date_format_c
 
     def replace_time(self, text):
@@ -41,8 +44,8 @@ class Tokenizer:
     def replace_phone_numbers(self, text):
         # regex to recoginze phone numbers
         phone_a = re.sub(
-            r'(\+\d*-)?\s?(\d{3})\s?(\d{3})\s?(\d{4})', '<PHONE>', text)
-        phone_b = re.sub(r'(\+\d*-)?\s?(\d{3})\s?(\d{4})', '<PHONE>', phone_a)
+            r'(\+\d*-)?\s?(\d{3})\s?(\d{3})\s?(\d{4})', ' <PHONE> ', text)
+        phone_b = re.sub(r'(\+\d*-)?\s?(\d{3})\s?(\d{4})', ' <PHONE> ', phone_a)
         return phone_b
 
     def replace_punctuation(self, text):
@@ -50,10 +53,10 @@ class Tokenizer:
 
     # replace urls with and without http with <URL>
     def replace_urls(self, text):
-        return re.sub(r'(https?:)?(www\.)?(\S+)(\.\S+)', '<URL>', text)
+        return re.sub(r'(https?:)?(www\.)?(\S+)(\.\S+)', ' <URL> ', text)
 
     def replace_hash_tags(self, text):
-        return re.sub(r'(\s|^)#(\w+)', '<HASHTAG>', text)
+        return re.sub(r'(\s|^)#(\w+)', ' <HASHTAG> ', text)
 
     def replace_hyphenated_words(self, text):
         # replace hyphenated words with words seperated by space
@@ -66,7 +69,7 @@ class Tokenizer:
     # remove from text :
     # ---------------------------------------------------------------------------------------------------------------
     # remove spaces with size more than 1
-
+    
     def remove_extra_spaces(self, text):
         return re.sub(r'\s{2,}', ' ', text)
 
@@ -80,7 +83,7 @@ class Tokenizer:
 
     def add_space_special_characters(self, text):
         # add space before and after special characters
-        return re.sub(r'([\*\-\!\"\$\&\)\'\(\+\,\-\.\/\:\#\%\;\=\?\@\}\~\[\\\]\^\_\‘\{\|])', r' \1 ', text)
+        return re.sub(r'([\*\-\!\`\"\$\&\)\'\(\+\,\-\.\/\:\#\%\;\=\?\@\}\~\[\\\]\^\_\‘\{\|])', r' \1 '," "+ text)
 
     def add_tag(self, text):
         if text.strip() == "":
@@ -89,6 +92,7 @@ class Tokenizer:
 
     # Tokenizer function to tokenize the given text
     def tokenize(self, text):
+        text = self.replace_new_lines(text)
         text = self.to_lowercase(text)
         text = self.replace_hash_tags(text)
         text = self.replace_urls(text)
@@ -117,8 +121,8 @@ def save_to_file(file_name, text):
 
 def read_from_file(file_name):
     with open(file_name, "r") as f:
-        text = f.readlines()
-    return text
+        text = f.read()
+    return sent_tokenize(text)
 
 
 def build_vocab(file_name, text_lines):
@@ -132,12 +136,11 @@ def build_vocab(file_name, text_lines):
 
 if __name__ == "__main__":
     current_dir = os.getcwd()
-    text_lines = read_from_file(
-        "./assignment-1/corpora/Pride and Prejudice - Jane Austen.txt")
+    text_lines = read_from_file("corpora/Pride and Prejudice - Jane Austen.txt")
     tokenizer = Tokenizer()
     processed_text = []
     for text in text_lines:
-        proc_txt = tokenizer.tokenize(text)
+        proc_txt = tokenizer.tokenize(text.strip())
         if proc_txt.strip() != "":
             processed_text.append(proc_txt)
-    save_to_file("./assignment-1/clean_corpora/Pride and Prejudice - cleaned.txt", processed_text)
+    save_to_file("clean_corpora/Pride and Prejudice - cleaned.txt", processed_text)

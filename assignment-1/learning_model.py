@@ -159,6 +159,7 @@ class WittenBell(Smoothing):
                 model.count_ngram_history(history) +model.count_ngram_history_freq(history)
             )
         except:
+            new_history = " ".join(history.split(" ")[1:])
             return self.__P_wb(model,n-1,new_history,current)
         P_mle = model.count_ngram_freq(history+" "+current)/model.count_ngram_history_freq(history)
         new_history = " ".join(history.split(" ")[1:])
@@ -300,19 +301,19 @@ if __name__ == "__main__":
 
     elif smoothing_technique == "w":
         w = WittenBell()
+        # info('Calculating perplexity using Witten Bell smoothing for training data.')
+        # perplexity_scores_train = []
+        # PERPLEXITY_SCORE_TRAIN_PATH = os.path.join(".", "scores", ROLL_NO+"_LM"+LM+"_train-perplexity.txt")
+        # with open(PERPLEXITY_SCORE_TRAIN_PATH, 'w') as f:
+        #     for text in train:
+        #         perplexity_score = model.get_perplexity(text, w)
+        #         perplexity_scores_train.append(perplexity_score)
+        #         # info(text.strip() + " :: " + str(perplexity_score))
+        #         f.write(text.strip() + " :: " + str(perplexity_score) +"\n")
+        #     f.write("Average Perplexity for training data: " + str(np.mean(perplexity_scores_train)))
+        # info('Perplexity calculated for training data. Saving to file.')
+        # info ('Average Perplexity for training data: ' + str(np.mean(perplexity_scores_train)))
         info('Calculating perplexity using Witten Bell smoothing for training data.')
-        perplexity_scores_train = []
-        PERPLEXITY_SCORE_TRAIN_PATH = os.path.join(".", "scores", ROLL_NO+"_LM"+LM+"_train-perplexity.txt")
-        with open(PERPLEXITY_SCORE_TRAIN_PATH, 'w') as f:
-            for text in train:
-                perplexity_score = model.get_perplexity(text, w)
-                perplexity_scores_train.append(perplexity_score)
-                # info(text.strip() + " :: " + str(perplexity_score))
-                f.write(text.strip() + " :: " + str(perplexity_score) +"\n")
-            f.write("Average Perplexity for training data: " + str(np.mean(perplexity_scores_train)))
-        info('Perplexity calculated for training data. Saving to file.')
-        info ('Average Perplexity for training data: ' + str(np.mean(perplexity_scores_train)))
-        info('Calculating perplexity using KneserNey smoothing for training data.')
         PERPLEXITY_SCORE_TEST_PATH = os.path.join(".", "scores", ROLL_NO+"_LM"+LM+"_test-perplexity.txt")
         perplexity_scores_test =[]
         with open(PERPLEXITY_SCORE_TEST_PATH, 'w') as f:
