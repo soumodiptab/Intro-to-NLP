@@ -12,9 +12,7 @@
             "console": "integratedTerminal",
             "cwd": "${fileDirname}",
             "args": [
-                "4",
-                "k",
-                "./corpora/Pride and Prejudice - Jane Austen.txt"
+                "4", "w", "./corpora/Pride and Prejudice - Jane Austen.txt"
             ],
             "justMyCode": true
         }
