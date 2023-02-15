@@ -95,40 +95,40 @@ class NgramModel:
         return 0
     def count_ngram_history_freq(self,history):
         # freq count( history + variable word)
-        cache_key = "history_freq_"+history
-        if cache_key in self.cache:
-            return self.cache[cache_key]
+        # cache_key = "history_freq_"+history
+        # if cache_key in self.cache:
+        #     return self.cache[cache_key]
         
         gram = len(history.split(" "))+1
         total =0
         for key in self.freq_table[gram]:
             if key.startswith(history):
                 total += self.freq_table[gram][key]
-        self.cache[cache_key] = total
+        # self.cache[cache_key] = total
         return total
     def count_ngram_history(self,history):
         # count( history + variable word)
-        cache_key = "history_"+history
-        if cache_key in self.cache:
-            return self.cache[cache_key]
+        # cache_key = "history_"+history
+        # if cache_key in self.cache:
+        #     return self.cache[cache_key]
         gram = len(history.split(" "))+1
         total =0
         for key in self.freq_table[gram]:
             if key.startswith(history):
                 total += 1
-        self.cache[cache_key] = total
+        # self.cache[cache_key] = total
         return total
 
     def count_ngram_current(self,gram,current):
         # count( variable history + current)
-        cache_key = "current_"+gram+"_"+current
-        if cache_key in self.cache:
-            return self.cache[cache_key]
+        # cache_key = "current_"+gram+"_"+current
+        # if cache_key in self.cache:
+        #     return self.cache[cache_key]
         total = 0
         for key in self.freq_table[gram]:
             if key.endswith(current):
                 total += 1
-        self.cache[cache_key] = total
+        # self.cache[cache_key] = total
         return total
 
     def train(self, train_data):
