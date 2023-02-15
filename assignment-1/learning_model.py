@@ -159,7 +159,10 @@ class WittenBell(Smoothing):
         except:
             return 1/model.count_size(1)
     def get_perplexity(self, model: NgramModel, ngram_token):
-        pass
+        tokens = ngram_token.split(" ")
+        history= " ".join(tokens[:-1])
+        current = tokens[-1]
+        return self.__P_wb(model,len(tokens),history,current)
 
 
 class KneserNey(Smoothing):
