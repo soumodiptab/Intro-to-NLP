@@ -4,6 +4,7 @@ import os
 import pickle
 import numpy as np
 import time
+import math
 ROLL_NO = "2021201086"
 
 
@@ -20,6 +21,11 @@ def info(msg):
     decorate()
     print("[INFO] : " + msg)
 
+# def prod(values):
+#     p = float(1)
+#     for v in values:
+#         p = p * v
+#     return p
 
 class Ngram:
     def __init__(self):
@@ -36,28 +42,63 @@ class Ngram:
             ngram.append(" ".join(tokens[i:i+n]))
         return ngram
 
-    def __generate_freq_table(self, text_lines, n):
+    def __generate_ngram_table(self, text_lines, n):
+        """
+        <ngram> : {
+            <history> : {
+                <history 1>: { <current 1>: <freq>, <current 2>: <freq>, ...},
+                <history 2>: { <current 1>: <freq>, <current 2>: <freq>, ...},
+                ...
+            }
+            <current> :{
+                <current 1>: { <history 1>, <history 2> ...},
+                <current 2>: { <history 1>, <history 2> ...},
+                ...
+            }
+        }
+        """
+
         freq_table = {}
+        current_table = {}
+        unique_tokens = set()
         for text in text_lines:
             ngram = self.get_ngram(text, n)
             if ngram is not None:
                 for token in ngram:
-                    if token in freq_table:
-                        freq_table[token] += 1
+                    unique_tokens.add(token)
+                    history = " ".join(token.split(" ")[:-1])
+                    current = token.split(" ")[-1]
+                    if history not in freq_table:
+                        freq_table[history] = {}
+                        freq_table[history]["<total>"] = 0
+                    if current in freq_table[history]:
+                        freq_table[history][current] += 1
+                        freq_table[history]["<total>"] += 1
                     else:
-                        freq_table[token] = 1
-        return freq_table
+                        freq_table[history][current] = 1
+                        freq_table[history]["<total>"] += 1
+
+                    if current not in current_table:
+                        current_table[current] = set()
+                    else:
+                        current_table[current].add(history)
+
+        return {"<history>":freq_table,"<current>":current_table,"<total>":len(unique_tokens)}
 
     def construct_freq_table(self, text_lines, n, threshold=10):
         freq_table = {}
         for k in range(1, n+1):
-            freq_table[k] = self.__generate_freq_table(text_lines, k)
-        freq_table[1]["<#>"] = 0
-        key_set = list(freq_table[1].keys())
+            freq_table[k] = self.__generate_ngram_table(text_lines, k)
+        freq_table[1]["<history>"]['']["<#>"] = 0
+        freq_table[1]["<current>"]["<#>"]=set()
+        key_set = list(freq_table[1]["<history>"][''].keys())
         for key in key_set:
-            if freq_table[1][key] < threshold:
-                freq_table[1]["<#>"] += freq_table[1][key]
-                freq_table[1].pop(key)
+            if freq_table[1]["<history>"][''][key] < threshold:
+                freq_table[1]["<history>"]['']["<#>"] += freq_table[1]["<history>"][''][key]
+                freq_table[1]["<history>"][''].pop(key)
+                freq_table[1]["<current>"].pop(key)
+        freq_table[1]["<total>"] = len(freq_table[1]["<history>"][''])
+        freq_table[1]["<history>"]['']["<total>"]=len(freq_table[1]["<history>"][''])
         return freq_table
 
 
@@ -74,65 +115,54 @@ class NgramModel:
         self.n = n
         self.ngram = Ngram()
         self.cache = {}
+        self.ngram_table = {}
 
     def is_ngram_present(self,n,ngram):
-        if ngram in self.freq_table[n]:
+        history = " ".join(ngram.split(" ")[:-1])
+        current = ngram.split(" ")[-1]
+        try :
+            _ = self.ngram_table[n]["<history>"][history][current]
             return True
-        return False
+        except KeyError:
+            return False
 
     def count_size(self,n):
-        return len(self.freq_table[n])
+        return self.ngram_table[n]["<total>"]
 
     def get_ngram_freq(self,n, ngram):
-        return self.freq_table[n][ngram]
+        # return self.ngram_table[n][ngram]
+        return self.count_ngram_freq(ngram)
 
     def count_ngram_freq(self, ngram):
         # freq count( ngram)
-        tokens = ngram.split(" ")
-        if len(tokens) > 0:
-            if ngram in self.freq_table[len(tokens)]:
-                return self.freq_table[len(tokens)][ngram]
-        return 0
-    def count_ngram_history_freq(self,history):
-        # freq count( history + variable word)
-        # cache_key = "history_freq_"+history
-        # if cache_key in self.cache:
-        #     return self.cache[cache_key]
-        
+        tokens =ngram.split(" ")
+        gram = len(tokens)
+        history = " ".join(tokens[:-1])
+        current = ngram.split(" ")[-1]
+        # if len(tokens) > 0:
+        #     if history in self.ngram_table[gram]:
+        #         if current in self.ngram_table[gram][history]:
+        #             return self.ngram_table[gram][history][current]
+        try:
+            return self.ngram_table[gram]["<history>"][history][current]
+        except KeyError:
+            return 0
+    def count_ngram_history_freq(self,history):  
         gram = len(history.split(" "))+1
-        total =0
-        for key in self.freq_table[gram]:
-            if key.startswith(history):
-                total += self.freq_table[gram][key]
-        # self.cache[cache_key] = total
-        return total
+        return self.ngram_table[gram]["<history>"][history]["<total>"]
     def count_ngram_history(self,history):
-        # count( history + variable word)
-        # cache_key = "history_"+history
-        # if cache_key in self.cache:
-        #     return self.cache[cache_key]
         gram = len(history.split(" "))+1
-        total =0
-        for key in self.freq_table[gram]:
-            if key.startswith(history):
-                total += 1
-        # self.cache[cache_key] = total
-        return total
+        return len(self.ngram_table[gram]["<history>"][history])
 
     def count_ngram_current(self,gram,current):
-        # count( variable history + current)
-        # cache_key = "current_"+gram+"_"+current
-        # if cache_key in self.cache:
-        #     return self.cache[cache_key]
-        total = 0
-        for key in self.freq_table[gram]:
-            if key.endswith(current):
-                total += 1
-        # self.cache[cache_key] = total
-        return total
+        # total = 0
+        # for key in self.ngram_table[gram]:
+        #     if key.endswith(current):
+        #         total += 1
+        return len(self.ngram_table[gram]["<current>"][current])
 
     def train(self, train_data):
-        self.freq_table = self.ngram.construct_freq_table(train_data, self.n)
+        self.ngram_table = self.ngram.construct_freq_table(train_data, self.n)
 
     def get_perplexity(self, test_sentence, smoothing: Smoothing):
         perplexity_scores = []
@@ -142,6 +172,8 @@ class NgramModel:
             perplexity_scores.append(score)
         N = len(ngram_tokens)
         perplexity_score = pow(1/np.prod(perplexity_scores), 1/N)
+        if math.isinf(perplexity_score):
+            perplexity_score = pow(1e-300, 1/N)
         return perplexity_score
 
 
@@ -155,7 +187,7 @@ class WittenBell(Smoothing):
         if n == 1:
             if model.is_ngram_present(n,current):
                 return model.get_ngram_freq(n,current)/model.count_size(n)
-            return 1/len(model.freq_table[1])
+            return 1/len(model.ngram_table[1])
         try:
             LAMBDA = model.count_ngram_history(history)/(
                 model.count_ngram_history(history) +model.count_ngram_history_freq(history)
@@ -276,19 +308,19 @@ if __name__ == "__main__":
     LM = input("Enter the name for score TXT file (for which LM): ")
     if smoothing_technique == "k":
         k = KneserNey()
-        # info('Calculating perplexity using KneserNey smoothing for training data.')
-        # perplexity_scores_train = []
-        # PERPLEXITY_SCORE_TRAIN_PATH = os.path.join(".", "scores", ROLL_NO+"_LM"+LM+"_train-perplexity.txt")
-        # with open(PERPLEXITY_SCORE_TRAIN_PATH, 'w') as f:
-        #     for text in train:
-        #         perplexity_score = model.get_perplexity(text, k)
-        #         perplexity_scores_train.append(perplexity_score)
-        #         # info(text.strip() + " :: " + str(perplexity_score))
-        #         f.write(text.strip() + " :: " + str(perplexity_score) +"\n")
-        #     f.write("Average Perplexity for training data: " + str(np.mean(perplexity_scores_train)))
-        # info('Perplexity calculated for training data. Saving to file.')
-        # info ('Average Perplexity for training data: ' + str(np.mean(perplexity_scores_train)))
-        # info('Calculating perplexity using KneserNey smoothing for testing data.')
+        info('Calculating perplexity using KneserNey smoothing for training data.')
+        perplexity_scores_train = []
+        PERPLEXITY_SCORE_TRAIN_PATH = os.path.join(".", "scores", ROLL_NO+"_LM"+LM+"_train-perplexity.txt")
+        with open(PERPLEXITY_SCORE_TRAIN_PATH, 'w') as f:
+            for text in train:
+                perplexity_score = model.get_perplexity(text, k)
+                perplexity_scores_train.append(perplexity_score)
+                # info(text.strip() + " :: " + str(perplexity_score))
+                f.write(text.strip() + " :: " + str(perplexity_score) +"\n")
+            f.write("Average Perplexity for training data: " + str(np.mean(perplexity_scores_train)))
+        info('Perplexity calculated for training data. Saving to file.')
+        info ('Average Perplexity for training data: ' + str(np.mean(perplexity_scores_train)))
+        info('Calculating perplexity using KneserNey smoothing for testing data.')
         PERPLEXITY_SCORE_TEST_PATH = os.path.join(".", "scores", ROLL_NO+"_LM"+LM+"_test-perplexity.txt")
         perplexity_scores_test =[]
         with open(PERPLEXITY_SCORE_TEST_PATH, 'w') as f:
@@ -303,18 +335,18 @@ if __name__ == "__main__":
 
     elif smoothing_technique == "w":
         w = WittenBell()
-        # info('Calculating perplexity using Witten Bell smoothing for training data.')
-        # perplexity_scores_train = []
-        # PERPLEXITY_SCORE_TRAIN_PATH = os.path.join(".", "scores", ROLL_NO+"_LM"+LM+"_train-perplexity.txt")
-        # with open(PERPLEXITY_SCORE_TRAIN_PATH, 'w') as f:
-        #     for text in train:
-        #         perplexity_score = model.get_perplexity(text, w)
-        #         perplexity_scores_train.append(perplexity_score)
-        #         # info(text.strip() + " :: " + str(perplexity_score))
-        #         f.write(text.strip() + " :: " + str(perplexity_score) +"\n")
-        #     f.write("Average Perplexity for training data: " + str(np.mean(perplexity_scores_train)))
-        # info('Perplexity calculated for training data. Saving to file.')
-        # info ('Average Perplexity for training data: ' + str(np.mean(perplexity_scores_train)))
+        info('Calculating perplexity using Witten Bell smoothing for training data.')
+        perplexity_scores_train = []
+        PERPLEXITY_SCORE_TRAIN_PATH = os.path.join(".", "scores", ROLL_NO+"_LM"+LM+"_train-perplexity.txt")
+        with open(PERPLEXITY_SCORE_TRAIN_PATH, 'w') as f:
+            for text in train:
+                perplexity_score = model.get_perplexity(text, w)
+                perplexity_scores_train.append(perplexity_score)
+                # info(text.strip() + " :: " + str(perplexity_score))
+                f.write(text.strip() + " :: " + str(perplexity_score) +"\n")
+            f.write("Average Perplexity for training data: " + str(np.mean(perplexity_scores_train)))
+        info('Perplexity calculated for training data. Saving to file.')
+        info ('Average Perplexity for training data: ' + str(np.mean(perplexity_scores_train)))
         info('Calculating perplexity using Witten Bell smoothing for test data.')
         PERPLEXITY_SCORE_TEST_PATH = os.path.join(".", "scores", ROLL_NO+"_LM"+LM+"_test-perplexity.txt")
         perplexity_scores_test =[]
