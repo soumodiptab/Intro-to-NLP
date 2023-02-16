@@ -12,7 +12,7 @@
             "console": "integratedTerminal",
             "cwd": "${fileDirname}",
             "args": [
-                "4", "w", "./corpora/Ulysses - James Joyce.txt"
+                "4", "k", "./corpora/Ulysses - James Joyce.txt"
             ],
             "justMyCode": true
         }
