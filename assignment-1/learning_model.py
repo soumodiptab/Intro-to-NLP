@@ -89,16 +89,16 @@ class Ngram:
         freq_table = {}
         for k in range(1, n+1):
             freq_table[k] = self.__generate_ngram_table(text_lines, k)
-        freq_table[1]["<history>"]['']["<#>"] = 0
-        freq_table[1]["<current>"]["<#>"]=set()
-        key_set = list(freq_table[1]["<history>"][''].keys())
-        for key in key_set:
-            if freq_table[1]["<history>"][''][key] < threshold:
-                freq_table[1]["<history>"]['']["<#>"] += freq_table[1]["<history>"][''][key]
-                freq_table[1]["<history>"][''].pop(key)
-                freq_table[1]["<current>"].pop(key)
-        freq_table[1]["<total>"] = len(freq_table[1]["<history>"][''])
-        freq_table[1]["<history>"]['']["<total>"]=len(freq_table[1]["<history>"][''])
+        # freq_table[1]["<history>"]['']["<#>"] = 0
+        # freq_table[1]["<current>"]["<#>"]=set()
+        # key_set = list(freq_table[1]["<history>"][''].keys())
+        # for key in key_set:
+        #     if freq_table[1]["<history>"][''][key] < threshold:
+        #         freq_table[1]["<history>"]['']["<#>"] += freq_table[1]["<history>"][''][key]
+        #         freq_table[1]["<history>"][''].pop(key)
+        #         freq_table[1]["<current>"].pop(key)
+        # freq_table[1]["<total>"] = len(freq_table[1]["<history>"][''])
+        # freq_table[1]["<history>"]['']["<total>"]=len(freq_table[1]["<history>"][''])
         return freq_table
 
 
@@ -214,9 +214,7 @@ class KneserNey(Smoothing):
     def __P_kn(self,model: NgramModel,n, history,current,higher_order=False,d=0.75):
         # Probability of current word given history
         if not model.is_ngram_present(1,current):
-            return d/model.get_ngram_freq(1,"<#>")
-        if n == 1:
-            return (d / model.get_ngram_freq(1,"<#>")) + ((1-d)/model.count_size(1))
+            return d/model.count_size(1)
         try:
             if higher_order:
                 ngram = " ".join([history,current])
@@ -225,10 +223,12 @@ class KneserNey(Smoothing):
                 FIRST_TERM =max(model.count_ngram_current(n,current) - d,0)/model.count_size(n)
         except:
             FIRST_TERM = 0
+        if n == 1:
+            return FIRST_TERM + d/model.count_size(n)
         try:
             LAMBDA = (d/model.count_ngram_history_freq(history))*model.count_ngram_history(history)
         except:
-            LAMBDA = (d/model.get_ngram_freq(1,"<#>"))
+            LAMBDA = (d/model.count_size(1))
             return LAMBDA
         new_history = " ".join(history.split(" ")[1:])
         SECOND_TERM = self.__P_kn(model,n-1,new_history,current)
