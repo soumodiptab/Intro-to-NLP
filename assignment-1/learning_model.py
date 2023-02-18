@@ -5,6 +5,7 @@ import pickle
 import numpy as np
 import time
 import math
+import matplotlib.pyplot as plt
 ROLL_NO = "2021201086"
 
 
@@ -177,6 +178,8 @@ class NgramModel:
         if prod_val == 0:
             prod_val=1e-300
         perplexity_score = pow(1/prod_val, 1/N)
+        if math.isinf(perplexity_score):
+            perplexity_score = 0
         return perplexity_score
 
 
@@ -188,7 +191,7 @@ class WittenBell(Smoothing):
     def __P_wb(self,model: NgramModel,n, history,current):
         # Probability of current word given history
         if n == 1:
-            if model.is_ngram_present(n,"".join(history,current)):
+            if model.is_ngram_present(n," ".join([history,current])):
                 return model.get_ngram_freq(n,current)/model.count_size(n)
             return 1/len(model.ngram_table[1])
         try:
@@ -330,8 +333,9 @@ if __name__ == "__main__":
                 perplexity_score = model.get_perplexity(text, k)
                 perplexity_scores_train.append(perplexity_score)
                 # info(text.strip() + " :: " + str(perplexity_score))
-                f.write(text.strip() + " :: " + str(perplexity_score) +"\n")
-            f.write("Average Perplexity for training data: " + str(np.mean(perplexity_scores_train)))
+                f.write(text.strip() + "\t" + str(perplexity_score) +"\n")
+            f.seek(0)
+            f.write(str(np.mean(perplexity_scores_train)) +"\n")
         info('Perplexity calculated for training data. Saving to file.')
         info ('Average Perplexity for training data: ' + str(np.mean(perplexity_scores_train)))
         info('Calculating perplexity using KneserNey smoothing for testing data.')
@@ -342,8 +346,9 @@ if __name__ == "__main__":
                 perplexity_score = model.get_perplexity(text, k)
                 perplexity_scores_test.append(perplexity_score)
                 # info(text.strip() + " :: " + str(perplexity_score))
-                f.write(text.strip() + ":: " + str(perplexity_score) +"\n")
-            f.write("Average Perplexity for test data: " + str(np.mean(perplexity_scores_test)))
+                f.write(text.strip() + "\t" + str(perplexity_score) +"\n")
+            f.seek(0)
+            f.write(str(np.mean(perplexity_scores_test)) +"\n")
         info('Perplexity calculated. Saved to file.')
         info ('Average Perplexity for test data: ' + str(np.mean(perplexity_scores_test)))
 
@@ -357,8 +362,9 @@ if __name__ == "__main__":
                 perplexity_score = model.get_perplexity(text, w)
                 perplexity_scores_train.append(perplexity_score)
                 # info(text.strip() + " :: " + str(perplexity_score))
-                f.write(text.strip() + " :: " + str(perplexity_score) +"\n")
-            f.write("Average Perplexity for training data: " + str(np.mean(perplexity_scores_train)))
+                f.write(text.strip() + "\t" + str(perplexity_score) +"\n")
+            f.seek(0)
+            f.write(str(np.mean(perplexity_scores_train)) +"\n")
         info('Perplexity calculated for training data. Saving to file.')
         info ('Average Perplexity for training data: ' + str(np.mean(perplexity_scores_train)))
         info('Calculating perplexity using Witten Bell smoothing for test data.')
@@ -370,8 +376,9 @@ if __name__ == "__main__":
                 perplexity_score = model.get_perplexity(text, w)
                 perplexity_scores_test.append(perplexity_score)
                 # print(str(i) + " :: " + str(perplexity_score))
-                f.write(text.strip() + ":: " + str(perplexity_score) +"\n")
-            f.write("Average Perplexity for test data: " + str(np.mean(perplexity_scores_test)))
+                f.write(text.strip() + "\t" + str(perplexity_score) +"\n")
+            f.seek(0)
+            f.write(str(np.mean(perplexity_scores_test)) +"\n")
         info('Perplexity calculated. Saved to file.')
         info ('Average Perplexity for test data: ' + str(np.mean(perplexity_scores_test)))
         
