@@ -167,6 +167,16 @@ class NgramModel:
     def train(self, train_data):
         self.ngram_table = self.ngram.construct_freq_table(train_data, self.n)
 
+    def get_prob(self, test_sentence, smoothing: Smoothing):
+        ngram_tokens = self.ngram.get_ngram(test_sentence, self.n)
+        prob_scores = []
+        for token in ngram_tokens:
+            score = smoothing.get_perplexity(self, token)
+            prob_scores.append(score)
+        N = len(ngram_tokens)
+        prod_val =np.prod(prob_scores)
+        return prod_val
+
     def get_perplexity(self, test_sentence, smoothing: Smoothing):
         perplexity_scores = []
         ngram_tokens = self.ngram.get_ngram(test_sentence, self.n)
@@ -281,8 +291,6 @@ def test_train_split(data, test_distribution=0.2, flag=False):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("n", help="Ngram value")
-    parser.add_argument("smoothing", help="Smoothing technique to be used")
-    parser.add_argument("corpus", help="Path to the corpus file")
     args = parser.parse_args()
     smoothing_technique = args.smoothing
     CORPUS_PATH = args.corpus
@@ -322,65 +330,70 @@ if __name__ == "__main__":
         with open(MODEL_PATH, 'rb') as f:
             model = pickle.load(f)
     info('Ngram model loaded.')
-    LM = input("Enter the name for score TXT file (for which LM): ")
+    #LM = input("Enter the name for score TXT file (for which LM): "
+    test_text = input('input sentence:')
+
     if smoothing_technique == "k":
         k = KneserNey()
-        info('Calculating perplexity using KneserNey smoothing for training data.')
-        perplexity_scores_train = []
-        PERPLEXITY_SCORE_TRAIN_PATH = os.path.join(".", "scores", ROLL_NO+"_LM"+LM+"_train-perplexity.txt")
-        with open(PERPLEXITY_SCORE_TRAIN_PATH, 'w') as f:
-            for text in train:
-                perplexity_score = model.get_perplexity(text, k)
-                perplexity_scores_train.append(perplexity_score)
-                # info(text.strip() + " :: " + str(perplexity_score))
-                f.write(text.strip() + "\t" + str(perplexity_score) +"\n")
-            f.seek(0)
-            f.write(str(np.mean(perplexity_scores_train)) +"\n")
-        info('Perplexity calculated for training data. Saving to file.')
-        info ('Average Perplexity for training data: ' + str(np.mean(perplexity_scores_train)))
-        info('Calculating perplexity using KneserNey smoothing for testing data.')
-        PERPLEXITY_SCORE_TEST_PATH = os.path.join(".", "scores", ROLL_NO+"_LM"+LM+"_test-perplexity.txt")
-        perplexity_scores_test =[]
-        with open(PERPLEXITY_SCORE_TEST_PATH, 'w') as f:
-            for text in test:
-                perplexity_score = model.get_perplexity(text, k)
-                perplexity_scores_test.append(perplexity_score)
-                # info(text.strip() + " :: " + str(perplexity_score))
-                f.write(text.strip() + "\t" + str(perplexity_score) +"\n")
-            f.seek(0)
-            f.write(str(np.mean(perplexity_scores_test)) +"\n")
-        info('Perplexity calculated. Saved to file.')
-        info ('Average Perplexity for test data: ' + str(np.mean(perplexity_scores_test)))
+        print(model.get_prob(test_text, k))
+        #info('Calculating perplexity using KneserNey smoothing for training data.')
+        # perplexity_scores_train = []
+        # PERPLEXITY_SCORE_TRAIN_PATH = os.path.join(".", "scores", ROLL_NO+"_LM"+LM+"_train-perplexity.txt")
+        # with open(PERPLEXITY_SCORE_TRAIN_PATH, 'w') as f:
+        #     for text in train:
+        #         perplexity_score = model.get_perplexity(text, k)
+        #         perplexity_scores_train.append(perplexity_score)
+        #         # info(text.strip() + " :: " + str(perplexity_score))
+        #         f.write(text.strip() + "\t" + str(perplexity_score) +"\n")
+        #     f.seek(0)
+        #     f.write(str(np.mean(perplexity_scores_train)) +"\n")
+        # info('Perplexity calculated for training data. Saving to file.')
+        # info ('Average Perplexity for training data: ' + str(np.mean(perplexity_scores_train)))
+        # info('Calculating perplexity using KneserNey smoothing for testing data.')
+        # PERPLEXITY_SCORE_TEST_PATH = os.path.join(".", "scores", ROLL_NO+"_LM"+LM+"_test-perplexity.txt")
+        # perplexity_scores_test =[]
+        # with open(PERPLEXITY_SCORE_TEST_PATH, 'w') as f:
+        #     for text in test:
+        #         perplexity_score = model.get_perplexity(text, k)
+        #         perplexity_scores_test.append(perplexity_score)
+        #         # info(text.strip() + " :: " + str(perplexity_score))
+        #         f.write(text.strip() + "\t" + str(perplexity_score) +"\n")
+        #     f.seek(0)
+        #     f.write(str(np.mean(perplexity_scores_test)) +"\n")
+        # info('Perplexity calculated. Saved to file.')
+        # info ('Average Perplexity for test data: ' + str(np.mean(perplexity_scores_test)))
+
 
     elif smoothing_technique == "w":
         w = WittenBell()
-        info('Calculating perplexity using Witten Bell smoothing for training data.')
-        perplexity_scores_train = []
-        PERPLEXITY_SCORE_TRAIN_PATH = os.path.join(".", "scores", ROLL_NO+"_LM"+LM+"_train-perplexity.txt")
-        with open(PERPLEXITY_SCORE_TRAIN_PATH, 'w') as f:
-            for text in train:
-                perplexity_score = model.get_perplexity(text, w)
-                perplexity_scores_train.append(perplexity_score)
-                # info(text.strip() + " :: " + str(perplexity_score))
-                f.write(text.strip() + "\t" + str(perplexity_score) +"\n")
-            f.seek(0)
-            f.write(str(np.mean(perplexity_scores_train)) +"\n")
-        info('Perplexity calculated for training data. Saving to file.')
-        info ('Average Perplexity for training data: ' + str(np.mean(perplexity_scores_train)))
-        info('Calculating perplexity using Witten Bell smoothing for test data.')
-        PERPLEXITY_SCORE_TEST_PATH = os.path.join(".", "scores", ROLL_NO+"_LM"+LM+"_test-perplexity.txt")
-        perplexity_scores_test =[]
-        i=1
-        with open(PERPLEXITY_SCORE_TEST_PATH, 'w') as f:
-            for text in test:
-                perplexity_score = model.get_perplexity(text, w)
-                perplexity_scores_test.append(perplexity_score)
-                # print(str(i) + " :: " + str(perplexity_score))
-                f.write(text.strip() + "\t" + str(perplexity_score) +"\n")
-            f.seek(0)
-            f.write(str(np.mean(perplexity_scores_test)) +"\n")
-        info('Perplexity calculated. Saved to file.')
-        info ('Average Perplexity for test data: ' + str(np.mean(perplexity_scores_test)))
+        print(model.get_prob(test_text, w))
+        # info('Calculating perplexity using Witten Bell smoothing for training data.')
+        # perplexity_scores_train = []
+        # PERPLEXITY_SCORE_TRAIN_PATH = os.path.join(".", "scores", ROLL_NO+"_LM"+LM+"_train-perplexity.txt")
+        # with open(PERPLEXITY_SCORE_TRAIN_PATH, 'w') as f:
+        #     for text in train:
+        #         perplexity_score = model.get_perplexity(text, w)
+        #         perplexity_scores_train.append(perplexity_score)
+        #         # info(text.strip() + " :: " + str(perplexity_score))
+        #         f.write(text.strip() + "\t" + str(perplexity_score) +"\n")
+        #     f.seek(0)
+        #     f.write(str(np.mean(perplexity_scores_train)) +"\n")
+        # info('Perplexity calculated for training data. Saving to file.')
+        # info ('Average Perplexity for training data: ' + str(np.mean(perplexity_scores_train)))
+        # info('Calculating perplexity using Witten Bell smoothing for test data.')
+        # PERPLEXITY_SCORE_TEST_PATH = os.path.join(".", "scores", ROLL_NO+"_LM"+LM+"_test-perplexity.txt")
+        # perplexity_scores_test =[]
+        # i=1
+        # with open(PERPLEXITY_SCORE_TEST_PATH, 'w') as f:
+        #     for text in test:
+        #         perplexity_score = model.get_perplexity(text, w)
+        #         perplexity_scores_test.append(perplexity_score)
+        #         # print(str(i) + " :: " + str(perplexity_score))
+        #         f.write(text.strip() + "\t" + str(perplexity_score) +"\n")
+        #     f.seek(0)
+        #     f.write(str(np.mean(perplexity_scores_test)) +"\n")
+        # info('Perplexity calculated. Saved to file.')
+        # info ('Average Perplexity for test data: ' + str(np.mean(perplexity_scores_test)))
         
     else:
         error("Incorrect smoothing technique.")
