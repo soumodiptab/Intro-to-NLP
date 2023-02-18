@@ -89,16 +89,16 @@ class Ngram:
         freq_table = {}
         for k in range(1, n+1):
             freq_table[k] = self.__generate_ngram_table(text_lines, k)
-        freq_table[1]["<history>"]['']["<#>"] = 0
-        freq_table[1]["<current>"]["<#>"]=set()
-        key_set = list(freq_table[1]["<history>"][''].keys())
-        for key in key_set:
-            if freq_table[1]["<history>"][''][key] < threshold:
-                freq_table[1]["<history>"]['']["<#>"] += freq_table[1]["<history>"][''][key]
-                freq_table[1]["<history>"][''].pop(key)
-                freq_table[1]["<current>"].pop(key)
-        freq_table[1]["<total>"] = len(freq_table[1]["<history>"][''])
-        freq_table[1]["<history>"]['']["<total>"]=len(freq_table[1]["<history>"][''])
+        # freq_table[1]["<history>"]['']["<#>"] = 0
+        # freq_table[1]["<current>"]["<#>"]=set()
+        # key_set = list(freq_table[1]["<history>"][''].keys())
+        # for key in key_set:
+        #     if freq_table[1]["<history>"][''][key] < threshold:
+        #         freq_table[1]["<history>"]['']["<#>"] += freq_table[1]["<history>"][''][key]
+        #         freq_table[1]["<history>"][''].pop(key)
+        #         freq_table[1]["<current>"].pop(key)
+        # freq_table[1]["<total>"] = len(freq_table[1]["<history>"][''])
+        # freq_table[1]["<history>"]['']["<total>"]=len(freq_table[1]["<history>"][''])
         return freq_table
 
 
@@ -147,7 +147,9 @@ class NgramModel:
             return self.ngram_table[gram]["<history>"][history][current]
         except KeyError:
             return 0
-    def count_ngram_history_freq(self,history):  
+    def count_ngram_history_freq(self,history):
+        if history == "":
+            return self.ngram_table[1]["<total>"]
         gram = len(history.split(" "))+1
         return self.ngram_table[gram]["<history>"][history]["<total>"]
     def count_ngram_history(self,history):
@@ -171,9 +173,10 @@ class NgramModel:
             score = smoothing.get_perplexity(self, token)
             perplexity_scores.append(score)
         N = len(ngram_tokens)
-        perplexity_score = pow(1/np.prod(perplexity_scores), 1/N)
-        if math.isinf(perplexity_score):
-            perplexity_score = pow(1e-300, 1/N)
+        prod_val =np.prod(perplexity_scores)
+        if prod_val == 0:
+            prod_val=1e-300
+        perplexity_score = pow(1/prod_val, 1/N)
         return perplexity_score
 
 
@@ -210,27 +213,38 @@ class WittenBell(Smoothing):
 class KneserNey(Smoothing):
     def __init__(self):
         super().__init__()
+        self.d=0.75
 
-    def __P_kn(self,model: NgramModel,n, history,current,higher_order=False,d=0.75):
-        # Probability of current word given history
-        if not model.is_ngram_present(1,current):
-            return d/model.get_ngram_freq(1,"<#>")
+    def get_lambda(self,model: NgramModel,n, history):
         if n == 1:
-            return (d / model.get_ngram_freq(1,"<#>")) + ((1-d)/model.count_size(1))
+            return self.d/model.count_size(1)
+        new_history = " ".join(history.split(" ")[:-1])
+        new_current = history.split(" ")[-1]
+        try:
+            LAMBDA = (self.d/model.count_ngram_history_freq(new_history))*model.count_ngram_history(new_history)
+        except:
+            return self.d
+        return LAMBDA
+        
+    def __P_kn(self,model: NgramModel,n, history,current,higher_order=False,d=0.75):
+        ngram = " ".join([history,current])
+        # Probability of current word given history
+        if n == 1:
+             if not model.is_ngram_present(1,current):
+                return d/model.count_size(1)
+             return model.get_ngram_freq(1,current)/model.count_size(1)
+        if not model.is_ngram_present(n,ngram):
+            new_history =" ".join(history.split(" ")[1:])
+            return self.__P_kn(model,n-1,new_history,current)
         try:
             if higher_order:
-                ngram = " ".join([history,current])
                 FIRST_TERM =max(model.count_ngram_freq(ngram)-d,0)/model.count_ngram_history_freq(history)
             else:
                 FIRST_TERM =max(model.count_ngram_current(n,current) - d,0)/model.count_size(n)
         except:
             FIRST_TERM = 0
-        try:
-            LAMBDA = (d/model.count_ngram_history_freq(history))*model.count_ngram_history(history)
-        except:
-            LAMBDA = (d/model.get_ngram_freq(1,"<#>"))
-            return LAMBDA
-        new_history = " ".join(history.split(" ")[1:])
+        LAMBDA = self.get_lambda(model,n,history)
+        new_history =" ".join(history.split(" ")[1:])
         SECOND_TERM = self.__P_kn(model,n-1,new_history,current)
         return FIRST_TERM + LAMBDA * SECOND_TERM
 
