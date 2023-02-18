@@ -108,7 +108,22 @@ class Tokenizer:
         #text = self.replace_punctuation(text)
         #text = re.sub(r'[^a-z0-9\s]', '', text)
         return text
-
+    def tokenize2(self,text):
+        text = self.replace_new_lines(text)
+        text = self.to_lowercase(text)
+        text = self.replace_hash_tags(text)
+        text = self.replace_urls(text)
+        text = self.replace_email(text)
+        text = self.replace_dates(text)
+        text = self.replace_concurrent_punctuation(text)
+        text = self.replace_phone_numbers(text)
+        text = self.replace_hyphenated_words(text)
+        text = self.remove_footnotes(text)
+        text = self.add_space_special_characters(text)
+        text = self.remove_extra_spaces(text)
+        #text = self.replace_punctuation(text)
+        #text = re.sub(r'[^a-z0-9\s]', '', text)
+        return text.split(" ")
 
 # Util functions to save and read from file
 
