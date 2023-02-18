@@ -185,7 +185,7 @@ class WittenBell(Smoothing):
     def __P_wb(self,model: NgramModel,n, history,current):
         # Probability of current word given history
         if n == 1:
-            if model.is_ngram_present(n,current):
+            if model.is_ngram_present(n,"".join(history,current)):
                 return model.get_ngram_freq(n,current)/model.count_size(n)
             return 1/len(model.ngram_table[1])
         try:
