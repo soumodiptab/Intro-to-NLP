@@ -1,15 +1,16 @@
-import random
-from tensorflow.keras.layers import Embedding, LSTM, Dense, Dropout
-from tensorflow.keras.callbacks import EarlyStopping,ModelCheckpoint
-from tensorflow.keras.models import Sequential,load_model
-import tensorflow.keras.utils as ku 
+import random 
 import numpy as np
 import math
-import re
+from tensorflow.keras.layers import Embedding, LSTM, Dense, Dropout
 from nltk import sent_tokenize
 from tokenizer import Tokenizer
+import tensorflow.keras.utils as kutils
 import argparse
+from tensorflow.keras.callbacks import EarlyStopping,ModelCheckpoint
 import os
+from tensorflow.keras.models import Sequential,load_model
+import re
+CORPUS_NAME = ""
 max_len_allowed=1e2
 flag_ulysses = False
 def decorate():
@@ -27,7 +28,7 @@ def info(msg):
 
 def read_from_file(file_name):
     text_lines=[]
-    if(flag_ulysses):
+    if(CORPUS_NAME == "Ulysses - James Joyce"):
         with open(file_name, "r") as f:
             text_lines = f.readlines()
     else:
@@ -41,59 +42,58 @@ def read_from_file(file_name):
     return actual
 
 
-def get_sequences_of_tokens(strings):
-    op=[]
-    counters=dict()
+def token_sequencer(text_lines):
     tk = Tokenizer()
-    # strings=lines(corpus)
+    res=[]
     i=0
     actual=0
-    for line in strings:
-        lists=tk.tokenize2(line)
-        # for word in list:
-        #     op.append(word)
+    for text_line in text_lines:
+        lists=tk.tokenize2(text_line)
         i+=1
         if(len(lists)<=1 or len(lists) > max_len_allowed):
             continue
         actual+=1
-        op.append(lists)
-    return op
+        res.append(lists)
+    return res
 
-def handle_preprocess(corpus):
+def preprocess_handler(corpus):
     dataset = read_from_file(corpus)
-    data = get_sequences_of_tokens(dataset)
-    # print(data)
-    # for line in data:
-    #     # line.insert(0, '<s>')
-    #     # line.insert(0, '<s>')
-    #     line.insert(0, '<s>')
-    #     line.append('</s>')
+    data = token_sequencer(dataset)
     return data
+
+def parse_input(tokenized_data,word_to_index,token_unk,num_class,maxi):
+  local_maxi=maxi
+  input_tokens=[]
+  for token_list in tokenized_data:
+    index_list=[]
+    for word in token_list:
+        try :
+            _=word_to_index[word]
+        except KeyError:
+            word=token_unk
+        seq_num=word_to_index[word]
+        index_list.append(seq_num)
+    local_maxi=max(len(index_list),local_maxi)
+    limit =len(index_list)
+    for n in range(1, limit):
+        n_gram_sequence = index_list[:n+1]
+        input_tokens.append(n_gram_sequence)
+  input_tokens=pad_sequences(input_tokens,local_maxi)
+  predicted_values = input_tokens[:,:-1]
+  label_values=input_tokens[:,-1]
+  label_values = kutils.to_categorical(label_values, num_classes=num_class)
+  return label_values,predicted_values
 
 def pad_sequences(sequences, maxlen, pad_index=0):
     # Pad each sequence with the given value
     padded_sequences = []
     for seq in sequences:
-        mult_seq =(maxlen - len(seq))
+        mult_seq =abs(maxlen - len(seq))
         padded_seq = [pad_index] * mult_seq  + seq
         padded_sequences.append(padded_seq)    
     return np.array(padded_sequences)
 
 
-class Model:
-    def __init__(self,predictors, label, input_len, total_words,X_val,Y_val,path):
-        model = Sequential()
-        model.add(Embedding(total_words, 12, input_length=input_len))
-        model.add(LSTM(132))
-        model.add(Dropout(0.35))
-        model.add(Dense(total_words, activation='softmax'))
-        model.compile(loss='categorical_crossentropy', optimizer='adam',metrics=['accuracy'])
-        stop = EarlyStopping(monitor = 'val_loss', min_delta = 0, patience = 5, verbose = 1, mode = 'auto')
-        save = ModelCheckpoint(path, monitor = 'val_loss', verbose = 1, save_best_only = True)
-        callbacks = [stop, save]
-        print(model.summary())
-        final=model.fit(predictors, label, validation_data=(X_val,Y_val),epochs=80, batch_size=128, verbose=1,callbacks = callbacks)
-        return final
     
 def gen_freq_table(text):
   t=0
@@ -112,87 +112,66 @@ def gen_freq_table(text):
   return freq_table,total_len,max_len 
 
 def build_vocab(counter):
-  min_count = 2
-  unknown_token = '<unk>'
-  word2index = {unknown_token: 1}
-  index2word = [unknown_token]
-  id=2
+  unknown_token = '<unkown>'
+  index_to_word = [unknown_token]
+  word_to_index = {unknown_token: 1}
+  min_count = 3
+  idx=2
   for word, count in counter.items():
-      if count >= min_count:
-          index2word.append(word)
-          word2index[word] = id
-          id+=1
-  num_classes = len(word2index)
-  return word2index,index2word,num_classes
+    if min_count <= count:
+        word_to_index[word] = idx
+        idx=idx+1
+        index_to_word.append(word)
+  return word_to_index,index_to_word,len(word_to_index)+1
 
 
-def handle_preprocess_sent(sent):
-    line = get_sequences_of_tokens([sent])
-    # line[0].insert(0, '<s>')
-    # line[0].insert(0, '<s>')
-    # line[0].insert(0, '<s>')
-    # line[0].append('</s>')
-    return line[0]
+def sentence_preprocessor(sent):
+    return token_sequencer([sent])[0]
 
-def find_prob(X_data,Y_data,Y_pred):
-    ret_prob = 1
-    for lines in X_data:
-        for i in range(len(lines)-1):
-            ret_prob*= Y_pred[i][np.argmax(Y_data[i])]
-    return ret_prob
-
-def build_input(tokenized_data,word2index,unknown_token,num_class,mx):
-  input_sequences=[]
-  mxx=mx
-  for token_list in tokenized_data:
-    n_list=[]
-    for word in token_list:
-        if word not in word2index:
-            word=unknown_token
-        seq_num=word2index[word]
-        n_list.append(seq_num)
-    mxx=max(mxx,len(n_list))
-    for i in range(1, len(n_list)):
-        n_gram_sequence = n_list[:i+1]
-        input_sequences.append(n_gram_sequence)
-  input_sequences=pad_sequences(input_sequences,mxx)
-
-  predictors, label = input_sequences[:,:-1],input_sequences[:,-1]
-  label = ku.to_categorical(label, num_classes=num_class)
-#   print(mxx)
-  return predictors,label
+def get_probability(x_data,y_data,pred_values_y):
+    prob_value = 1
+    for lines in x_data:
+        limit =len(lines)-1
+        for i in range(limit):
+            idx =np.argmax(y_data[i])
+            prob_value= pred_values_y[i][idx]*prob_value
+    return prob_value
 
 def model_creation(MODEL_PATH):
     pass
 
+def model_get_predicted_value(model,data):
+    return model.predict(data)
+
+
+def model_pred(MODEL_PATH,CORPUS_PATH):
+    model = load_model(MODEL_PATH)
+    info('Model loaded.')
+    test_text = input('Input Sentence: ')
+    dataset=preprocess_handler(CORPUS_PATH)
+    CORPUS_NAME = CORPUS_PATH.split("/")[-1].split(".")[0]
+    central_dict,_,maxi=gen_freq_table(dataset)
+    word_to_index,_,num_of_classes=build_vocab(central_dict)
+    token_sen=sentence_preprocessor(test_text)
+    sentence_y,sentence_x=parse_input(token_sen,word_to_index,'<unkown>',num_of_classes,maxi)
+    model_pred_values = model_get_predicted_value(model,sentence_x)
+    vals = get_probability(token_sen, sentence_y, model_pred_values)
+    print(vals)
+
 if __name__ == "__main__":
-    # parser = argparse.ArgumentParser()
-    # parser.add_argument("model_path", help="Provide model path")
-    # parser.add_argument("corpus_path", help="Provide corpus path")
-    # args = parser.parse_args()
-    #MODEL_PATH = args.model_path
-    #CORPUS_PATH = args.corpus_path
-    CORPUS_PATH = "./corpora/Pride and Prejudice - Jane Austen.txt"
-    MODEL_PATH ="./models/lstm_weights.hdf5"
+    parser = argparse.ArgumentParser()
+    parser.add_argument("model_path", help="Provide model path")
+    parser.add_argument("corpus_path", help="Provide corpus path")
+    args = parser.parse_args()
+    MODEL_PATH = args.model_path
+    CORPUS_PATH = args.corpus_path
+    #CORPUS_PATH = "./corpora/Pride and Prejudice - Jane Austen.txt"
+    #MODEL_PATH ="./models/lstm_weights.hdf5"
     if not os.path.exists(MODEL_PATH):
         error('Model file does not exist.')
         model_creation(MODEL_PATH)
         exit(1)
     else:
         info('Model file exists.')
-        model = load_model(MODEL_PATH)
-        info('Model loaded.')
-        test_text = input('Input Sentence: ')
-        dataset=handle_preprocess(CORPUS_PATH)
-        cnter,total,mx=gen_freq_table(dataset)
-        word2id,id2word,num_classes=build_vocab(cnter)
-        num_classes+=1
-        p = input("input sentence: ")
-        token_sen=handle_preprocess_sent(test_text)
-        sen_x,sen_y=build_input(token_sen,word2id,'<unk>',num_classes,mx)
-        # print(sen_x.shape)
-        # print(sen_y.shape)
-        y_pred_sen=model.predict(sen_x)
-        # print(y_pred_sen.shape)
-        vals = find_prob(token_sen, sen_y, y_pred_sen)
-        print(vals)
+        model_pred(MODEL_PATH,CORPUS_PATH)
+        
