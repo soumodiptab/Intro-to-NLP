@@ -291,6 +291,8 @@ def test_train_split(data, test_distribution=0.2, flag=False):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("n", help="Ngram value")
+    parser.add_argument("smoothing", help="Smoothing technique to be used")
+    parser.add_argument("corpus", help="Path to the corpus file")
     args = parser.parse_args()
     smoothing_technique = args.smoothing
     CORPUS_PATH = args.corpus
