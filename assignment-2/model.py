@@ -50,6 +50,8 @@ class POSTagger(nn.Module):
         self.to(self.device)
         optimizer = torch.optim.Adam(self.parameters(), lr=learning_rate)
         loss_function = nn.CrossEntropyLoss(ignore_index=0)
+        # print model training parameters
+        print("Training model with parameters | EPOCHS: {} LEARNING RATE: {}".format(epochs,learning_rate))
         for epoch in tqdm(range(epochs)):
             self.train()
             total_loss = 0
@@ -85,7 +87,12 @@ class POSTagger(nn.Module):
             predictions.append(labels)
         return predictions
 
-    
+    def summary(self):
+        print ("Model Summary :")
+        print('=====================================================================================================')
+        print(self)
+        print('=====================================================================================================')
+
     def save(self,path):
         torch.save(self.state_dict(), path)
 
@@ -99,3 +106,4 @@ class ImprovedPOSTagger(POSTagger):
         super().__init__(max_seq_len,embeddings,hidden_dim,n_layers,tagset_size,device)
         self.lstm = nn.LSTM(input_size=embeddings.size()[1], hidden_size=hidden_dim, dropout=dropout, num_layers=n_layers, bidirectional=bidirectional)
         self.hidden2tag = nn.Linear(self.hidden_dim*2,self.num_labels)
+        self.to(device)

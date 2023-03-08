@@ -1,5 +1,11 @@
 {
+    "DATA_FOLDER": "data/UD_English-Atis/",
+    "TRAIN_FILE": "en_atis-ud-train.conllu",
+    "TEST_FILE": "en_atis-ud-test.conllu",
+    "DEV_FILE": "en_atis-ud-dev.conllu",
+    "WORD_EMBEDDINGS_FILE": "data/glove.6B.100d.txt",
     "BATCH_SIZE": 32,
+    "SEED":159,
     "EPOCHS": 100,
     "EMBEDDING_DIM": 100,
     "HIDDEN_DIM": 128,

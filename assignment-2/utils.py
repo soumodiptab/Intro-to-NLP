@@ -2,13 +2,17 @@ import numpy as np
 import torch
 from conllu import parse
 
+def set_seed(seed):
+  torch.manual_seed(seed)
+  torch.backends.cudnn.deterministic = True
+  torch.backends.cudnn.benchmark = False
+  np.random.seed(seed)
 
 def get_conllu_data(filename):
     with open (filename, "r", encoding="utf-8") as f:
         data = f.read()
     sentences = parse(data)
     return sentences
-
 
 def accuracy(true, pred):
   true = np.array(true)
@@ -66,26 +70,6 @@ def create_tags(sentences):
     for i,tag in enumerate(tags):
         tag_dict[tag]=i+1
     return tag_dict
-
-def create_data(sentences,vocab,tags,max_seq_len=50):
-    sents_idx=[]
-    sent_tags=[]
-    for sent in sentences:
-        sent_idx=[]
-        sent_tag=[]
-        for token in sent:
-            if (token["form"].lower() in vocab):
-                sent_idx.append(vocab[token["form"].lower()])
-            else:
-                sent_idx.append(vocab["<UNK>"])
-            sent_tag.append(tags[token["upos"]])
-        sents_idx.append(sent_idx)
-        sent_tags.append(sent_tag)
-    for i in range(len(sents_idx)):
-        if len(sents_idx[i]) < max_seq_len:
-            sents_idx[i]=sents_idx[i]+[vocab["<PAD>"] for _ in range(max_seq_len - len(sents_idx[i]))]
-            sent_tags[i]=sent_tags[i]+[tags["PAD"] for _ in range(max_seq_len - len(sent_tags[i]))]
-    return sents_idx,sent_tags
 
 
 def sent_to_vector(vocab,sentence,max_seq_len=50):
