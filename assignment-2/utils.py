@@ -1,7 +1,7 @@
 import numpy as np
 import torch
 from conllu import parse
-
+import os
 def set_seed(seed):
   torch.manual_seed(seed)
   torch.backends.cudnn.deterministic = True
@@ -30,6 +30,9 @@ def get_uniq_words(sentences):
     return words
 
 def read_embeddings(filename, vocab_size=10000):
+    if not os.path.exists(filename):
+        print("Embedding file not found")
+        exit(1)
     with open(filename, encoding="utf-8") as file:
         word_embedding_dim = len(file.readline().split(" ")) - 1
     vocab = {}
