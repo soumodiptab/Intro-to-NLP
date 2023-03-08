@@ -1,5 +1,14 @@
 {
     "BATCH_SIZE": 32,
     "EPOCHS": 100,
-    "LEARNING_RATE": 0.0005
+    "EMBEDDING_DIM": 100,
+    "HIDDEN_DIM": 128,
+    "DROPOUT": 0.8,
+    "N_LAYERS": 2,
+    "LEARNING_RATE": 0.0005,
+    "MODEL_PATH": "pos_tagger2.pt",
+    "MAX_SEQ_LENGTH": 50,
+    "VOCAB_SIZE": 50000,
+    "BIDIRECTIONAL": true
+
 }
