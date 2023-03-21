@@ -1,3 +1,5 @@
 assignment-3/data/*/*.*
 assignment-3/data/*.json
 *.gz
+assignment-3/*.pth
+assignment-3/*.txt
