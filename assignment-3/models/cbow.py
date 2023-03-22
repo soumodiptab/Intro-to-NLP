@@ -48,7 +48,7 @@ class CBOWNEG(nn.Module):
         steps =len(dataloader)
         for e in range(epochs):
             print('Epoch: {}/{}'.format(e+1,epochs))
-            scheduler = optim.lr_scheduler.StepLR(optimizer,steps )
+            scheduler = optim.lr_scheduler.CosineAnnealingLR(optimizer,steps )
             avg_loss = 0
             for i,data in enumerate(tqdm(dataloader)):
                 targets,contexts,neg_samples = data
@@ -60,13 +60,15 @@ class CBOWNEG(nn.Module):
                 loss.backward()
                 optimizer.step()
                 scheduler.step()
-                avg_loss += loss.item()
-                if i % print_every == 0:
-                    print('Loss: {}'.format(avg_loss))
+                avg_loss+= loss.item()
+                # if i % print_every == 0:
+                #     print('Loss: {}'.format(avg_loss))
+            avg_loss = avg_loss/steps
             if e % checkpoint_every == 0:
                 # save model with hyperparameters
-                self.save_model('cbowneg_lr_{}_b_{}_e_{}.pth'.format(lr,batch_size,self.embedding_dim))
-        self.save_embeddings(dataset.ind2vocab,'embeddings_{}.txt'.format(self.embedding_size))
+                print('Loss: {}'.format(avg_loss))
+                self.save_model('cbowneg_lr_{}_b_{}_e_{}.pth'.format(lr,batch_size,self.embedding_size))
+                self.save_embeddings(dataset.ind2vocab,'embeddings_{}.txt'.format(self.embedding_size))
 
     def validation(self,dataset:Dataset,validation_size=5):
         pass
@@ -74,6 +76,7 @@ class CBOWNEG(nn.Module):
     def save_embeddings(self,id2word,filepath):
         embeddings = self.embeddings_target.weight.data.cpu().numpy()
         with open(filepath,'w') as f:
+            f.write('{} {}\n'.format(len(embeddings),self.embedding_size))
             for i,e in enumerate(embeddings):
                 f.write(id2word[i] + ' ' + ' '.join([str(v) for v in e]) + '\n')
                 

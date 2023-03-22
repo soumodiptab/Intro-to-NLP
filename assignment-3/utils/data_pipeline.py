@@ -4,23 +4,24 @@ from collections import Counter
 from torch.utils.data import Dataset, DataLoader
 import random
 class DataPipeline(Dataset):
-    def __init__(self, filename,window_size = 4,min_freq=1,vocab=None,neg_words=5):
+    def __init__(self, filename,window_size = 7,min_freq=5,vocab=None,neg_words=5):
         self.data = self.read_data(filename)
         self.neg_words = neg_words
         self.window_size = window_size
         if vocab is None:
-            self.vocab, self.ind2vocab,self.word_count = self.build_vocab(self.data)
+            self.vocab, self.ind2vocab,self.word_count = self.build_vocab(self.data,min_freq)
         else:
             self.vocab = vocab
             self.ind2vocab = {v: k for k, v in vocab.items()}
-            self.word_count = self.get_word_count(vocab,self.data)
+            self.word_count = self.get_word_count(vocab,self.data,min_freq)
         self.neg_sampling_table = self.__create_neg_sampling_table()
         self.sub_sampling_table = self.__create_sub_sampling_table()
 
     def get_vocab(self):
         return self.vocab
-
-    def read_data(self, filename):
+    
+    @staticmethod
+    def read_data(filename):
         data = []
         with open(filename, 'r') as f:
             for line in f.readlines():
@@ -47,8 +48,9 @@ class DataPipeline(Dataset):
         for ind in ind_freq:
             word_freq[self.ind2vocab[ind]] = ind_freq[ind]
         return word_freq
-
-    def build_vocab(self, data,min_freq=1):
+    
+    @staticmethod
+    def build_vocab(data,min_freq=10):
         word_set = {}
         for line in data:
             for word in line:
@@ -108,16 +110,15 @@ class DataPipeline(Dataset):
 
     def __getitem__(self, idx):
         words = self.data[idx]
-        if len(words) < self.window_size:
-            raise Exception("Sentence length is less than window size")
         data = []
         start = self.window_size // 2
         for i in range(start, len(words) - start):
-            target = self.vocab[words[i]]
-            if not self.is_sample_selected(target):
+            if words[i] not in self.vocab or not self.is_sample_selected(self.vocab[words[i]]):
                 continue
+            target = self.vocab[words[i]]
             context = words[i - start: i] + words[i + 1: i + start + 1]
-            context = [self.vocab[word] for word in context]
+            #convert words to indices and unknown words to 0
+            context = [ self.vocab[word] if word in self.vocab else self.vocab["<unk>"] for word in context ]
             neg_samples = self.get_negative_samples(target, self.neg_words)
             data.append((target, context, neg_samples))
         return data
