@@ -5,10 +5,10 @@ from torch.nn import init
 import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
 from tqdm import tqdm
-
-class CBOWNEG(nn.Module):
+import os
+class CBOW_NEG(nn.Module):
     def __init__(self,vocab_size,embedding_size,model_path,embedding_path):
-        super(CBOWNEG,self).__init__()
+        super(CBOW_NEG,self).__init__()
         self.embedding_dim = vocab_size
         self.embedding_size = embedding_size
         self.embeddings_target = nn.Embedding(vocab_size,embedding_size,sparse=True)
@@ -38,10 +38,12 @@ class CBOWNEG(nn.Module):
         loss = torch.mean(pos_loss + neg_loss)
         return loss
 
-    def trainer(self,dataset:Dataset,batch_size=100,epochs=10,lr=0.001,print_every=100,checkpoint_every=5):
+    def trainer(self,dataset:Dataset,batch_size=100,epochs=10,lr=0.001,print_every=2,checkpoint_every=5):
         if str(self.device) == 'cpu':
             print("Training only supported in GPU environment")
             return
+        # Training with hyper - parameters 
+        print('Training with hyper-parameters: lr: {}, batch_size: {}, embedding_size: {}'.format(lr,batch_size,self.embedding_size))
         torch.cuda.empty_cache()
         self.to(self.device)
         self.train()
@@ -63,17 +65,16 @@ class CBOWNEG(nn.Module):
                 optimizer.step()
                 scheduler.step()
                 avg_loss+= loss.item()
-                # if i % print_every == 0:
-                #     print('Loss: {}'.format(avg_loss))
             avg_loss = avg_loss/steps
+            if i % print_every == 0:
+                    print('Loss: {}'.format(avg_loss))
             if e % checkpoint_every == 0:
                 # save model with hyperparameters
-                print('Loss: {}'.format(avg_loss))
-                self.save_model('cbowneg_lr_{}_b_{}_e_{}.pth'.format(lr,batch_size,self.embedding_size))
-                self.save_embeddings(dataset.ind2vocab,'embeddings_{}.txt'.format(self.embedding_size))
-
-    def validation(self,dataset:Dataset,validation_size=5):
-        pass
+                print('x------------------Saving embeddings------------------x')
+                model_rel_path = os.path.join(self.model_path,'cbow_neg_lr_{}_e_{}.pth'.format(lr,self.embedding_size))
+                self.save_model(model_rel_path)
+                embedding_path = os.path.join(self.embedding_path,'cbow_neg_embeddings_{}.txt'.format(self.embedding_size))
+                self.save_embeddings(dataset.ind2vocab,embedding_path)
 
     def save_embeddings(self,id2word,filepath):
         embeddings = self.embeddings_target.weight.data.cpu().numpy()

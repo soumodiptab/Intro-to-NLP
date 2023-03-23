@@ -3,8 +3,9 @@ import torch
 from collections import Counter
 from torch.utils.data import Dataset, DataLoader
 import random
+from tqdm import tqdm
 class DataPipeline(Dataset):
-    def __init__(self, filename,window_size = 7,min_freq=5,vocab=None,neg_words=5):
+    def __init__(self, filename,window_size = 7,min_freq=5,neg_words=5,vocab=None):
         self.data = self.read_data(filename)
         self.neg_words = neg_words
         self.window_size = window_size
@@ -22,9 +23,10 @@ class DataPipeline(Dataset):
     
     @staticmethod
     def read_data(filename):
+        print('Reading data from {} ...'.format(filename))
         data = []
         with open(filename, 'r') as f:
-            for line in f.readlines():
+            for line in tqdm(f.readlines()):
                 e = line.strip()
                 data.append(e.split())
         return data
@@ -52,7 +54,8 @@ class DataPipeline(Dataset):
     @staticmethod
     def build_vocab(data,min_freq=10):
         word_set = {}
-        for line in data:
+        print('Building vocab:')
+        for line in tqdm(data):
             for word in line:
                 if word not in word_set:
                     word_set[word]=1
@@ -63,7 +66,7 @@ class DataPipeline(Dataset):
         word_count = {0: 1}
         vocab_dict = {"<unk>": 0}
         i=1
-        for word in word_list:
+        for word in tqdm(word_list):
             if word_set[word] >= min_freq:
                 vocab_dict[word] = i
                 word_count[i] = word_set[word]

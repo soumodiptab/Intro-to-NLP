@@ -1,7 +1,7 @@
 {
-    "cleaning":{
+    "cleaning": {
         "min_sentence_length": 10,
-        "sentence_sample":true,
+        "sentence_sample": true,
         "sentence_sample_size": 80000
     },
     "path": {
@@ -18,15 +18,16 @@
             "window_size": 7,
             "min_freq": 5,
             "epochs": 25,
-            "batch_size": 128,
+            "batch_size": 512,
             "lr": 0.001,
-            "neg_sample": 5
+            "neg_sample": 5,
+            "print_every": 2,
+            "checkpoint_every": 5
         },
         "svd": {
             "embedding_size": 300,
             "window_size": 7,
-            "min_freq": 5,
-            "epochs": 25
+            "min_freq": 5
         }
     }
 }

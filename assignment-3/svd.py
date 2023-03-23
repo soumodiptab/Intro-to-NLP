@@ -6,13 +6,13 @@ class SVD_W2V:
     def __init__(self, vocab, window,embedding_size):
         self.dim = len(vocab)
         self.vocab = vocab
-        self.window_size = window
+        self.window_size = window//2
         self.embedding_size = embedding_size
         self.cooccurrence_matrix = np.zeros((self.dim, self.dim))
 
     def train(self,data):
         self.__build_cooccurrence_matrix(data)
-        svd = TruncatedSVD(n_components=self.embedding_size, random_state=42)
+        svd = TruncatedSVD(n_components=self.embedding_size, random_state=42,n_iter=7)
         self.embeddings = svd.fit_transform(self.cooccurrence_matrix)
 
 
@@ -30,8 +30,8 @@ class SVD_W2V:
                         context_token = tokens[context_pos]
                         if context_token in self.vocab:
                             self.cooccurrence_matrix[self.vocab[token], self.vocab[context_token]] += 1
-                        else:
-                            self.cooccurrence_matrix[self.vocab[token], self.vocab["<unk>"]] += 1
+                        # else:
+                        #     self.cooccurrence_matrix[self.vocab[token], self.vocab["<unk>"]] += 1
         self.cooccurrence_matrix = csr_matrix(self.cooccurrence_matrix)
     
     def save_embeddings(self, path):
