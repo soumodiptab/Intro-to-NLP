@@ -2,5 +2,6 @@
     "editor.defaultFormatter": "mblode.pretty-formatter",
     "python.linting.pylintEnabled": true,
     "python.linting.flake8Enabled": false,
-    "python.linting.enabled": true
+    "python.linting.enabled": true,
+    "python.analysis.typeCheckingMode": "off"
 }

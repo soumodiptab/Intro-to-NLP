@@ -7,12 +7,14 @@ from torch.utils.data import Dataset, DataLoader
 from tqdm import tqdm
 
 class CBOWNEG(nn.Module):
-    def __init__(self,vocab_size,embedding_size):
+    def __init__(self,vocab_size,embedding_size,model_path,embedding_path):
         super(CBOWNEG,self).__init__()
         self.embedding_dim = vocab_size
         self.embedding_size = embedding_size
-        self.embeddings_target = nn.Embedding(vocab_size,embedding_size)
-        self.embeddings_context = nn.Embedding(vocab_size,embedding_size)
+        self.embeddings_target = nn.Embedding(vocab_size,embedding_size,sparse=True)
+        self.embeddings_context = nn.Embedding(vocab_size,embedding_size,sparse=True)
+        self.model_path=model_path
+        self.embedding_path=embedding_path
         self.log_sigmoid = nn.LogSigmoid()
         self.__init__weights()
         self.device ='cuda' if torch.cuda.is_available() else 'cpu'
@@ -44,7 +46,7 @@ class CBOWNEG(nn.Module):
         self.to(self.device)
         self.train()
         dataloader = dataset.get_batches(batch_size)
-        optimizer = optim.SGD(self.parameters(),lr=lr)
+        optimizer = optim.SparseAdam(self.parameters(),lr=lr)
         steps =len(dataloader)
         for e in range(epochs):
             print('Epoch: {}/{}'.format(e+1,epochs))

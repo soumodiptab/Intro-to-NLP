@@ -1,20 +1,18 @@
-
-
-
-### Configuration :
-
-```json
 {
+    "cleaning":{
+        "min_sentence_length": 10,
+        "sentence_sample":true,
+        "sentence_sample_size": 80000
+    },
     "path": {
         "models": "models",
         "corpus_file": "./data/reviews_Movies_and_TV.json",
         "clean_corpus_file": "corpus_cleaned.txt",
         "data_folder": "data",
-        "clean_data": "clean_data",
         "embeddings": "embeddings",
         "figures": "figures"
     },
-    "proflies": {
+    "models": {
         "cbow_neg": {
             "embedding_size": 300,
             "window_size": 7,
@@ -32,5 +30,3 @@
         }
     }
 }
-
-```

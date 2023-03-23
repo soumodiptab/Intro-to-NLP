@@ -1,5 +1,5 @@
-assignment-3/data/*/*.*
-assignment-3/data/*.json
+assignment-3/data/*.*
 *.gz
 assignment-3/*.pth
 assignment-3/*.txt
+assignment-3/embeddings/*
