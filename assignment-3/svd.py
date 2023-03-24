@@ -1,25 +1,27 @@
 from scipy.sparse import csr_matrix
 import numpy as np
 from sklearn.decomposition import TruncatedSVD
-
+from tqdm import tqdm
 class SVD_W2V:
     def __init__(self, vocab, window,embedding_size):
         self.dim = len(vocab)
         self.vocab = vocab
         self.window_size = window//2
         self.embedding_size = embedding_size
-        self.cooccurrence_matrix = np.zeros((self.dim, self.dim))
+        self.cooccurrence_matrix = np.zeros((self.dim, self.dim),dtype=np.int32)
 
     def train(self,data):
         self.__build_cooccurrence_matrix(data)
+        print('Training SVD with {} dimensions: '.format(self.embedding_size))
         svd = TruncatedSVD(n_components=self.embedding_size, random_state=42,n_iter=7)
         self.embeddings = svd.fit_transform(self.cooccurrence_matrix)
 
 
 
     def __build_cooccurrence_matrix(self, data):
-        self.cooccurrence_matrix = np.zeros((self.dim, self.dim))
-        for tokens in data:
+        self.cooccurrence_matrix = np.zeros((self.dim, self.dim),dtype=np.int32)
+        print("Building co-occurrence matrix")
+        for tokens in tqdm(data):
             for pos,token in enumerate(tokens):
                 if token not in self.vocab:
                     continue

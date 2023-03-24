@@ -74,6 +74,7 @@ class DataPipeline(Dataset):
             else:
                 word_count[0] += word_set[word]
         ind2word = {v: k for k, v in vocab_dict.items()}
+        print('Vocab size: {}'.format(len(vocab_dict)))
         return vocab_dict, ind2word, word_count
 
     def total_count(self):

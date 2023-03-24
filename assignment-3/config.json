@@ -2,7 +2,7 @@
     "cleaning": {
         "min_sentence_length": 10,
         "sentence_sample": true,
-        "sentence_sample_size": 80000
+        "sentence_sample_size": 100000
     },
     "path": {
         "models": "models",
@@ -25,7 +25,7 @@
             "checkpoint_every": 5
         },
         "svd": {
-            "embedding_size": 300,
+            "embedding_size": 400,
             "window_size": 7,
             "min_freq": 5
         }

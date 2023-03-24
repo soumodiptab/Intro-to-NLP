@@ -3,6 +3,7 @@ import pandas as pd
 import torchtext
 from torchtext.data.utils import get_tokenizer
 import re
+from tqdm import tqdm
 from cleantext import clean
 tokenizer = get_tokenizer('basic_english')
 
@@ -32,8 +33,9 @@ def replace_hyphenated_words(text):
 def create_sampled_dataset(input_file,line_count,atleast=10):
     lines = []
     ctr= 0
+    print('Cleaning :',input_file)
     with open(input_file, 'r') as f:
-        for line in f.readlines():
+        for line in tqdm(f.readlines()):
             line = json.loads(line.strip())['reviewText']
             line = line.strip()
             line = re.sub(r'<|>', ' ', line)
@@ -66,7 +68,8 @@ def create_sampled_dataset(input_file,line_count,atleast=10):
 def save_data(filename, lines):
     # Save the data to a file
     with open(filename, 'w')as f:
-        for line in lines:
+        print('Saving the data to :',filename)
+        for line in tqdm(lines):
             line = ' '.join(line)
             f.write(line.strip()+'\n')
 
