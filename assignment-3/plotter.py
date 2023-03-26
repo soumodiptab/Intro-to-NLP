@@ -25,7 +25,6 @@ def load_embedding_file(filepath):
 def tsne_plot(results,save_path):
         words = []
         embeds = []
-
         for res in results:
             embeds.append(res[1])
             words.append(res[0])

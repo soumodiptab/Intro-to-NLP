@@ -12,7 +12,7 @@ Most of the parameters are configurable using the `config.json` file. Here are t
     "cleaning": {
         "min_sentence_length": 10,
         "sentence_sample": true,
-        "sentence_sample_size": 80000
+        "sentence_sample_size": 100000
     },
     "path": {
         "models": "models",
@@ -35,7 +35,7 @@ Most of the parameters are configurable using the `config.json` file. Here are t
             "checkpoint_every": 5
         },
         "svd": {
-            "embedding_size": 300,
+            "embedding_size": 400,
             "window_size": 7,
             "min_freq": 5
         }
@@ -54,7 +54,10 @@ python3 main.py clean
 ```
 
 ### Train the model
-
+Format
+```
+python3 main.py train <model_name>
+```
 1. Train the CBOW model with negative sampling
 
 ```bash
@@ -68,6 +71,20 @@ python3 main.py train svd
 ```
 
 ### Plot the embeddings with T-SNE
+Format :
+```bash
+python3 main.py plot <embeddding_file_path> <word> <sub_folder_to_save>
+```
+Example :
 ```bash
 python3 main.py plot embeddings/cbow_neg/cbow_neg_embeddings_300.txt titanic svd
 ```
+
+
+## Saved Emdeddings location :
+[Download From Here ](https://drive.google.com/drive/folders/1MvXBOP0sJpygn6wLnGuSlsqQglv2nUs6?usp=sharing)
+
+## Clean corpus file location :
+Currently sampled on `100000` sentences.
+
+[Download From Here](https://drive.google.com/drive/folders/1Sr5NikUjJOu9x3vm5wvUNtAIa7cG_iVH?usp=sharing)
