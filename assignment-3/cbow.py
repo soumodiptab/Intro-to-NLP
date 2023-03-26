@@ -85,10 +85,10 @@ class CBOW_NEG(nn.Module):
                 
 
     def save_model(self,filepath):
-        torch.save(self.state_dict,filepath)
+        torch.save(self,filepath)
 
     def load_model(self,filepath):
-        self.load_state_dict(torch.load(filepath))
+        self=torch.load(filepath)
     
     def predict(self,inputs):
         return self.embeddings_target(inputs)

@@ -4,6 +4,7 @@ from data_cleaner import clean_corpus
 from data_pipeline import DataPipeline
 from svd import SVD_W2V
 from cbow import CBOW_NEG
+import torch
 from plotter import plot_top10_words
 import os
 # arguments : clean, train, plot
@@ -80,6 +81,24 @@ def cleaner():
         cleaner_config['min_sentence_length']
     )
 
+def model_loader(model_name,model_file_name):
+    if model_name == 'cbow_neg':
+         corpus_file = os.path.join(DATA_FOLDER,path_config['clean_corpus_file'])
+         dataset = DataPipeline(corpus_file,
+                           min_freq=models_config['cbow_neg']['min_freq'],
+                           window_size=models_config['cbow_neg']['window_size'],
+                           neg_words=models_config['cbow_neg']['neg_sample'])
+         model_path=os.path.join(MODEL_FOLDER,model_file_name)
+         if not os.path.exists(model_path):
+                print('Model file not found at {}'.format(model_path))
+                exit(1)
+         model = torch.load(model_path)
+         print('Model loaded from {}'.format(model_path))
+         embedding_path = os.path.join(model.embedding_path,'cbow_neg_embeddings_{}.txt'.format(model.embedding_size))
+         print('Saving embeddings at {}'.format(embedding_path))
+         model.save_embeddings(dataset.ind2vocab,embedding_path)
+    else:
+        print('support only loading chow-neg')
 
 if __name__ == '__main__':
     if not os.path.exists(EMBEDDINGS_FOLDER):
@@ -97,6 +116,8 @@ if __name__ == '__main__':
         cleaner()
     elif sys.argv[1] == 'train' and len(sys.argv) == 3:
         trainer(sys.argv[2])
+    elif sys.argv[1] == 'load' and len(sys.argv) == 4:
+        model_loader(sys.argv[2],sys.argv[3])
     elif sys.argv[1] == 'plot' and len(sys.argv) == 5:
         plotter(sys.argv[2], sys.argv[3],sys.argv[4])
     else:

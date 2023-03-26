@@ -70,6 +70,17 @@ python3 main.py train cbow_neg
 python3 main.py train svd
 ```
 
+### Load the model and save embeddings
+Format
+```bash
+python3 main.py load <model> <save_path>
+```
+
+Example
+```bash
+python3 main.py load cbow_neg cbow_neg_lr_0.001_e_300.pth
+```
+
 ### Plot the embeddings with T-SNE
 Format :
 ```bash
