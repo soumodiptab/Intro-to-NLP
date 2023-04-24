@@ -5,3 +5,8 @@ assignment-3/*.txt
 assignment-3/embeddings/*
 assignment-3/models/*
 */submission/*
+assignment-4/embeddings/*
+assignment-4/models/*
+assignment-4/*.pth
+assignment-4/data/*.*
+assignment-4/data/*
