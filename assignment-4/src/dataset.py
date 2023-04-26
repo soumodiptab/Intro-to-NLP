@@ -9,7 +9,7 @@ from datacleaner import DataCleaner
 
 class DataPipeline(Dataset):
     def __init__(self, filename,type,max_seq_len=50,min_freq=3,vocab=None):
-        self.data,self.target = self.read_data(filename,type)
+        self.read_data(filename,type)
         self.max_seq_len = max_seq_len
         if vocab is None:
             self.vocab, self.ind2vocab,self.word_count = self.build_vocab(self.data,min_freq)
@@ -31,14 +31,7 @@ class DataPipeline(Dataset):
         return self.ind2vocab[ind]
     
     def read_data(self,filename,type):
-        datacleaner = DataCleaner()
-        data =load_from_disk(filename)
-        processed_data = []
-        target = []
-        for line in tqdm(data[type]):
-            processed_data.append(datacleaner.process(line['sentence']).split(" "))
-            target.append(line['label'])
-        return processed_data,target
+        pass
     
     def get_word_count(self,vocab,data):
         word_count = {0: 0}
@@ -90,8 +83,29 @@ class DataPipeline(Dataset):
         return sum(self.word_count.values())
 
     def __len__(self):
-        return len(self.data)
+        pass
 
+    def __getitem__(self, idx):
+        pass
+    
+    def get_batches(self, batch_size):
+        return DataLoader(self, batch_size=batch_size, shuffle=False,drop_last=True)
+    
+
+class SstData(DataPipeline):
+    def read_data(self, filename, type):
+        datacleaner = DataCleaner()
+        data =load_from_disk(filename)
+        processed_data = []
+        target = []
+        for line in tqdm(data[type]):
+            processed_data.append(datacleaner.process(line['sentence']).split(" "))
+            target.append(line['label'])
+        self.data=processed_data
+        self.target=target
+    def __len__(self):
+        return len(self.data)
+    
     def __getitem__(self, idx):
         sent = self.data[idx]
         label = self.target[idx]
@@ -100,30 +114,63 @@ class DataPipeline(Dataset):
             sent=[self.word_to_ind(token) for token in sent]+[self.word_to_ind("<pad>") for _ in range(self.max_seq_len - len(sent))]
         return torch.LongTensor(sent),torch.Tensor([label])
     
-    def get_batches(self, batch_size):
-        return DataLoader(self, batch_size=batch_size, shuffle=False,drop_last=True)
-    
-class ElmoDataset(DataPipeline):
+class MultiNliData(DataPipeline):
+    def __init__(self, filename,type,max_seq_len=50,min_freq=3,sentence_limit=50000,vocab=None):
+        self.sentence_limit = sentence_limit
+        super().__init__(filename,type,max_seq_len,min_freq,vocab)
+    def read_data(self, filename, type):
+        datacleaner = DataCleaner()
+        data =load_from_disk(filename)
+        processed_data = []
+        premise = []
+        hypothesis = []
+        target = []
+        counter = 0
+        for line in tqdm(data[type]):
+            if counter > self.sentence_limit:
+                break
+            counter += 1
+            p = datacleaner.process(line['premise']).split(" ")
+            h = datacleaner.process(line['hypothesis']).split(" ")
+            processed_data.append(p)
+            processed_data.append(h)
+            premise.append(p)
+            hypothesis.append(h)
+            target.append(line['label'])
+        self.data = processed_data
+        self.target = target
+        self.premise = premise
+        self.hypothesis = hypothesis
+    def __len__(self):
+        return len(self.premise)
+    def __getitem__(self, idx):
+        premise = self.premise[idx]
+        hypothesis = self.hypothesis[idx]
+        label = self.target[idx]
+        # paddding the sentences to create sequences of same length
+        if len(premise) < self.max_seq_len:
+            premise=[self.word_to_ind(token) for token in premise]+[self.word_to_ind("<pad>") for _ in range(self.max_seq_len - len(premise))]
+        if len(hypothesis) < self.max_seq_len:
+            hypothesis=[self.word_to_ind(token) for token in hypothesis]+[self.word_to_ind("<pad>") for _ in range(self.max_seq_len - len(hypothesis))]
+        return torch.LongTensor(premise),torch.LongTensor(hypothesis),torch.Tensor([label])
+
+class ElmoDataset(Dataset):
+    def __init__(self,dataset :DataPipeline):
+        self.data = dataset.data
+        self.max_seq_len = dataset.max_seq_len
+        self.vocab = dataset.vocab
+        self.ind2vocab = dataset.ind2vocab
+        self.word_to_ind = dataset.word_to_ind
+        self.ind_to_word = dataset.ind_to_word
     def __len__(self):
         return len(self.data)
     def __getitem__(self, idx):
         sent = self.data[idx]
-        label = self.target[idx]
         # paddding the sentences to create sequences of same length
         if len(sent) < self.max_seq_len:
             sent=[self.word_to_ind(token) for token in sent]+[self.word_to_ind("<pad>") for _ in range(self.max_seq_len - len(sent))]
         forward_data = sent[1:]
         backward_data = sent[:-1]
         return torch.LongTensor(forward_data),torch.LongTensor(backward_data)
-
-def load_embeddings(vocab,embeddings_file,dimension):
-    # load only the embeddings that are in the vocab
-    embeddings = np.zeros((len(vocab), dimension))
-    with open(embeddings_file, 'r') as f:
-        for line in tqdm(f):
-            line = line.split()
-            word = line[0]
-            if word in vocab:
-                embeddings[vocab[word]] = np.array(line[1:], dtype=np.float32)
-    return torch.Tensor(embeddings)
-
+    def get_batches(self, batch_size):
+        return DataLoader(self, batch_size=batch_size, shuffle=False,drop_last=True)
